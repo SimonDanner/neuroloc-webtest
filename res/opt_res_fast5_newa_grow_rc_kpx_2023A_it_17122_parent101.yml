@@ -134,7 +134,7 @@ Surface:
   speedL: -0.1
   speedR: -0.1
   stepLen: 0.02
-  type: None
+  type: Random
   x_int: 0.5
   x_start: 0.5
 UpdateVars:
