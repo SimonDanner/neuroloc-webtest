@@ -128,15 +128,8 @@ ScaleVarsUI:
   - fbII_IP_PFSt
   - fbII_TA_PFSt
 SimDur: 15.0
-Surface:
-  maxHeight: 0.00125
-  slope: -0.15
-  speedL: -0.1
-  speedR: -0.1
-  stepLen: 0.02
-  type: Spline
-  x_int: 0.5
-  x_start: 0.5
+Surface: {maxHeight: 0.005, slope: 0.02, speedL: 0., speedR: 0.2, stepLen: 0.02,
+  type: Spline, x_int: 0.2, x_start: 0.5}
 UpdateVars:
 - values:
   - 9.34978054782383
