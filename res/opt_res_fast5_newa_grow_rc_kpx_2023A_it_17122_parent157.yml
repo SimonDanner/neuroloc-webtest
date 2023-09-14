@@ -1,0 +1,293 @@
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 0.18660606336337343
+  - 0.9476321873809137
+  - 3.3982658020025656
+  - 1.5409284741160312
+  - 0.2894670584802275
+  - 0.5963745962159216
+  - 0.002576622688122896
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 1.0646226425440046e-05
+  - 0.0850552952143655
+  - 1.033267231729125
+  - 0.1704408180030116
+  - 0.00015867180687764268
+  - 0.33688728297417003
+  - 5.07313763273769
+  - 1.5845745961258175
+  - 0.8763196497664555
+  - 2.758166448664484
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 2.7048601454681287
+  - 0.06426423349941995
+  - 0.0007323223744710513
+  - 0.31563604874834894
+  - 0.0007106672604164163
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 0.06493911117028468
+  - 0.024827855814905073
+  - 33.979645706565634
+  - 0.01199924574987327
+  - 0.10447434903751196
+  - 23.4135374273052
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 25.70369716513411
+  - 7.8284613124883515
+  - 0.8530962518719686
+  - 0.45386197911246173
+  - 0.019116990132792284
+  - 0.07251983602836261
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.02055074056281477
+  - 0.019444118692486672
+  - 8.018503045415197e-06
+  - 0.008496947912099614
+  - 0.001050662878376614
+  - 0.008736872357824091
+  - 0.0013074926529652497
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.0005994176558219172
+  - 0.0291974933685371
+  - 0.009234514478619579
+  - 0.007618679319322718
+  - 0.1010992115193021
+  - 3.110125025701815e-05
+  - 1.1424067295370022e-05
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 71.46606019717892
+  - 0.5930761432890921
+  - 0.09075842750645237
+  - 0.027250407584928502
+  - 9.758860709221371e-05
+  - 0.00010503230494394169
+  - 36.89704546460136
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 5.898056755987939
+  - 7.155669035446687e-06
+  - 0.20259774149865353
+  - 14.263739111580724
+  - 1.2447838008708278e-08
+  - 4.960233995888344
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.6716714493003675
+  - 1.5536594277217473
+  - 0.015586084381962326
+  - 0.07094228456815445
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.20943337361173542
+mAlpha: 0.054716686805867706
+tWaitAlphaIncrease: 0.5

@@ -1,0 +1,5553 @@
+N_NaP 20
+N_Normal 126
+simDuration 92000
+scalingFactor 15
+stepwise 100 5000 0 1
+
+neuron RGF_NaP_L_hind
+neuron RGF_NaP_R_hind
+neuron RGE_NaP_L_hind
+neuron RGE_NaP_R_hind
+neuron RGF_NaP_L_front
+neuron RGF_NaP_R_front
+neuron RGE_NaP_L_front
+neuron RGE_NaP_R_front
+
+neuron PFF_NaP_L_hind
+neuron PFF_NaP_R_hind
+neuron PFE_NaP_L_hind
+neuron PFE_NaP_R_hind
+
+neuron PFSw_NaP_L_hind
+neuron PFSw_NaP_R_hind
+neuron PFSt_NaP_L_hind
+neuron PFSt_NaP_R_hind
+
+neuron InF_L_hind
+neuron InF_R_hind
+neuron InE_L_hind
+neuron InE_R_hind
+neuron InpF_L_hind
+neuron InpF_R_hind
+neuron InpE_L_hind
+neuron InpE_R_hind
+neuron V0D_L_hind
+neuron V0D_R_hind
+neuron V3_L_hind
+neuron V3_R_hind
+neuron V0V_L_hind
+neuron V0V_R_hind
+neuron InV0V_L_hind
+neuron InV0V_R_hind
+neuron InF_L_front
+neuron InF_R_front
+neuron InE_L_front
+neuron InE_R_front
+neuron InpF_L_front
+neuron InpF_R_front
+neuron InpE_L_front
+neuron InpE_R_front
+neuron V0D_L_front
+neuron V0D_R_front
+neuron V3_L_front
+neuron V3_R_front
+neuron V0V_L_front
+neuron V0V_R_front
+neuron InV0V_L_front
+neuron InV0V_R_front
+neuron V0D2_L_hind
+neuron V0D2_R_hind
+neuron V0D2_L_front
+neuron V0D2_R_front
+
+neuron InFront_L
+neuron InFront_R
+neuron V2aHom_L_hind
+neuron V2aHom_R_hind
+neuron V2aHom_L_front
+neuron V2aHom_R_front
+
+neuron V0V_diag_L_hind
+neuron V0V_diag_R_hind
+neuron V0V_diag_L_front
+neuron V0V_diag_R_front
+neuron V0D_diag_L_front
+neuron V0D_diag_R_front
+neuron V2aV0V_L_hind
+neuron V2aV0V_R_hind
+neuron V2aV0V_L_front
+neuron V2aV0V_R_front
+neuron V2aV0V_diag_L_hind
+neuron V2aV0V_diag_R_hind
+neuron V2aV0V_diag_L_front
+neuron V2aV0V_diag_R_front
+
+neuron V3e_L_hind
+neuron V3e_R_hind
+neuron V3e_L_front
+neuron V3e_R_front
+
+neuron InpSw_L_hind
+neuron InpSt_L_hind
+neuron InpFSw_L_hind
+neuron InpESt_L_hind
+neuron InpSw_R_hind
+neuron InpSt_R_hind
+neuron InpFSw_R_hind
+neuron InpESt_R_hind
+
+
+neuron InIaSw_L_hind
+neuron InIaSt_L_hind
+neuron InIaSw_R_hind
+neuron InIaSt_R_hind
+
+
+neuron InIaF_L_hind
+neuron InIaF_R_hind
+neuron InIaE_L_hind
+neuron InIaE_R_hind
+
+
+neuron MnIP_L_hind
+neuron MnIP_R_hind
+
+neuron MnGM_L_hind
+neuron MnGM_R_hind
+
+neuron MnVL_L_hind
+neuron MnVL_R_hind
+
+neuron MnTA_L_hind
+neuron MnTA_R_hind
+
+neuron MnSO_L_hind
+neuron MnSO_R_hind
+
+neuron MnBF_L_hind
+neuron MnBF_R_hind
+
+neuron MnGA_L_hind
+neuron MnGA_R_hind
+
+
+neuron InIbIP_L_hind
+neuron InIbIP_R_hind
+neuron InIbGM_L_hind
+neuron InIbGM_R_hind
+neuron InIbVL_L_hind
+neuron InIbVL_R_hind
+neuron InIbTA_L_hind
+neuron InIbTA_R_hind
+neuron InIbSO_L_hind
+neuron InIbSO_R_hind
+neuron InIbBF_L_hind
+neuron InIbBF_R_hind
+neuron InIbGA_L_hind
+neuron InIbGA_R_hind
+
+neuron InIaIP_L_hind
+neuron InIaIP_R_hind
+neuron InIaGM_L_hind
+neuron InIaGM_R_hind
+neuron InIaVL_L_hind
+neuron InIaVL_R_hind
+neuron InIaTA_L_hind
+neuron InIaTA_R_hind
+neuron InIaSO_L_hind
+neuron InIaSO_R_hind
+neuron InIaBF_L_hind
+neuron InIaBF_R_hind
+neuron InIaGA_L_hind
+neuron InIaGA_R_hind
+
+neuron InIIIP_L_hind
+neuron InIIIP_R_hind
+neuron IniIIIP_L_hind
+neuron IniIIIP_R_hind
+neuron InIITA_L_hind
+neuron InIITA_R_hind
+neuron IniIITA_L_hind
+neuron IniIITA_R_hind
+neuron IniIISO_L_hind
+neuron IniIISO_R_hind
+
+
+neuron V0c_E_L_hind
+neuron V0c_E_R_hind
+
+
+variable RGFtoV0D 7
+variable CINItoRGF 0.3
+
+variable inV0VtoRGF 0.7
+variable V0VtoRGFdiagfh 0.05 
+variable V0VtoRGFdiaghf 0.4 
+
+variable V0DtoRGF 0.7
+variable V0DtoRGFdiagfh .1
+
+variable V3toRGF 0.3
+
+variable V2aHomfh .1
+variable V2aHomhf 0.25 
+variable inFH .1
+
+variable V0cEXT 4.0
+variable InIaFMn 6.0
+variable InIaEMn 6.0
+variable InIaStMn 6.0
+variable InIaSwMn 6.0
+variable InIbMn 3.0
+
+variable FtoIP   1.0
+variable FtoTA   1.0 
+variable FtoBF   1.0 
+variable FtoSO   1.0 
+variable SwtoIP  1.5
+variable SwtoTA  1.5
+variable SwtoBF  1.5
+variable EtoGM   .5 
+variable EtoVL   .5 
+variable EtoSO   .5 
+variable EtoBF   .5 
+variable EtoGA   2 
+variable SttoGM  .75
+variable SttoVL  .75
+variable SttoSO  .75
+variable SttoBF  .75
+variable SttoGA  2
+variable SwtoVL 0.0
+
+variable fbIb_SO_InRGE 0
+variable fbIb_SO_RGE 0
+variable fbIb_GA_InRGE 0
+variable fbIb_GA_RGE 0
+variable fbII_TA_InII 0
+variable fbII_IP_InII 0
+variable InII_IP_RGF 0
+variable InII_IP_InRGF 0
+variable InII_TA_RGF 0
+variable InII_TA_InRGF 0
+variable fbCutInRGE 0
+variable fbCutRGE 0 
+
+variable fbII_SO_IniII 0
+variable IniII_SO_VL 0
+
+variable fbII_IP_IniII 0
+variable IniII_IP_GM 0
+variable IniII_IP_BF 0
+variable IniII_IP_VL 0
+variable fbII_TA_IniII 0
+variable IniII_TA_VL 0
+variable IniII_TA_BF 0
+
+variable fbIb_GM 0
+variable fbIb_VL 0
+variable fbIb_SO 0
+variable fbIb_BF 0
+variable fbIb_GA 0
+variable fbIb_IP 0
+variable fbIb_TA 0
+
+variable fbIa_GM 0.0
+variable fbIa_VL 0.0
+variable fbIa_SO 0.0
+variable fbIa_BF 0.0
+variable fbIa_GA 0.0
+variable fbIa_IP 0.0
+variable fbIa_TA 0.0
+
+variable fbIa_GM_Ia 0.0
+variable fbIa_VL_Ia 0.0
+variable fbIa_SO_Ia 0.0
+variable fbIa_BF_Ia 0.0
+variable fbIa_GA_Ia 0.0
+variable fbIa_IP_Ia 0.0
+variable fbIa_TA_Ia 0.0
+
+variable fbIb_IP_Ibi 0.0
+variable fbIb_TA_Ibi 0.0
+variable fbIb_GM_Ibi 0.0
+variable fbIb_VL_Ibi 0.0
+variable fbIb_SO_Ibi 0.0
+variable fbIb_BF_Ibi 0.0
+variable fbIb_GA_Ibi 0.0
+
+variable fbIa_IP_ant 0.0
+variable fbIa_TA_ant 0.0
+variable fbIa_GM_ant 0.0
+variable fbIa_VL_ant 0.0
+variable fbIa_SO_ant 0.0
+variable fbIa_GA_ant 0.0
+variable fbIa_BF_ant 0.0
+variable InIaMn 5.0
+
+variable fbIb_GM_PFE 0.0
+variable fbIb_VL_PFE 0.0
+variable fbIb_SO_PFE 0.0
+variable fbIb_BF_PFE 0.0
+variable fbIb_GA_PFE 0.0
+
+variable fbIb_GM_PFSt 0.0
+variable fbIb_VL_PFSt 0.0
+variable fbIb_SO_PFSt 0.0
+variable fbIb_BF_PFSt 0.0
+variable fbIb_GA_PFSt 0.0
+
+variable fbIa_IP_PFSw 0.0
+variable fbIa_TA_PFSw 0.0
+variable fbIa_GM_PFSw 0.0
+variable fbIa_VL_PFSw 0.0
+variable fbIa_SO_PFSw 0.0
+variable fbIa_GA_PFSw 0.0
+variable fbIa_BF_PFSw 0.0
+variable fbIa_IP_PFF 0.0
+variable fbIa_TA_PFF 0.0
+variable fbIa_GM_PFF 0.0
+variable fbIa_VL_PFF 0.0
+variable fbIa_SO_PFF 0.0
+variable fbIa_GA_PFF 0.0
+variable fbIa_BF_PFF 0.0
+variable fbIa_IP_PFSt 0.0
+variable fbIa_TA_PFSt 0.0
+variable fbIa_GM_PFSt 0.0
+variable fbIa_VL_PFSt 0.0
+variable fbIa_SO_PFSt 0.0
+variable fbIa_GA_PFSt 0.0
+variable fbIa_BF_PFSt 0.0
+variable fbIa_IP_PFE 0.0
+variable fbIa_TA_PFE 0.0
+variable fbIa_GM_PFE 0.0
+variable fbIa_VL_PFE 0.0
+variable fbIa_SO_PFE 0.0
+variable fbIa_GA_PFE 0.0
+variable fbIa_BF_PFE 0.0
+
+variable fbII_IP_PFSw 0.0
+variable fbII_TA_PFSw 0.0
+variable fbII_GM_PFSw 0.0
+variable fbII_VL_PFSw 0.0
+variable fbII_SO_PFSw 0.0
+variable fbII_GA_PFSw 0.0
+variable fbII_BF_PFSw 0.0
+variable fbII_IP_PFF 0.0
+variable fbII_TA_PFF 0.0
+variable fbII_GM_PFF 0.0
+variable fbII_VL_PFF 0.0
+variable fbII_SO_PFF 0.0
+variable fbII_GA_PFF 0.0
+variable fbII_BF_PFF 0.0
+variable fbII_IP_PFSt 0.0
+variable fbII_TA_PFSt 0.0
+variable fbII_GM_PFSt 0.0
+variable fbII_VL_PFSt 0.0
+variable fbII_SO_PFSt 0.0
+variable fbII_GA_PFSt 0.0
+variable fbII_BF_PFSt 0.0
+variable fbII_IP_PFE 0.0
+variable fbII_TA_PFE 0.0
+variable fbII_GM_PFE 0.0
+variable fbII_VL_PFE 0.0
+variable fbII_SO_PFE 0.0
+variable fbII_GA_PFE 0.0
+variable fbII_BF_PFE 0.0
+ 
+
+//hind RG level
+connectionE RGF_NaP_L_hind -> InF_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InF_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InE_L_hind : 4 + 0 * t
+connectionE RGE_NaP_R_hind -> InE_R_hind : 4 + 0 * t
+
+connectionI InF_L_hind -> RGE_NaP_L_hind : 10 + 0 * t
+connectionI InF_R_hind -> RGE_NaP_R_hind : 10 + 0 * t
+connectionI InE_L_hind -> RGF_NaP_L_hind : .8 + 0 * t
+connectionI InE_R_hind -> RGF_NaP_R_hind : .8 + 0 * t
+
+//hind PF level
+
+connectionE RGF_NaP_L_hind -> PFF_NaP_L_hind : 8 + 0 * t
+connectionE RGF_NaP_R_hind -> PFF_NaP_R_hind : 8 + 0 * t
+connectionE RGE_NaP_L_hind -> PFE_NaP_L_hind : 7 + 0 * t
+connectionE RGE_NaP_R_hind -> PFE_NaP_R_hind : 7 + 0 * t
+
+connectionE RGF_NaP_L_hind -> PFSw_NaP_L_hind : 6 + 0 * t
+connectionE RGF_NaP_R_hind -> PFSw_NaP_R_hind : 6 + 0 * t
+connectionE RGE_NaP_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionE PFF_NaP_L_hind -> InpF_L_hind : 8 + 0 * t
+connectionE PFF_NaP_R_hind -> InpF_R_hind : 8 + 0 * t
+connectionE PFE_NaP_L_hind -> InpE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InpE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InpSw_L_hind : 15 + 0 * t
+connectionE PFSw_NaP_R_hind -> InpSw_R_hind : 15 + 0 * t
+connectionE PFSt_NaP_L_hind -> InpSt_L_hind : 15 + 0 * t
+connectionE PFSt_NaP_R_hind -> InpSt_R_hind : 15 + 0 * t
+
+connectionI InpF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InpF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InpE_L_hind -> PFF_NaP_L_hind : 10 + 0 * t
+connectionI InpE_R_hind -> PFF_NaP_R_hind : 10 + 0 * t
+
+connectionI InpF_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpF_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+connectionI InpE_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpE_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpF_L_hind -> PFSw_NaP_L_hind : 1 + 0 * t
+connectionI InpF_R_hind -> PFSw_NaP_R_hind : 1 + 0 * t
+connectionI InpE_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpE_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionI InpSw_L_hind -> PFSt_NaP_L_hind : 20 + 0 * t
+connectionI InpSw_R_hind -> PFSt_NaP_R_hind : 20 + 0 * t
+connectionI InpSt_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpSt_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpSw_L_hind -> PFF_NaP_L_hind : 7.5 + 0 * t
+connectionI InpSw_R_hind -> PFF_NaP_R_hind : 7.5 + 0 * t
+connectionI InpSt_L_hind -> PFE_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFE_NaP_R_hind : 20 + 0 * t
+
+connectionI InpSt_L_hind -> PFF_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFF_NaP_R_hind : 20 + 0 * t
+connectionI InpSw_L_hind -> PFE_NaP_L_hind : 5 + 0 * t
+connectionI InpSw_R_hind -> PFE_NaP_R_hind : 5 + 0 * t
+
+connectionI InF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InE_L_hind -> PFF_NaP_L_hind : 15 + 0 * t
+connectionI InE_R_hind -> PFF_NaP_R_hind : 15 + 0 * t
+
+connectionE RGF_NaP_L_hind -> InpFSw_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InpFSw_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InpESt_L_hind : 3.5 + 0 * t
+connectionE RGE_NaP_R_hind -> InpESt_R_hind : 3.5 + 0 * t
+
+connectionI InpFSw_L_hind -> PFSw_NaP_L_hind : 30 + 0 * t
+connectionI InpFSw_R_hind -> PFSw_NaP_R_hind : 30 + 0 * t
+connectionI InpESt_L_hind -> PFSt_NaP_L_hind : 30 + 0 * t
+connectionI InpESt_R_hind -> PFSt_NaP_R_hind : 30 + 0 * t
+
+connectionE PFSt_NaP_L_hind -> V0c_E_L_hind : 0.8 + 0 * t
+connectionE PFSt_NaP_R_hind -> V0c_E_R_hind : 0.8 + 0 * t
+connectionI InpF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InpF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+connectionI InF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+
+connectionC V0c_E_L_hind -> MnGM_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGM_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnVL_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnVL_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnSO_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnSO_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnBF_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnBF_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnGA_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGA_R_hind : V0cEXT + 0 * t
+
+//hind Mn level
+
+connectionE PFF_NaP_L_hind  -> MnIP_L_hind : FtoIP + 0 * t
+connectionE PFF_NaP_R_hind  -> MnIP_R_hind : FtoIP + 0 * t
+connectionE PFF_NaP_L_hind  -> MnTA_L_hind : FtoTA + 0 * t
+connectionE PFF_NaP_R_hind  -> MnTA_R_hind : FtoTA + 0 * t
+connectionE PFF_NaP_L_hind  -> MnBF_L_hind : FtoBF + 0 * t
+connectionE PFF_NaP_R_hind  -> MnBF_R_hind : FtoBF + 0 * t
+connectionE PFF_NaP_L_hind  -> MnSO_L_hind : FtoSO + 0 * t
+connectionE PFF_NaP_R_hind  -> MnSO_R_hind : FtoSO + 0 * t
+
+connectionE PFSw_NaP_L_hind -> MnIP_L_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_R_hind -> MnIP_R_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_L_hind -> MnTA_L_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_R_hind -> MnTA_R_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_L_hind -> MnBF_L_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_R_hind -> MnBF_R_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_L_hind -> MnVL_L_hind : SwtoVL + 0 * t
+connectionE PFSw_NaP_R_hind -> MnVL_R_hind : SwtoVL + 0 * t
+
+connectionE PFE_NaP_L_hind  -> MnGM_L_hind : EtoGM + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGM_R_hind : EtoGM + 0 * t
+connectionE PFE_NaP_L_hind  -> MnVL_L_hind : EtoVL + 0 * t
+connectionE PFE_NaP_R_hind  -> MnVL_R_hind : EtoVL + 0 * t
+connectionE PFE_NaP_L_hind  -> MnSO_L_hind : EtoSO + 0 * t
+connectionE PFE_NaP_R_hind  -> MnSO_R_hind : EtoSO + 0 * t
+connectionE PFE_NaP_L_hind  -> MnBF_L_hind : EtoBF + 0 * t
+connectionE PFE_NaP_R_hind  -> MnBF_R_hind : EtoBF + 0 * t
+connectionE PFE_NaP_L_hind  -> MnGA_L_hind : EtoGA + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGA_R_hind : EtoGA + 0 * t
+
+connectionE PFSt_NaP_L_hind -> MnGM_L_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGM_R_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_L_hind -> MnVL_L_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_R_hind -> MnVL_R_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_L_hind -> MnSO_L_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_R_hind -> MnSO_R_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_L_hind -> MnBF_L_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_R_hind -> MnBF_R_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_L_hind -> MnGA_L_hind : SttoGA + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGA_R_hind : SttoGA + 0 * t
+
+connectionE PFF_NaP_L_hind -> InIaF_L_hind : 10 + 0 * t
+connectionE PFF_NaP_R_hind -> InIaF_R_hind : 10 + 0 * t
+connectionE PFE_NaP_L_hind -> InIaE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InIaE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InIaSw_L_hind : 5 + 0 * t
+connectionE PFSw_NaP_R_hind -> InIaSw_R_hind : 5 + 0 * t
+connectionE PFSt_NaP_L_hind -> InIaSt_L_hind : 5 + 0 * t
+connectionE PFSt_NaP_R_hind -> InIaSt_R_hind : 5 + 0 * t
+
+connectionI InIaE_L_hind -> MnIP_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnIP_R_hind : InIaEMn + 0 * t
+connectionI InIaE_L_hind -> MnTA_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnTA_R_hind : InIaEMn + 0 * t
+
+connectionI InIaF_L_hind -> MnGM_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGM_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnVL_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnVL_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnSO_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnSO_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnGA_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGA_R_hind : InIaFMn + 0 * t
+
+connectionI InIaSt_L_hind -> MnIP_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnIP_R_hind : InIaStMn + 0 * t
+connectionI InIaSt_L_hind -> MnTA_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnTA_R_hind : InIaStMn + 0 * t
+
+connectionI InIaSw_L_hind -> MnGM_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGM_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnVL_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnVL_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnSO_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnSO_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnBF_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnBF_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnGA_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGA_R_hind : InIaSwMn + 0 * t
+
+connectionI InIbIP_L_hind -> MnIP_L_hind : InIbMn + 0 * t
+connectionI InIbIP_R_hind -> MnIP_R_hind : InIbMn + 0 * t
+connectionI InIbTA_L_hind -> MnTA_L_hind : InIbMn + 0 * t
+connectionI InIbTA_R_hind -> MnTA_R_hind : InIbMn + 0 * t
+connectionI InIbGM_L_hind -> MnGM_L_hind : InIbMn + 0 * t
+connectionI InIbGM_R_hind -> MnGM_R_hind : InIbMn + 0 * t
+connectionI InIbVL_L_hind -> MnVL_L_hind : InIbMn + 0 * t
+connectionI InIbVL_R_hind -> MnVL_R_hind : InIbMn + 0 * t
+connectionI InIbSO_L_hind -> MnSO_L_hind : InIbMn + 0 * t
+connectionI InIbSO_R_hind -> MnSO_R_hind : InIbMn + 0 * t
+connectionI InIbBF_L_hind -> MnBF_L_hind : InIbMn + 0 * t
+connectionI InIbBF_R_hind -> MnBF_R_hind : InIbMn + 0 * t
+connectionI InIbGA_L_hind -> MnGA_L_hind : InIbMn + 0 * t
+connectionI InIbGA_R_hind -> MnGA_R_hind : InIbMn + 0 * t
+
+connectionI InIaIP_L_hind -> MnGM_L_hind : InIaMn + 0 * t
+connectionI InIaIP_R_hind -> MnGM_R_hind : InIaMn + 0 * t
+connectionI InIaTA_L_hind -> MnSO_L_hind : InIaMn + 0 * t
+connectionI InIaTA_R_hind -> MnSO_R_hind : InIaMn + 0 * t
+connectionI InIaGM_L_hind -> MnIP_L_hind : InIaMn + 0 * t
+connectionI InIaGM_R_hind -> MnIP_R_hind : InIaMn + 0 * t
+connectionI InIaVL_L_hind -> MnBF_L_hind : InIaMn + 0 * t
+connectionI InIaVL_R_hind -> MnBF_R_hind : InIaMn + 0 * t
+connectionI InIaBF_L_hind -> MnVL_L_hind : InIaMn + 0 * t
+connectionI InIaBF_R_hind -> MnVL_R_hind : InIaMn + 0 * t
+connectionI InIaSO_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaSO_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+connectionI InIaGA_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaGA_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+
+
+//hind CINs
+
+connectionE RGF_NaP_L_hind -> V0D_L_hind : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_hind -> V0D_R_hind : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_hind -> V2aV0V_L_hind : 10 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_R_hind : 10 + 0 * t
+
+connectionE V2aV0V_L_hind -> V0V_L_hind : 10 + 0 * t
+connectionE V2aV0V_R_hind -> V0V_R_hind : 10 + 0 * t
+
+connectionE RGE_NaP_L_hind -> V0D2_L_hind : 4. + 0 * t
+connectionE RGE_NaP_R_hind -> V0D2_R_hind : 4. + 0 * t
+
+connectionE RGE_NaP_L_hind -> V3e_L_hind : 6. + 0 * t
+connectionE RGE_NaP_R_hind -> V3e_R_hind : 6. + 0 * t
+
+connectionE RGF_NaP_L_hind -> V3_L_hind : 3.5 + 0 * t
+connectionE RGF_NaP_R_hind -> V3_R_hind : 3.5 + 0 * t
+
+connectionI V0D_L_hind -o RGF_NaP_R_hind : V0DtoRGF + 0 * t
+connectionI V0D_R_hind -o RGF_NaP_L_hind : V0DtoRGF + 0 * t
+
+connectionI V0D_L_hind -o PFF_NaP_R_hind : .4 + 0 * t
+connectionI V0D_R_hind -o PFF_NaP_L_hind : .4 + 0 * t
+
+//connectionI V0D_L_hind -o MnF_NaP_R_hind : .4 + 0 * t
+//connectionI V0D_R_hind -o MnF_NaP_L_hind : .4 + 0 * t
+
+connectionI V0D2_L_hind -o RGF_NaP_R_hind : CINItoRGF + 0 * t
+connectionI V0D2_R_hind -o RGF_NaP_L_hind : CINItoRGF + 0 * t
+
+connectionE V0V_L_hind -> InV0V_R_hind : 6 + 0 * t
+connectionE V0V_R_hind -> InV0V_L_hind : 6 + 0 * t
+
+connectionI InV0V_L_hind -o RGF_NaP_L_hind : inV0VtoRGF + 0 * t
+connectionI InV0V_R_hind -o RGF_NaP_R_hind : inV0VtoRGF + 0 * t
+
+connectionI InV0V_L_hind -o PFF_NaP_L_hind : 3 + 0 * t
+connectionI InV0V_R_hind -o PFF_NaP_R_hind : 3 + 0 * t
+
+//connectionI InV0V_L_hind -o MnF_NaP_L_hind : 3 + 0 * t
+//connectionI InV0V_R_hind -o MnF_NaP_R_hind : 3 + 0 * t
+
+connectionE V3_L_hind -> RGF_NaP_R_hind : V3toRGF + 0 * t
+connectionE V3_R_hind -> RGF_NaP_L_hind : V3toRGF + 0 * t
+
+connectionE V3_L_hind -> PFF_NaP_R_hind : 2. + 0 * t
+connectionE V3_R_hind -> PFF_NaP_L_hind : 2. + 0 * t
+
+//connectionE V3_L_hind -> MnF_NaP_R_hind : 3. + 0 * t
+//connectionE V3_R_hind -> MnF_NaP_L_hind : 3. + 0 * t
+
+//connectionE V3e_L_hind -> MnE_NaP_R_hind : 1. + 0 * t
+//connectionE V3e_R_hind -> MnE_NaP_L_hind : 1. + 0 * t
+
+//forelimbs
+//fore RG level
+
+connectionE RGF_NaP_L_front -> InF_L_front : 4 + 0 * t
+connectionE RGF_NaP_R_front -> InF_R_front : 4 + 0 * t
+connectionE RGE_NaP_L_front -> InE_L_front : 4 + 0 * t
+connectionE RGE_NaP_R_front -> InE_R_front : 4 + 0 * t
+
+connectionI InF_L_front -> RGE_NaP_L_front : 10 + 0 * t
+connectionI InF_R_front -> RGE_NaP_R_front : 10 + 0 * t
+connectionI InE_L_front -> RGF_NaP_L_front : .8 + 0 * t
+connectionI InE_R_front -> RGF_NaP_R_front : .8 + 0 * t
+
+
+
+//fore CINs
+
+connectionE RGF_NaP_L_front -> V0D_L_front : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_front -> V0D_R_front : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_front -> V2aV0V_L_front : 10 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_R_front : 10 + 0 * t
+
+connectionE V2aV0V_L_front -> V0V_L_front : 10 + 0 * t
+connectionE V2aV0V_R_front -> V0V_R_front : 10 + 0 * t
+
+connectionE RGE_NaP_L_front -> V0D2_L_front : 4. + 0 * t
+connectionE RGE_NaP_R_front -> V0D2_R_front : 4. + 0 * t
+
+connectionE RGE_NaP_L_front -> V3e_L_front : 6. + 0 * t
+connectionE RGE_NaP_R_front -> V3e_R_front : 6. + 0 * t
+
+connectionE RGF_NaP_L_front -> V3_L_front : 3.5 + 0 * t
+connectionE RGF_NaP_R_front -> V3_R_front : 3.5 + 0 * t
+
+connectionI V0D_L_front -o RGF_NaP_R_front : V0DtoRGF + 0 * t
+connectionI V0D_R_front -o RGF_NaP_L_front : V0DtoRGF + 0 * t
+
+
+connectionI V0D2_L_front -o RGF_NaP_R_front : CINItoRGF + 0 * t
+connectionI V0D2_R_front -o RGF_NaP_L_front : CINItoRGF + 0 * t
+
+connectionE V0V_L_front -> InV0V_R_front : 6 + 0 * t
+connectionE V0V_R_front -> InV0V_L_front : 6 + 0 * t
+
+connectionI InV0V_L_front -o RGF_NaP_L_front : inV0VtoRGF + 0 * t
+connectionI InV0V_R_front -o RGF_NaP_R_front : inV0VtoRGF + 0 * t
+
+connectionE V3_L_front -> RGF_NaP_R_front : V3toRGF + 0 * t
+connectionE V3_R_front -> RGF_NaP_L_front : V3toRGF + 0 * t
+
+
+
+//homolateral interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> InFront_L : 7 + 0 * t 
+connectionE RGF_NaP_R_front -> InFront_R : 7 + 0 * t 
+
+connectionI InFront_L -> RGF_NaP_L_hind : inFH + 0 * t
+connectionI InFront_R -> RGF_NaP_R_hind : inFH + 0 * t
+
+connectionE RGE_NaP_L_hind -> V2aHom_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> V2aHom_R_hind : 5 + 0 * t
+connectionE RGE_NaP_L_front -> V2aHom_L_front : 5 + 0 * t
+connectionE RGE_NaP_R_front -> V2aHom_R_front : 5 + 0 * t
+
+connectionE V2aHom_L_hind -> RGF_NaP_L_front : V2aHomhf + 0 * t
+connectionE V2aHom_R_hind -> RGF_NaP_R_front : V2aHomhf + 0 * t
+connectionE V2aHom_L_front -> RGF_NaP_L_hind : V2aHomfh + 0 * t
+connectionE V2aHom_R_front -> RGF_NaP_R_hind : V2aHomfh + 0 * t
+
+//diagonal interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> V2aV0V_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_diag_R_front : 5 + 0 * t
+connectionE RGF_NaP_L_hind -> V2aV0V_diag_L_hind : 5 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_diag_R_hind : 5 + 0 * t
+
+connectionE V2aV0V_diag_L_front -> V0V_diag_L_front : 9 + 0 * t
+connectionE V2aV0V_diag_R_front -> V0V_diag_R_front : 9 + 0 * t
+connectionE V2aV0V_diag_L_hind -> V0V_diag_L_hind : 9 + 0 * t
+connectionE V2aV0V_diag_R_hind -> V0V_diag_R_hind : 9 + 0 * t
+
+connectionE V0V_diag_L_front -> RGF_NaP_R_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_R_front -> RGF_NaP_L_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_L_hind -> RGF_NaP_R_front : V0VtoRGFdiaghf + 0 * t
+connectionE V0V_diag_R_hind -> RGF_NaP_L_front : V0VtoRGFdiaghf + 0 * t
+
+connectionE RGF_NaP_L_front -> V0D_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V0D_diag_R_front : 5 + 0 * t
+
+connectionI V0D_diag_L_front -> RGF_NaP_R_hind : V0DtoRGFdiagfh + 0 * t
+connectionI V0D_diag_R_front -> RGF_NaP_L_hind : V0DtoRGFdiagfh + 0 * t
+
+connectionE InIIIP_L_hind -> RGF_NaP_L_hind : InII_IP_RGF 
+connectionE InIIIP_R_hind -> RGF_NaP_R_hind : InII_IP_RGF 
+connectionE InIITA_L_hind -> RGF_NaP_L_hind : InII_TA_RGF 
+connectionE InIITA_R_hind -> RGF_NaP_R_hind : InII_TA_RGF 
+
+connectionE InIIIP_L_hind -> InF_L_hind : InII_IP_InRGF 
+connectionE InIIIP_R_hind -> InF_R_hind : InII_IP_InRGF 
+connectionE InIITA_L_hind -> InF_L_hind : InII_TA_InRGF 
+connectionE InIITA_R_hind -> InF_R_hind : InII_TA_InRGF 
+
+connectionI IniIISO_L_hind -> MnVL_L_hind : IniII_SO_VL + 0 * t
+connectionI IniIISO_R_hind -> MnVL_R_hind : IniII_SO_VL + 0 * t
+
+connectionI IniIIIP_L_hind -> MnGM_L_hind : IniII_IP_GM 
+connectionI IniIIIP_R_hind -> MnGM_R_hind : IniII_IP_GM 
+connectionI IniIIIP_L_hind -> MnBF_L_hind : IniII_IP_BF 
+connectionI IniIIIP_R_hind -> MnBF_R_hind : IniII_IP_BF 
+connectionI IniIIIP_L_hind -> MnVL_L_hind : IniII_IP_VL 
+connectionI IniIIIP_R_hind -> MnVL_R_hind : IniII_IP_VL 
+
+connectionI IniIITA_L_hind -> MnVL_L_hind : IniII_TA_VL 
+connectionI IniIITA_R_hind -> MnVL_R_hind : IniII_TA_VL 
+connectionI IniIITA_L_hind -> MnBF_L_hind : IniII_TA_BF 
+connectionI IniIITA_R_hind -> MnBF_R_hind : IniII_TA_BF 
+
+//feedbacks
+
+feedbackIb L_hind SO -> InE_L_hind : fbIb_SO_InRGE
+feedbackIb R_hind SO -> InE_R_hind : fbIb_SO_InRGE
+feedbackIb L_hind SO -> RGE_NaP_L_hind : fbIb_SO_RGE
+feedbackIb R_hind SO -> RGE_NaP_R_hind : fbIb_SO_RGE
+feedbackIb L_hind GA -> InE_L_hind : fbIb_GA_InRGE
+feedbackIb R_hind GA -> InE_R_hind : fbIb_GA_InRGE
+feedbackIb L_hind GA -> RGE_NaP_L_hind : fbIb_GA_RGE
+feedbackIb R_hind GA -> RGE_NaP_R_hind : fbIb_GA_RGE
+
+feedbackCutaneous R_hind XX -> RGE_NaP_R_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> RGE_NaP_L_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> InE_L_hind : fbCutInRGE
+feedbackCutaneous R_hind XX -> InE_R_hind : fbCutInRGE
+
+feedbackII L_hind IP -> InIIIP_L_hind : fbII_IP_InII
+feedbackII R_hind IP -> InIIIP_R_hind : fbII_IP_InII
+feedbackII L_hind TA -> InIITA_L_hind : fbII_TA_InII
+feedbackII R_hind TA -> InIITA_R_hind : fbII_TA_InII
+
+feedbackII L_hind SO -> IniIISO_L_hind : fbII_SO_IniII
+feedbackII R_hind SO -> IniIISO_R_hind : fbII_SO_IniII
+
+feedbackII L_hind IP -> IniIIIP_L_hind : fbII_IP_IniII
+feedbackII R_hind IP -> IniIIIP_R_hind : fbII_IP_IniII
+
+feedbackII L_hind TA -> IniIITA_L_hind : fbII_TA_IniII
+feedbackII R_hind TA -> IniIITA_R_hind : fbII_TA_IniII
+
+feedbackIb L_hind GM -> MnGM_L_hind : fbIb_GM
+feedbackIb R_hind GM -> MnGM_R_hind : fbIb_GM
+feedbackIb L_hind VL -> MnVL_L_hind : fbIb_VL
+feedbackIb R_hind VL -> MnVL_R_hind : fbIb_VL
+feedbackIb L_hind SO -> MnSO_L_hind : fbIb_SO
+feedbackIb R_hind SO -> MnSO_R_hind : fbIb_SO
+feedbackIb L_hind BF -> MnBF_L_hind : fbIb_BF
+feedbackIb R_hind BF -> MnBF_R_hind : fbIb_BF
+feedbackIb L_hind GA -> MnGA_L_hind : fbIb_GA
+feedbackIb R_hind GA -> MnGA_R_hind : fbIb_GA
+feedbackIb L_hind IP -> MnIP_L_hind : fbIb_IP
+feedbackIb R_hind IP -> MnIP_R_hind : fbIb_IP
+feedbackIb L_hind TA -> MnTA_L_hind : fbIb_TA
+feedbackIb R_hind TA -> MnTA_R_hind : fbIb_TA
+
+feedbackIa L_hind GM -> MnGM_L_hind : fbIa_GM
+feedbackIa R_hind GM -> MnGM_R_hind : fbIa_GM
+feedbackIa L_hind VL -> MnVL_L_hind : fbIa_VL
+feedbackIa R_hind VL -> MnVL_R_hind : fbIa_VL
+feedbackIa L_hind SO -> MnSO_L_hind : fbIa_SO
+feedbackIa R_hind SO -> MnSO_R_hind : fbIa_SO
+feedbackIa L_hind BF -> MnBF_L_hind : fbIa_BF
+feedbackIa R_hind BF -> MnBF_R_hind : fbIa_BF
+feedbackIa L_hind GA -> MnGA_L_hind : fbIa_GA
+feedbackIa R_hind GA -> MnGA_R_hind : fbIa_GA
+feedbackIa L_hind IP -> MnIP_L_hind : fbIa_IP
+feedbackIa R_hind IP -> MnIP_R_hind : fbIa_IP
+feedbackIa L_hind TA -> MnTA_L_hind : fbIa_TA
+feedbackIa R_hind TA -> MnTA_R_hind : fbIa_TA
+
+feedbackIa L_hind GM -> InIaE_L_hind : fbIa_GM_Ia
+feedbackIa R_hind GM -> InIaE_R_hind : fbIa_GM_Ia
+feedbackIa L_hind VL -> InIaE_L_hind : fbIa_VL_Ia
+feedbackIa R_hind VL -> InIaE_R_hind : fbIa_VL_Ia
+feedbackIa L_hind SO -> InIaE_L_hind : fbIa_SO_Ia
+feedbackIa R_hind SO -> InIaE_R_hind : fbIa_SO_Ia
+feedbackIa L_hind BF -> InIaE_L_hind : fbIa_BF_Ia
+feedbackIa R_hind BF -> InIaE_R_hind : fbIa_BF_Ia
+feedbackIa L_hind GA -> InIaE_L_hind : fbIa_GA_Ia
+feedbackIa R_hind GA -> InIaE_R_hind : fbIa_GA_Ia
+feedbackIa L_hind IP -> InIaF_L_hind : fbIa_IP_Ia
+feedbackIa R_hind IP -> InIaF_R_hind : fbIa_IP_Ia
+feedbackIa L_hind TA -> InIaF_L_hind : fbIa_TA_Ia
+feedbackIa R_hind TA -> InIaF_R_hind : fbIa_TA_Ia
+
+
+feedbackIb L_hind IP -> InIbIP_L_hind : fbIb_IP_Ibi
+feedbackIb R_hind IP -> InIbIP_R_hind : fbIb_IP_Ibi
+feedbackIb L_hind TA -> InIbTA_L_hind : fbIb_TA_Ibi
+feedbackIb R_hind TA -> InIbTA_R_hind : fbIb_TA_Ibi
+feedbackIb L_hind GM -> InIbGM_L_hind : fbIb_GM_Ibi
+feedbackIb R_hind GM -> InIbGM_R_hind : fbIb_GM_Ibi
+feedbackIb L_hind VL -> InIbVL_L_hind : fbIb_VL_Ibi
+feedbackIb R_hind VL -> InIbVL_R_hind : fbIb_VL_Ibi
+feedbackIb L_hind SO -> InIbSO_L_hind : fbIb_SO_Ibi
+feedbackIb R_hind SO -> InIbSO_R_hind : fbIb_SO_Ibi
+feedbackIb L_hind BF -> InIbBF_L_hind : fbIb_BF_Ibi
+feedbackIb R_hind BF -> InIbBF_R_hind : fbIb_BF_Ibi
+feedbackIb L_hind GA -> InIbGA_L_hind : fbIb_GA_Ibi
+feedbackIb R_hind GA -> InIbGA_R_hind : fbIb_GA_Ibi
+
+feedbackIa L_hind IP -> InIaIP_L_hind : fbIa_IP_ant
+feedbackIa R_hind IP -> InIaIP_R_hind : fbIa_IP_ant
+feedbackIa L_hind TA -> InIaTA_L_hind : fbIa_TA_ant
+feedbackIa R_hind TA -> InIaTA_R_hind : fbIa_TA_ant
+feedbackIa L_hind GM -> InIaGM_L_hind : fbIa_GM_ant
+feedbackIa R_hind GM -> InIaGM_R_hind : fbIa_GM_ant
+feedbackIa L_hind VL -> InIaVL_L_hind : fbIa_VL_ant
+feedbackIa R_hind VL -> InIaVL_R_hind : fbIa_VL_ant
+feedbackIa L_hind SO -> InIaSO_L_hind : fbIa_SO_ant
+feedbackIa R_hind SO -> InIaSO_R_hind : fbIa_SO_ant
+feedbackIa L_hind GA -> InIaGA_L_hind : fbIa_GA_ant
+feedbackIa R_hind GA -> InIaGA_R_hind : fbIa_GA_ant
+feedbackIa L_hind GA -> InIaBF_L_hind : fbIa_BF_ant
+feedbackIa R_hind GA -> InIaBF_R_hind : fbIa_BF_ant
+
+feedbackIb L_hind GM -> PFSt_NaP_L_hind : fbIb_GM_PFSt
+feedbackIb R_hind GM -> PFSt_NaP_R_hind : fbIb_GM_PFSt
+feedbackIb L_hind VL -> PFSt_NaP_L_hind : fbIb_VL_PFSt
+feedbackIb R_hind VL -> PFSt_NaP_R_hind : fbIb_VL_PFSt
+feedbackIb L_hind SO -> PFSt_NaP_L_hind : fbIb_SO_PFSt
+feedbackIb R_hind SO -> PFSt_NaP_R_hind : fbIb_SO_PFSt
+feedbackIb L_hind BF -> PFSt_NaP_L_hind : fbIb_BF_PFSt
+feedbackIb R_hind BF -> PFSt_NaP_R_hind : fbIb_BF_PFSt
+feedbackIb L_hind GA -> PFSt_NaP_L_hind : fbIb_GA_PFSt
+feedbackIb R_hind GA -> PFSt_NaP_R_hind : fbIb_GA_PFSt
+
+feedbackIb L_hind GM -> PFE_NaP_L_hind : fbIb_GM_PFE
+feedbackIb R_hind GM -> PFE_NaP_R_hind : fbIb_GM_PFE
+feedbackIb L_hind VL -> PFE_NaP_L_hind : fbIb_VL_PFE
+feedbackIb R_hind VL -> PFE_NaP_R_hind : fbIb_VL_PFE
+feedbackIb L_hind SO -> PFE_NaP_L_hind : fbIb_SO_PFE
+feedbackIb R_hind SO -> PFE_NaP_R_hind : fbIb_SO_PFE
+feedbackIb L_hind BF -> PFE_NaP_L_hind : fbIb_BF_PFE
+feedbackIb R_hind BF -> PFE_NaP_R_hind : fbIb_BF_PFE
+feedbackIb L_hind GA -> PFE_NaP_L_hind : fbIb_GA_PFE
+feedbackIb R_hind GA -> PFE_NaP_R_hind : fbIb_GA_PFE
+
+feedbackIa L_hind IP -> PFF_NaP_L_hind : fbIa_IP_PFF
+feedbackIa R_hind IP -> PFF_NaP_R_hind : fbIa_IP_PFF
+feedbackIa L_hind TA -> PFF_NaP_L_hind : fbIa_TA_PFF
+feedbackIa R_hind TA -> PFF_NaP_R_hind : fbIa_TA_PFF
+feedbackIa L_hind GM -> PFF_NaP_L_hind : fbIa_GM_PFF
+feedbackIa R_hind GM -> PFF_NaP_R_hind : fbIa_GM_PFF
+feedbackIa L_hind VL -> PFF_NaP_L_hind : fbIa_VL_PFF
+feedbackIa R_hind VL -> PFF_NaP_R_hind : fbIa_VL_PFF
+feedbackIa L_hind SO -> PFF_NaP_L_hind : fbIa_SO_PFF
+feedbackIa R_hind SO -> PFF_NaP_R_hind : fbIa_SO_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_GA_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_GA_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_BF_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_BF_PFF
+
+feedbackIa L_hind IP -> PFSw_NaP_L_hind : fbIa_IP_PFSw
+feedbackIa R_hind IP -> PFSw_NaP_R_hind : fbIa_IP_PFSw
+feedbackIa L_hind TA -> PFSw_NaP_L_hind : fbIa_TA_PFSw
+feedbackIa R_hind TA -> PFSw_NaP_R_hind : fbIa_TA_PFSw
+feedbackIa L_hind GM -> PFSw_NaP_L_hind : fbIa_GM_PFSw
+feedbackIa R_hind GM -> PFSw_NaP_R_hind : fbIa_GM_PFSw
+feedbackIa L_hind VL -> PFSw_NaP_L_hind : fbIa_VL_PFSw
+feedbackIa R_hind VL -> PFSw_NaP_R_hind : fbIa_VL_PFSw
+feedbackIa L_hind SO -> PFSw_NaP_L_hind : fbIa_SO_PFSw
+feedbackIa R_hind SO -> PFSw_NaP_R_hind : fbIa_SO_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_GA_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_GA_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_BF_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_BF_PFSw
+
+feedbackIa L_hind IP -> PFE_NaP_L_hind : fbIa_IP_PFE
+feedbackIa R_hind IP -> PFE_NaP_R_hind : fbIa_IP_PFE
+feedbackIa L_hind TA -> PFE_NaP_L_hind : fbIa_TA_PFE
+feedbackIa R_hind TA -> PFE_NaP_R_hind : fbIa_TA_PFE
+feedbackIa L_hind GM -> PFE_NaP_L_hind : fbIa_GM_PFE
+feedbackIa R_hind GM -> PFE_NaP_R_hind : fbIa_GM_PFE
+feedbackIa L_hind VL -> PFE_NaP_L_hind : fbIa_VL_PFE
+feedbackIa R_hind VL -> PFE_NaP_R_hind : fbIa_VL_PFE
+feedbackIa L_hind SO -> PFE_NaP_L_hind : fbIa_SO_PFE
+feedbackIa R_hind SO -> PFE_NaP_R_hind : fbIa_SO_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_GA_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_GA_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_BF_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_BF_PFE
+
+feedbackIa L_hind IP -> PFSt_NaP_L_hind : fbIa_IP_PFSt
+feedbackIa R_hind IP -> PFSt_NaP_R_hind : fbIa_IP_PFSt
+feedbackIa L_hind TA -> PFSt_NaP_L_hind : fbIa_TA_PFSt
+feedbackIa R_hind TA -> PFSt_NaP_R_hind : fbIa_TA_PFSt
+feedbackIa L_hind GM -> PFSt_NaP_L_hind : fbIa_GM_PFSt
+feedbackIa R_hind GM -> PFSt_NaP_R_hind : fbIa_GM_PFSt
+feedbackIa L_hind VL -> PFSt_NaP_L_hind : fbIa_VL_PFSt
+feedbackIa R_hind VL -> PFSt_NaP_R_hind : fbIa_VL_PFSt
+feedbackIa L_hind SO -> PFSt_NaP_L_hind : fbIa_SO_PFSt
+feedbackIa R_hind SO -> PFSt_NaP_R_hind : fbIa_SO_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_GA_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_GA_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_BF_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_BF_PFSt
+
+feedbackII L_hind IP -> PFF_NaP_L_hind : fbII_IP_PFF
+feedbackII R_hind IP -> PFF_NaP_R_hind : fbII_IP_PFF
+feedbackII L_hind TA -> PFF_NaP_L_hind : fbII_TA_PFF
+feedbackII R_hind TA -> PFF_NaP_R_hind : fbII_TA_PFF
+feedbackII L_hind GM -> PFF_NaP_L_hind : fbII_GM_PFF
+feedbackII R_hind GM -> PFF_NaP_R_hind : fbII_GM_PFF
+feedbackII L_hind VL -> PFF_NaP_L_hind : fbII_VL_PFF
+feedbackII R_hind VL -> PFF_NaP_R_hind : fbII_VL_PFF
+feedbackII L_hind SO -> PFF_NaP_L_hind : fbII_SO_PFF
+feedbackII R_hind SO -> PFF_NaP_R_hind : fbII_SO_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_GA_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_GA_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_BF_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_BF_PFF
+
+feedbackII L_hind IP -> PFSw_NaP_L_hind : fbII_IP_PFSw
+feedbackII R_hind IP -> PFSw_NaP_R_hind : fbII_IP_PFSw
+feedbackII L_hind TA -> PFSw_NaP_L_hind : fbII_TA_PFSw
+feedbackII R_hind TA -> PFSw_NaP_R_hind : fbII_TA_PFSw
+feedbackII L_hind GM -> PFSw_NaP_L_hind : fbII_GM_PFSw
+feedbackII R_hind GM -> PFSw_NaP_R_hind : fbII_GM_PFSw
+feedbackII L_hind VL -> PFSw_NaP_L_hind : fbII_VL_PFSw
+feedbackII R_hind VL -> PFSw_NaP_R_hind : fbII_VL_PFSw
+feedbackII L_hind SO -> PFSw_NaP_L_hind : fbII_SO_PFSw
+feedbackII R_hind SO -> PFSw_NaP_R_hind : fbII_SO_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_GA_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_GA_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_BF_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_BF_PFSw
+
+feedbackII L_hind IP -> PFE_NaP_L_hind : fbII_IP_PFE
+feedbackII R_hind IP -> PFE_NaP_R_hind : fbII_IP_PFE
+feedbackII L_hind TA -> PFE_NaP_L_hind : fbII_TA_PFE
+feedbackII R_hind TA -> PFE_NaP_R_hind : fbII_TA_PFE
+feedbackII L_hind GM -> PFE_NaP_L_hind : fbII_GM_PFE
+feedbackII R_hind GM -> PFE_NaP_R_hind : fbII_GM_PFE
+feedbackII L_hind VL -> PFE_NaP_L_hind : fbII_VL_PFE
+feedbackII R_hind VL -> PFE_NaP_R_hind : fbII_VL_PFE
+feedbackII L_hind SO -> PFE_NaP_L_hind : fbII_SO_PFE
+feedbackII R_hind SO -> PFE_NaP_R_hind : fbII_SO_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_GA_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_GA_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_BF_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_BF_PFE
+
+feedbackII L_hind IP -> PFSt_NaP_L_hind : fbII_IP_PFSt
+feedbackII R_hind IP -> PFSt_NaP_R_hind : fbII_IP_PFSt
+feedbackII L_hind TA -> PFSt_NaP_L_hind : fbII_TA_PFSt
+feedbackII R_hind TA -> PFSt_NaP_R_hind : fbII_TA_PFSt
+feedbackII L_hind GM -> PFSt_NaP_L_hind : fbII_GM_PFSt
+feedbackII R_hind GM -> PFSt_NaP_R_hind : fbII_GM_PFSt
+feedbackII L_hind VL -> PFSt_NaP_L_hind : fbII_VL_PFSt
+feedbackII R_hind VL -> PFSt_NaP_R_hind : fbII_VL_PFSt
+feedbackII L_hind SO -> PFSt_NaP_L_hind : fbII_SO_PFSt
+feedbackII R_hind SO -> PFSt_NaP_R_hind : fbII_SO_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_GA_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_GA_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_BF_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_BF_PFSt
+
+
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_L_front
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_R_front
+driveE 0 * t + 1 -> RGE_NaP_L_front
+driveE 0 * t + 1 -> RGE_NaP_R_front
+
+driveI 1.5e-05 * t + 0.0 -> V0V_L_front
+driveI 1.5e-05 * t + 0.0 -> V0V_R_front
+driveI 7.5e-05 * t + 0.0 -> V0D_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_R_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_R_front
+
+driveE 1.06e-05 * t + 0.0 -> RGF_NaP_L_hind
+driveE 1.06e-05 * t + 0.0 -> RGF_NaP_R_hind
+driveE 0 * t + 1 -> RGE_NaP_L_hind
+driveE 0 * t + 1 -> RGE_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_R_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_L_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_R_hind
+
+driveI 1.5e-05 * t + 0.0 -> V0V_L_hind
+driveI 1.5e-05 * t + 0.0 -> V0V_R_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_L_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_R_hind
+
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_L_hind
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_R_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_L_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_R_hind
+
+
+driveE 1.0e-05 * t + 0.0 -> V0c_E_L_hind
+driveE 1.0e-05 * t + 0.0 -> V0c_E_R_hind
+
+gLeak 2.8
+gLeak neurons RGF_NaP 4.5
+gLeak neurons RGE_NaP 4.5
+gLeak neurons PFF_NaP 4.5
+gLeak neurons PFE_NaP 4.5
+
+gLeak neurons PFSw_NaP 1
+gLeak neurons PFSt_NaP 1
+gLeak neurons V0c 1
+
+gLeak neurons Mn 1
+
+gLeak neurons InpFSw 5
+gLeak neurons InpESt 5
+
+gBarNaP 0
+gBarNaP neurons RGF_NaP 4.5
+gBarNaP neurons RGE_NaP 4.5
+gBarNaP neurons PFF_NaP 0.125
+gBarNaP neurons PFE_NaP 0.125
+gBarNaP neurons PFSw_NaP 0.125
+gBarNaP neurons PFSt_NaP 0.125
+
+Eleak -60
+Eleak neurons RGF_NaP -62.5
+Eleak neurons RGE_NaP -62.5
+Eleak neurons PFF_NaP -67.5
+Eleak neurons PFE_NaP -67.5
+Eleak neurons PFSw_NaP -67.5
+Eleak neurons PFSt_NaP -67.5
+
+Eleak neurons Mn -52.5
+Eleak neurons V0c -65
+
+
+
+ENa	 50	
+ESynE	 -10	
+ESynI	 -75	
+Cmem	 10	
+mk	 -6	
+mV12	 -40	
+hk	 4	
+hV12	 -45	
+htau	 160	
+hTauK	 15	
+hTauV12	 -35	
+hTau0	 80	 
+Vmax	 0	
+Vmin	 -50
+sigmaNoise 1.0N_NaP 20
+N_Normal 126
+simDuration 92000
+scalingFactor 15
+stepwise 100 5000 0 1
+
+neuron RGF_NaP_L_hind
+neuron RGF_NaP_R_hind
+neuron RGE_NaP_L_hind
+neuron RGE_NaP_R_hind
+neuron RGF_NaP_L_front
+neuron RGF_NaP_R_front
+neuron RGE_NaP_L_front
+neuron RGE_NaP_R_front
+
+neuron PFF_NaP_L_hind
+neuron PFF_NaP_R_hind
+neuron PFE_NaP_L_hind
+neuron PFE_NaP_R_hind
+
+neuron PFSw_NaP_L_hind
+neuron PFSw_NaP_R_hind
+neuron PFSt_NaP_L_hind
+neuron PFSt_NaP_R_hind
+
+neuron InF_L_hind
+neuron InF_R_hind
+neuron InE_L_hind
+neuron InE_R_hind
+neuron InpF_L_hind
+neuron InpF_R_hind
+neuron InpE_L_hind
+neuron InpE_R_hind
+neuron V0D_L_hind
+neuron V0D_R_hind
+neuron V3_L_hind
+neuron V3_R_hind
+neuron V0V_L_hind
+neuron V0V_R_hind
+neuron InV0V_L_hind
+neuron InV0V_R_hind
+neuron InF_L_front
+neuron InF_R_front
+neuron InE_L_front
+neuron InE_R_front
+neuron InpF_L_front
+neuron InpF_R_front
+neuron InpE_L_front
+neuron InpE_R_front
+neuron V0D_L_front
+neuron V0D_R_front
+neuron V3_L_front
+neuron V3_R_front
+neuron V0V_L_front
+neuron V0V_R_front
+neuron InV0V_L_front
+neuron InV0V_R_front
+neuron V0D2_L_hind
+neuron V0D2_R_hind
+neuron V0D2_L_front
+neuron V0D2_R_front
+
+neuron InFront_L
+neuron InFront_R
+neuron V2aHom_L_hind
+neuron V2aHom_R_hind
+neuron V2aHom_L_front
+neuron V2aHom_R_front
+
+neuron V0V_diag_L_hind
+neuron V0V_diag_R_hind
+neuron V0V_diag_L_front
+neuron V0V_diag_R_front
+neuron V0D_diag_L_front
+neuron V0D_diag_R_front
+neuron V2aV0V_L_hind
+neuron V2aV0V_R_hind
+neuron V2aV0V_L_front
+neuron V2aV0V_R_front
+neuron V2aV0V_diag_L_hind
+neuron V2aV0V_diag_R_hind
+neuron V2aV0V_diag_L_front
+neuron V2aV0V_diag_R_front
+
+neuron V3e_L_hind
+neuron V3e_R_hind
+neuron V3e_L_front
+neuron V3e_R_front
+
+neuron InpSw_L_hind
+neuron InpSt_L_hind
+neuron InpFSw_L_hind
+neuron InpESt_L_hind
+neuron InpSw_R_hind
+neuron InpSt_R_hind
+neuron InpFSw_R_hind
+neuron InpESt_R_hind
+
+
+neuron InIaSw_L_hind
+neuron InIaSt_L_hind
+neuron InIaSw_R_hind
+neuron InIaSt_R_hind
+
+
+neuron InIaF_L_hind
+neuron InIaF_R_hind
+neuron InIaE_L_hind
+neuron InIaE_R_hind
+
+
+neuron MnIP_L_hind
+neuron MnIP_R_hind
+
+neuron MnGM_L_hind
+neuron MnGM_R_hind
+
+neuron MnVL_L_hind
+neuron MnVL_R_hind
+
+neuron MnTA_L_hind
+neuron MnTA_R_hind
+
+neuron MnSO_L_hind
+neuron MnSO_R_hind
+
+neuron MnBF_L_hind
+neuron MnBF_R_hind
+
+neuron MnGA_L_hind
+neuron MnGA_R_hind
+
+
+neuron InIbIP_L_hind
+neuron InIbIP_R_hind
+neuron InIbGM_L_hind
+neuron InIbGM_R_hind
+neuron InIbVL_L_hind
+neuron InIbVL_R_hind
+neuron InIbTA_L_hind
+neuron InIbTA_R_hind
+neuron InIbSO_L_hind
+neuron InIbSO_R_hind
+neuron InIbBF_L_hind
+neuron InIbBF_R_hind
+neuron InIbGA_L_hind
+neuron InIbGA_R_hind
+
+neuron InIaIP_L_hind
+neuron InIaIP_R_hind
+neuron InIaGM_L_hind
+neuron InIaGM_R_hind
+neuron InIaVL_L_hind
+neuron InIaVL_R_hind
+neuron InIaTA_L_hind
+neuron InIaTA_R_hind
+neuron InIaSO_L_hind
+neuron InIaSO_R_hind
+neuron InIaBF_L_hind
+neuron InIaBF_R_hind
+neuron InIaGA_L_hind
+neuron InIaGA_R_hind
+
+neuron InIIIP_L_hind
+neuron InIIIP_R_hind
+neuron IniIIIP_L_hind
+neuron IniIIIP_R_hind
+neuron InIITA_L_hind
+neuron InIITA_R_hind
+neuron IniIITA_L_hind
+neuron IniIITA_R_hind
+neuron IniIISO_L_hind
+neuron IniIISO_R_hind
+
+
+neuron V0c_E_L_hind
+neuron V0c_E_R_hind
+
+
+variable RGFtoV0D 7
+variable CINItoRGF 0.3
+
+variable inV0VtoRGF 0.7
+variable V0VtoRGFdiagfh 0.05 
+variable V0VtoRGFdiaghf 0.4 
+
+variable V0DtoRGF 0.7
+variable V0DtoRGFdiagfh .1
+
+variable V3toRGF 0.3
+
+variable V2aHomfh .1
+variable V2aHomhf 0.25 
+variable inFH .1
+
+variable V0cEXT 4.0
+variable InIaFMn 6.0
+variable InIaEMn 6.0
+variable InIaStMn 6.0
+variable InIaSwMn 6.0
+variable InIbMn 3.0
+
+variable FtoIP   1.0
+variable FtoTA   1.0 
+variable FtoBF   1.0 
+variable FtoSO   1.0 
+variable SwtoIP  1.5
+variable SwtoTA  1.5
+variable SwtoBF  1.5
+variable EtoGM   .5 
+variable EtoVL   .5 
+variable EtoSO   .5 
+variable EtoBF   .5 
+variable EtoGA   2 
+variable SttoGM  .75
+variable SttoVL  .75
+variable SttoSO  .75
+variable SttoBF  .75
+variable SttoGA  2
+variable SwtoVL 0.0
+
+variable fbIb_SO_InRGE 0
+variable fbIb_SO_RGE 0
+variable fbIb_GA_InRGE 0
+variable fbIb_GA_RGE 0
+variable fbII_TA_InII 0
+variable fbII_IP_InII 0
+variable InII_IP_RGF 0
+variable InII_IP_InRGF 0
+variable InII_TA_RGF 0
+variable InII_TA_InRGF 0
+variable fbCutInRGE 0
+variable fbCutRGE 0 
+variable fbCutV0D 0 
+variable fbCutV0V 0 
+variable fbCutV3 0
+
+variable fbII_SO_IniII 0
+variable IniII_SO_VL 0
+
+variable fbII_IP_IniII 0
+variable IniII_IP_GM 0
+variable IniII_IP_BF 0
+variable IniII_IP_VL 0
+variable fbII_TA_IniII 0
+variable IniII_TA_VL 0
+variable IniII_TA_BF 0
+
+variable fbIb_GM 0
+variable fbIb_VL 0
+variable fbIb_SO 0
+variable fbIb_BF 0
+variable fbIb_GA 0
+variable fbIb_IP 0
+variable fbIb_TA 0
+
+variable fbIa_GM 0.0
+variable fbIa_VL 0.0
+variable fbIa_SO 0.0
+variable fbIa_BF 0.0
+variable fbIa_GA 0.0
+variable fbIa_IP 0.0
+variable fbIa_TA 0.0
+
+variable fbIa_GM_Ia 0.0
+variable fbIa_VL_Ia 0.0
+variable fbIa_SO_Ia 0.0
+variable fbIa_BF_Ia 0.0
+variable fbIa_GA_Ia 0.0
+variable fbIa_IP_Ia 0.0
+variable fbIa_TA_Ia 0.0
+
+variable fbIb_IP_Ibi 0.0
+variable fbIb_TA_Ibi 0.0
+variable fbIb_GM_Ibi 0.0
+variable fbIb_VL_Ibi 0.0
+variable fbIb_SO_Ibi 0.0
+variable fbIb_BF_Ibi 0.0
+variable fbIb_GA_Ibi 0.0
+
+variable fbIa_IP_ant 0.0
+variable fbIa_TA_ant 0.0
+variable fbIa_GM_ant 0.0
+variable fbIa_VL_ant 0.0
+variable fbIa_SO_ant 0.0
+variable fbIa_GA_ant 0.0
+variable fbIa_BF_ant 0.0
+variable InIaMn 5.0
+
+variable fbIb_GM_PFE 0.0
+variable fbIb_VL_PFE 0.0
+variable fbIb_SO_PFE 0.0
+variable fbIb_BF_PFE 0.0
+variable fbIb_GA_PFE 0.0
+
+variable fbIb_GM_PFSt 0.0
+variable fbIb_VL_PFSt 0.0
+variable fbIb_SO_PFSt 0.0
+variable fbIb_BF_PFSt 0.0
+variable fbIb_GA_PFSt 0.0
+
+variable fbIa_IP_PFSw 0.0
+variable fbIa_TA_PFSw 0.0
+variable fbIa_GM_PFSw 0.0
+variable fbIa_VL_PFSw 0.0
+variable fbIa_SO_PFSw 0.0
+variable fbIa_GA_PFSw 0.0
+variable fbIa_BF_PFSw 0.0
+variable fbIa_IP_PFF 0.0
+variable fbIa_TA_PFF 0.0
+variable fbIa_GM_PFF 0.0
+variable fbIa_VL_PFF 0.0
+variable fbIa_SO_PFF 0.0
+variable fbIa_GA_PFF 0.0
+variable fbIa_BF_PFF 0.0
+variable fbIa_IP_PFSt 0.0
+variable fbIa_TA_PFSt 0.0
+variable fbIa_GM_PFSt 0.0
+variable fbIa_VL_PFSt 0.0
+variable fbIa_SO_PFSt 0.0
+variable fbIa_GA_PFSt 0.0
+variable fbIa_BF_PFSt 0.0
+variable fbIa_IP_PFE 0.0
+variable fbIa_TA_PFE 0.0
+variable fbIa_GM_PFE 0.0
+variable fbIa_VL_PFE 0.0
+variable fbIa_SO_PFE 0.0
+variable fbIa_GA_PFE 0.0
+variable fbIa_BF_PFE 0.0
+
+variable fbII_IP_PFSw 0.0
+variable fbII_TA_PFSw 0.0
+variable fbII_GM_PFSw 0.0
+variable fbII_VL_PFSw 0.0
+variable fbII_SO_PFSw 0.0
+variable fbII_GA_PFSw 0.0
+variable fbII_BF_PFSw 0.0
+variable fbII_IP_PFF 0.0
+variable fbII_TA_PFF 0.0
+variable fbII_GM_PFF 0.0
+variable fbII_VL_PFF 0.0
+variable fbII_SO_PFF 0.0
+variable fbII_GA_PFF 0.0
+variable fbII_BF_PFF 0.0
+variable fbII_IP_PFSt 0.0
+variable fbII_TA_PFSt 0.0
+variable fbII_GM_PFSt 0.0
+variable fbII_VL_PFSt 0.0
+variable fbII_SO_PFSt 0.0
+variable fbII_GA_PFSt 0.0
+variable fbII_BF_PFSt 0.0
+variable fbII_IP_PFE 0.0
+variable fbII_TA_PFE 0.0
+variable fbII_GM_PFE 0.0
+variable fbII_VL_PFE 0.0
+variable fbII_SO_PFE 0.0
+variable fbII_GA_PFE 0.0
+variable fbII_BF_PFE 0.0
+ 
+
+//hind RG level
+connectionE RGF_NaP_L_hind -> InF_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InF_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InE_L_hind : 4 + 0 * t
+connectionE RGE_NaP_R_hind -> InE_R_hind : 4 + 0 * t
+
+connectionI InF_L_hind -> RGE_NaP_L_hind : 10 + 0 * t
+connectionI InF_R_hind -> RGE_NaP_R_hind : 10 + 0 * t
+connectionI InE_L_hind -> RGF_NaP_L_hind : .8 + 0 * t
+connectionI InE_R_hind -> RGF_NaP_R_hind : .8 + 0 * t
+
+//hind PF level
+
+connectionE RGF_NaP_L_hind -> PFF_NaP_L_hind : 8 + 0 * t
+connectionE RGF_NaP_R_hind -> PFF_NaP_R_hind : 8 + 0 * t
+connectionE RGE_NaP_L_hind -> PFE_NaP_L_hind : 7 + 0 * t
+connectionE RGE_NaP_R_hind -> PFE_NaP_R_hind : 7 + 0 * t
+
+connectionE RGF_NaP_L_hind -> PFSw_NaP_L_hind : 6 + 0 * t
+connectionE RGF_NaP_R_hind -> PFSw_NaP_R_hind : 6 + 0 * t
+connectionE RGE_NaP_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionE PFF_NaP_L_hind -> InpF_L_hind : 8 + 0 * t
+connectionE PFF_NaP_R_hind -> InpF_R_hind : 8 + 0 * t
+connectionE PFE_NaP_L_hind -> InpE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InpE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InpSw_L_hind : 15 + 0 * t
+connectionE PFSw_NaP_R_hind -> InpSw_R_hind : 15 + 0 * t
+connectionE PFSt_NaP_L_hind -> InpSt_L_hind : 15 + 0 * t
+connectionE PFSt_NaP_R_hind -> InpSt_R_hind : 15 + 0 * t
+
+connectionI InpF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InpF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InpE_L_hind -> PFF_NaP_L_hind : 10 + 0 * t
+connectionI InpE_R_hind -> PFF_NaP_R_hind : 10 + 0 * t
+
+connectionI InpF_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpF_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+connectionI InpE_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpE_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpF_L_hind -> PFSw_NaP_L_hind : 1 + 0 * t
+connectionI InpF_R_hind -> PFSw_NaP_R_hind : 1 + 0 * t
+connectionI InpE_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpE_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionI InpSw_L_hind -> PFSt_NaP_L_hind : 20 + 0 * t
+connectionI InpSw_R_hind -> PFSt_NaP_R_hind : 20 + 0 * t
+connectionI InpSt_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpSt_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpSw_L_hind -> PFF_NaP_L_hind : 7.5 + 0 * t
+connectionI InpSw_R_hind -> PFF_NaP_R_hind : 7.5 + 0 * t
+connectionI InpSt_L_hind -> PFE_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFE_NaP_R_hind : 20 + 0 * t
+
+connectionI InpSt_L_hind -> PFF_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFF_NaP_R_hind : 20 + 0 * t
+connectionI InpSw_L_hind -> PFE_NaP_L_hind : 5 + 0 * t
+connectionI InpSw_R_hind -> PFE_NaP_R_hind : 5 + 0 * t
+
+connectionI InF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InE_L_hind -> PFF_NaP_L_hind : 15 + 0 * t
+connectionI InE_R_hind -> PFF_NaP_R_hind : 15 + 0 * t
+
+connectionE RGF_NaP_L_hind -> InpFSw_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InpFSw_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InpESt_L_hind : 3.5 + 0 * t
+connectionE RGE_NaP_R_hind -> InpESt_R_hind : 3.5 + 0 * t
+
+connectionI InpFSw_L_hind -> PFSw_NaP_L_hind : 30 + 0 * t
+connectionI InpFSw_R_hind -> PFSw_NaP_R_hind : 30 + 0 * t
+connectionI InpESt_L_hind -> PFSt_NaP_L_hind : 30 + 0 * t
+connectionI InpESt_R_hind -> PFSt_NaP_R_hind : 30 + 0 * t
+
+connectionE PFSt_NaP_L_hind -> V0c_E_L_hind : 0.8 + 0 * t
+connectionE PFSt_NaP_R_hind -> V0c_E_R_hind : 0.8 + 0 * t
+connectionI InpF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InpF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+connectionI InF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+
+connectionC V0c_E_L_hind -> MnGM_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGM_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnVL_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnVL_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnSO_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnSO_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnBF_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnBF_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnGA_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGA_R_hind : V0cEXT + 0 * t
+
+//hind Mn level
+
+connectionE PFF_NaP_L_hind  -> MnIP_L_hind : FtoIP + 0 * t
+connectionE PFF_NaP_R_hind  -> MnIP_R_hind : FtoIP + 0 * t
+connectionE PFF_NaP_L_hind  -> MnTA_L_hind : FtoTA + 0 * t
+connectionE PFF_NaP_R_hind  -> MnTA_R_hind : FtoTA + 0 * t
+connectionE PFF_NaP_L_hind  -> MnBF_L_hind : FtoBF + 0 * t
+connectionE PFF_NaP_R_hind  -> MnBF_R_hind : FtoBF + 0 * t
+connectionE PFF_NaP_L_hind  -> MnSO_L_hind : FtoSO + 0 * t
+connectionE PFF_NaP_R_hind  -> MnSO_R_hind : FtoSO + 0 * t
+
+connectionE PFSw_NaP_L_hind -> MnIP_L_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_R_hind -> MnIP_R_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_L_hind -> MnTA_L_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_R_hind -> MnTA_R_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_L_hind -> MnBF_L_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_R_hind -> MnBF_R_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_L_hind -> MnVL_L_hind : SwtoVL + 0 * t
+connectionE PFSw_NaP_R_hind -> MnVL_R_hind : SwtoVL + 0 * t
+
+connectionE PFE_NaP_L_hind  -> MnGM_L_hind : EtoGM + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGM_R_hind : EtoGM + 0 * t
+connectionE PFE_NaP_L_hind  -> MnVL_L_hind : EtoVL + 0 * t
+connectionE PFE_NaP_R_hind  -> MnVL_R_hind : EtoVL + 0 * t
+connectionE PFE_NaP_L_hind  -> MnSO_L_hind : EtoSO + 0 * t
+connectionE PFE_NaP_R_hind  -> MnSO_R_hind : EtoSO + 0 * t
+connectionE PFE_NaP_L_hind  -> MnBF_L_hind : EtoBF + 0 * t
+connectionE PFE_NaP_R_hind  -> MnBF_R_hind : EtoBF + 0 * t
+connectionE PFE_NaP_L_hind  -> MnGA_L_hind : EtoGA + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGA_R_hind : EtoGA + 0 * t
+
+connectionE PFSt_NaP_L_hind -> MnGM_L_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGM_R_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_L_hind -> MnVL_L_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_R_hind -> MnVL_R_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_L_hind -> MnSO_L_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_R_hind -> MnSO_R_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_L_hind -> MnBF_L_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_R_hind -> MnBF_R_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_L_hind -> MnGA_L_hind : SttoGA + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGA_R_hind : SttoGA + 0 * t
+
+connectionE PFF_NaP_L_hind -> InIaF_L_hind : 10 + 0 * t
+connectionE PFF_NaP_R_hind -> InIaF_R_hind : 10 + 0 * t
+connectionE PFE_NaP_L_hind -> InIaE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InIaE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InIaSw_L_hind : 5 + 0 * t
+connectionE PFSw_NaP_R_hind -> InIaSw_R_hind : 5 + 0 * t
+connectionE PFSt_NaP_L_hind -> InIaSt_L_hind : 5 + 0 * t
+connectionE PFSt_NaP_R_hind -> InIaSt_R_hind : 5 + 0 * t
+
+connectionI InIaE_L_hind -> MnIP_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnIP_R_hind : InIaEMn + 0 * t
+connectionI InIaE_L_hind -> MnTA_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnTA_R_hind : InIaEMn + 0 * t
+
+connectionI InIaF_L_hind -> MnGM_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGM_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnVL_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnVL_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnSO_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnSO_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnGA_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGA_R_hind : InIaFMn + 0 * t
+
+connectionI InIaSt_L_hind -> MnIP_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnIP_R_hind : InIaStMn + 0 * t
+connectionI InIaSt_L_hind -> MnTA_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnTA_R_hind : InIaStMn + 0 * t
+
+connectionI InIaSw_L_hind -> MnGM_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGM_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnVL_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnVL_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnSO_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnSO_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnBF_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnBF_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnGA_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGA_R_hind : InIaSwMn + 0 * t
+
+connectionI InIbIP_L_hind -> MnIP_L_hind : InIbMn + 0 * t
+connectionI InIbIP_R_hind -> MnIP_R_hind : InIbMn + 0 * t
+connectionI InIbTA_L_hind -> MnTA_L_hind : InIbMn + 0 * t
+connectionI InIbTA_R_hind -> MnTA_R_hind : InIbMn + 0 * t
+connectionI InIbGM_L_hind -> MnGM_L_hind : InIbMn + 0 * t
+connectionI InIbGM_R_hind -> MnGM_R_hind : InIbMn + 0 * t
+connectionI InIbVL_L_hind -> MnVL_L_hind : InIbMn + 0 * t
+connectionI InIbVL_R_hind -> MnVL_R_hind : InIbMn + 0 * t
+connectionI InIbSO_L_hind -> MnSO_L_hind : InIbMn + 0 * t
+connectionI InIbSO_R_hind -> MnSO_R_hind : InIbMn + 0 * t
+connectionI InIbBF_L_hind -> MnBF_L_hind : InIbMn + 0 * t
+connectionI InIbBF_R_hind -> MnBF_R_hind : InIbMn + 0 * t
+connectionI InIbGA_L_hind -> MnGA_L_hind : InIbMn + 0 * t
+connectionI InIbGA_R_hind -> MnGA_R_hind : InIbMn + 0 * t
+
+connectionI InIaIP_L_hind -> MnGM_L_hind : InIaMn + 0 * t
+connectionI InIaIP_R_hind -> MnGM_R_hind : InIaMn + 0 * t
+connectionI InIaTA_L_hind -> MnSO_L_hind : InIaMn + 0 * t
+connectionI InIaTA_R_hind -> MnSO_R_hind : InIaMn + 0 * t
+connectionI InIaGM_L_hind -> MnIP_L_hind : InIaMn + 0 * t
+connectionI InIaGM_R_hind -> MnIP_R_hind : InIaMn + 0 * t
+connectionI InIaVL_L_hind -> MnBF_L_hind : InIaMn + 0 * t
+connectionI InIaVL_R_hind -> MnBF_R_hind : InIaMn + 0 * t
+connectionI InIaBF_L_hind -> MnVL_L_hind : InIaMn + 0 * t
+connectionI InIaBF_R_hind -> MnVL_R_hind : InIaMn + 0 * t
+connectionI InIaSO_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaSO_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+connectionI InIaGA_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaGA_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+
+
+//hind CINs
+
+connectionE RGF_NaP_L_hind -> V0D_L_hind : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_hind -> V0D_R_hind : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_hind -> V2aV0V_L_hind : 10 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_R_hind : 10 + 0 * t
+
+connectionE V2aV0V_L_hind -> V0V_L_hind : 10 + 0 * t
+connectionE V2aV0V_R_hind -> V0V_R_hind : 10 + 0 * t
+
+connectionE RGE_NaP_L_hind -> V0D2_L_hind : 4. + 0 * t
+connectionE RGE_NaP_R_hind -> V0D2_R_hind : 4. + 0 * t
+
+connectionE RGE_NaP_L_hind -> V3e_L_hind : 6. + 0 * t
+connectionE RGE_NaP_R_hind -> V3e_R_hind : 6. + 0 * t
+
+connectionE RGF_NaP_L_hind -> V3_L_hind : 3.5 + 0 * t
+connectionE RGF_NaP_R_hind -> V3_R_hind : 3.5 + 0 * t
+
+connectionI V0D_L_hind -o RGF_NaP_R_hind : V0DtoRGF + 0 * t
+connectionI V0D_R_hind -o RGF_NaP_L_hind : V0DtoRGF + 0 * t
+
+connectionI V0D_L_hind -o PFF_NaP_R_hind : .4 + 0 * t
+connectionI V0D_R_hind -o PFF_NaP_L_hind : .4 + 0 * t
+
+//connectionI V0D_L_hind -o MnF_NaP_R_hind : .4 + 0 * t
+//connectionI V0D_R_hind -o MnF_NaP_L_hind : .4 + 0 * t
+
+connectionI V0D2_L_hind -o RGF_NaP_R_hind : CINItoRGF + 0 * t
+connectionI V0D2_R_hind -o RGF_NaP_L_hind : CINItoRGF + 0 * t
+
+connectionE V0V_L_hind -> InV0V_R_hind : 6 + 0 * t
+connectionE V0V_R_hind -> InV0V_L_hind : 6 + 0 * t
+
+connectionI InV0V_L_hind -o RGF_NaP_L_hind : inV0VtoRGF + 0 * t
+connectionI InV0V_R_hind -o RGF_NaP_R_hind : inV0VtoRGF + 0 * t
+
+connectionI InV0V_L_hind -o PFF_NaP_L_hind : 3 + 0 * t
+connectionI InV0V_R_hind -o PFF_NaP_R_hind : 3 + 0 * t
+
+//connectionI InV0V_L_hind -o MnF_NaP_L_hind : 3 + 0 * t
+//connectionI InV0V_R_hind -o MnF_NaP_R_hind : 3 + 0 * t
+
+connectionE V3_L_hind -> RGF_NaP_R_hind : V3toRGF + 0 * t
+connectionE V3_R_hind -> RGF_NaP_L_hind : V3toRGF + 0 * t
+
+connectionE V3_L_hind -> PFF_NaP_R_hind : 2. + 0 * t
+connectionE V3_R_hind -> PFF_NaP_L_hind : 2. + 0 * t
+
+//connectionE V3_L_hind -> MnF_NaP_R_hind : 3. + 0 * t
+//connectionE V3_R_hind -> MnF_NaP_L_hind : 3. + 0 * t
+
+//connectionE V3e_L_hind -> MnE_NaP_R_hind : 1. + 0 * t
+//connectionE V3e_R_hind -> MnE_NaP_L_hind : 1. + 0 * t
+
+//forelimbs
+//fore RG level
+
+connectionE RGF_NaP_L_front -> InF_L_front : 4 + 0 * t
+connectionE RGF_NaP_R_front -> InF_R_front : 4 + 0 * t
+connectionE RGE_NaP_L_front -> InE_L_front : 4 + 0 * t
+connectionE RGE_NaP_R_front -> InE_R_front : 4 + 0 * t
+
+connectionI InF_L_front -> RGE_NaP_L_front : 10 + 0 * t
+connectionI InF_R_front -> RGE_NaP_R_front : 10 + 0 * t
+connectionI InE_L_front -> RGF_NaP_L_front : .8 + 0 * t
+connectionI InE_R_front -> RGF_NaP_R_front : .8 + 0 * t
+
+
+
+//fore CINs
+
+connectionE RGF_NaP_L_front -> V0D_L_front : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_front -> V0D_R_front : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_front -> V2aV0V_L_front : 10 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_R_front : 10 + 0 * t
+
+connectionE V2aV0V_L_front -> V0V_L_front : 10 + 0 * t
+connectionE V2aV0V_R_front -> V0V_R_front : 10 + 0 * t
+
+connectionE RGE_NaP_L_front -> V0D2_L_front : 4. + 0 * t
+connectionE RGE_NaP_R_front -> V0D2_R_front : 4. + 0 * t
+
+connectionE RGE_NaP_L_front -> V3e_L_front : 6. + 0 * t
+connectionE RGE_NaP_R_front -> V3e_R_front : 6. + 0 * t
+
+connectionE RGF_NaP_L_front -> V3_L_front : 3.5 + 0 * t
+connectionE RGF_NaP_R_front -> V3_R_front : 3.5 + 0 * t
+
+connectionI V0D_L_front -o RGF_NaP_R_front : V0DtoRGF + 0 * t
+connectionI V0D_R_front -o RGF_NaP_L_front : V0DtoRGF + 0 * t
+
+
+connectionI V0D2_L_front -o RGF_NaP_R_front : CINItoRGF + 0 * t
+connectionI V0D2_R_front -o RGF_NaP_L_front : CINItoRGF + 0 * t
+
+connectionE V0V_L_front -> InV0V_R_front : 6 + 0 * t
+connectionE V0V_R_front -> InV0V_L_front : 6 + 0 * t
+
+connectionI InV0V_L_front -o RGF_NaP_L_front : inV0VtoRGF + 0 * t
+connectionI InV0V_R_front -o RGF_NaP_R_front : inV0VtoRGF + 0 * t
+
+connectionE V3_L_front -> RGF_NaP_R_front : V3toRGF + 0 * t
+connectionE V3_R_front -> RGF_NaP_L_front : V3toRGF + 0 * t
+
+
+
+//homolateral interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> InFront_L : 7 + 0 * t 
+connectionE RGF_NaP_R_front -> InFront_R : 7 + 0 * t 
+
+connectionI InFront_L -> RGF_NaP_L_hind : inFH + 0 * t
+connectionI InFront_R -> RGF_NaP_R_hind : inFH + 0 * t
+
+connectionE RGE_NaP_L_hind -> V2aHom_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> V2aHom_R_hind : 5 + 0 * t
+connectionE RGE_NaP_L_front -> V2aHom_L_front : 5 + 0 * t
+connectionE RGE_NaP_R_front -> V2aHom_R_front : 5 + 0 * t
+
+connectionE V2aHom_L_hind -> RGF_NaP_L_front : V2aHomhf + 0 * t
+connectionE V2aHom_R_hind -> RGF_NaP_R_front : V2aHomhf + 0 * t
+connectionE V2aHom_L_front -> RGF_NaP_L_hind : V2aHomfh + 0 * t
+connectionE V2aHom_R_front -> RGF_NaP_R_hind : V2aHomfh + 0 * t
+
+//diagonal interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> V2aV0V_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_diag_R_front : 5 + 0 * t
+connectionE RGF_NaP_L_hind -> V2aV0V_diag_L_hind : 5 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_diag_R_hind : 5 + 0 * t
+
+connectionE V2aV0V_diag_L_front -> V0V_diag_L_front : 9 + 0 * t
+connectionE V2aV0V_diag_R_front -> V0V_diag_R_front : 9 + 0 * t
+connectionE V2aV0V_diag_L_hind -> V0V_diag_L_hind : 9 + 0 * t
+connectionE V2aV0V_diag_R_hind -> V0V_diag_R_hind : 9 + 0 * t
+
+connectionE V0V_diag_L_front -> RGF_NaP_R_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_R_front -> RGF_NaP_L_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_L_hind -> RGF_NaP_R_front : V0VtoRGFdiaghf + 0 * t
+connectionE V0V_diag_R_hind -> RGF_NaP_L_front : V0VtoRGFdiaghf + 0 * t
+
+connectionE RGF_NaP_L_front -> V0D_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V0D_diag_R_front : 5 + 0 * t
+
+connectionI V0D_diag_L_front -> RGF_NaP_R_hind : V0DtoRGFdiagfh + 0 * t
+connectionI V0D_diag_R_front -> RGF_NaP_L_hind : V0DtoRGFdiagfh + 0 * t
+
+connectionE InIIIP_L_hind -> RGF_NaP_L_hind : InII_IP_RGF 
+connectionE InIIIP_R_hind -> RGF_NaP_R_hind : InII_IP_RGF 
+connectionE InIITA_L_hind -> RGF_NaP_L_hind : InII_TA_RGF 
+connectionE InIITA_R_hind -> RGF_NaP_R_hind : InII_TA_RGF 
+
+connectionE InIIIP_L_hind -> InF_L_hind : InII_IP_InRGF 
+connectionE InIIIP_R_hind -> InF_R_hind : InII_IP_InRGF 
+connectionE InIITA_L_hind -> InF_L_hind : InII_TA_InRGF 
+connectionE InIITA_R_hind -> InF_R_hind : InII_TA_InRGF 
+
+connectionI IniIISO_L_hind -> MnVL_L_hind : IniII_SO_VL + 0 * t
+connectionI IniIISO_R_hind -> MnVL_R_hind : IniII_SO_VL + 0 * t
+
+connectionI IniIIIP_L_hind -> MnGM_L_hind : IniII_IP_GM 
+connectionI IniIIIP_R_hind -> MnGM_R_hind : IniII_IP_GM 
+connectionI IniIIIP_L_hind -> MnBF_L_hind : IniII_IP_BF 
+connectionI IniIIIP_R_hind -> MnBF_R_hind : IniII_IP_BF 
+connectionI IniIIIP_L_hind -> MnVL_L_hind : IniII_IP_VL 
+connectionI IniIIIP_R_hind -> MnVL_R_hind : IniII_IP_VL 
+
+connectionI IniIITA_L_hind -> MnVL_L_hind : IniII_TA_VL 
+connectionI IniIITA_R_hind -> MnVL_R_hind : IniII_TA_VL 
+connectionI IniIITA_L_hind -> MnBF_L_hind : IniII_TA_BF 
+connectionI IniIITA_R_hind -> MnBF_R_hind : IniII_TA_BF 
+
+//feedbacks
+
+feedbackIb L_hind SO -> InE_L_hind : fbIb_SO_InRGE
+feedbackIb R_hind SO -> InE_R_hind : fbIb_SO_InRGE
+feedbackIb L_hind SO -> RGE_NaP_L_hind : fbIb_SO_RGE
+feedbackIb R_hind SO -> RGE_NaP_R_hind : fbIb_SO_RGE
+feedbackIb L_hind GA -> InE_L_hind : fbIb_GA_InRGE
+feedbackIb R_hind GA -> InE_R_hind : fbIb_GA_InRGE
+feedbackIb L_hind GA -> RGE_NaP_L_hind : fbIb_GA_RGE
+feedbackIb R_hind GA -> RGE_NaP_R_hind : fbIb_GA_RGE
+
+feedbackCutaneous R_hind XX -> RGE_NaP_R_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> RGE_NaP_L_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> InE_L_hind : fbCutInRGE
+feedbackCutaneous R_hind XX -> InE_R_hind : fbCutInRGE
+
+feedbackCutaneous R_hind XX -> V0V_R_hind : fbCutV0V
+feedbackCutaneous L_hind XX -> V0V_L_hind : fbCutV0V
+feedbackCutaneous R_hind XX -> V3_R_hind : fbCutV3
+feedbackCutaneous L_hind XX -> V3_L_hind : fbCutV3
+feedbackCutaneous L_hind XX -> V0D_L_hind : fbCutV0D
+feedbackCutaneous R_hind XX -> V0D_R_hind : fbCutV0D
+
+feedbackII L_hind IP -> InIIIP_L_hind : fbII_IP_InII
+feedbackII R_hind IP -> InIIIP_R_hind : fbII_IP_InII
+feedbackII L_hind TA -> InIITA_L_hind : fbII_TA_InII
+feedbackII R_hind TA -> InIITA_R_hind : fbII_TA_InII
+
+feedbackII L_hind SO -> IniIISO_L_hind : fbII_SO_IniII
+feedbackII R_hind SO -> IniIISO_R_hind : fbII_SO_IniII
+
+feedbackII L_hind IP -> IniIIIP_L_hind : fbII_IP_IniII
+feedbackII R_hind IP -> IniIIIP_R_hind : fbII_IP_IniII
+
+feedbackII L_hind TA -> IniIITA_L_hind : fbII_TA_IniII
+feedbackII R_hind TA -> IniIITA_R_hind : fbII_TA_IniII
+
+feedbackIb L_hind GM -> MnGM_L_hind : fbIb_GM
+feedbackIb R_hind GM -> MnGM_R_hind : fbIb_GM
+feedbackIb L_hind VL -> MnVL_L_hind : fbIb_VL
+feedbackIb R_hind VL -> MnVL_R_hind : fbIb_VL
+feedbackIb L_hind SO -> MnSO_L_hind : fbIb_SO
+feedbackIb R_hind SO -> MnSO_R_hind : fbIb_SO
+feedbackIb L_hind BF -> MnBF_L_hind : fbIb_BF
+feedbackIb R_hind BF -> MnBF_R_hind : fbIb_BF
+feedbackIb L_hind GA -> MnGA_L_hind : fbIb_GA
+feedbackIb R_hind GA -> MnGA_R_hind : fbIb_GA
+feedbackIb L_hind IP -> MnIP_L_hind : fbIb_IP
+feedbackIb R_hind IP -> MnIP_R_hind : fbIb_IP
+feedbackIb L_hind TA -> MnTA_L_hind : fbIb_TA
+feedbackIb R_hind TA -> MnTA_R_hind : fbIb_TA
+
+feedbackIa L_hind GM -> MnGM_L_hind : fbIa_GM
+feedbackIa R_hind GM -> MnGM_R_hind : fbIa_GM
+feedbackIa L_hind VL -> MnVL_L_hind : fbIa_VL
+feedbackIa R_hind VL -> MnVL_R_hind : fbIa_VL
+feedbackIa L_hind SO -> MnSO_L_hind : fbIa_SO
+feedbackIa R_hind SO -> MnSO_R_hind : fbIa_SO
+feedbackIa L_hind BF -> MnBF_L_hind : fbIa_BF
+feedbackIa R_hind BF -> MnBF_R_hind : fbIa_BF
+feedbackIa L_hind GA -> MnGA_L_hind : fbIa_GA
+feedbackIa R_hind GA -> MnGA_R_hind : fbIa_GA
+feedbackIa L_hind IP -> MnIP_L_hind : fbIa_IP
+feedbackIa R_hind IP -> MnIP_R_hind : fbIa_IP
+feedbackIa L_hind TA -> MnTA_L_hind : fbIa_TA
+feedbackIa R_hind TA -> MnTA_R_hind : fbIa_TA
+
+feedbackIa L_hind GM -> InIaE_L_hind : fbIa_GM_Ia
+feedbackIa R_hind GM -> InIaE_R_hind : fbIa_GM_Ia
+feedbackIa L_hind VL -> InIaE_L_hind : fbIa_VL_Ia
+feedbackIa R_hind VL -> InIaE_R_hind : fbIa_VL_Ia
+feedbackIa L_hind SO -> InIaE_L_hind : fbIa_SO_Ia
+feedbackIa R_hind SO -> InIaE_R_hind : fbIa_SO_Ia
+feedbackIa L_hind BF -> InIaE_L_hind : fbIa_BF_Ia
+feedbackIa R_hind BF -> InIaE_R_hind : fbIa_BF_Ia
+feedbackIa L_hind GA -> InIaE_L_hind : fbIa_GA_Ia
+feedbackIa R_hind GA -> InIaE_R_hind : fbIa_GA_Ia
+feedbackIa L_hind IP -> InIaF_L_hind : fbIa_IP_Ia
+feedbackIa R_hind IP -> InIaF_R_hind : fbIa_IP_Ia
+feedbackIa L_hind TA -> InIaF_L_hind : fbIa_TA_Ia
+feedbackIa R_hind TA -> InIaF_R_hind : fbIa_TA_Ia
+
+
+feedbackIb L_hind IP -> InIbIP_L_hind : fbIb_IP_Ibi
+feedbackIb R_hind IP -> InIbIP_R_hind : fbIb_IP_Ibi
+feedbackIb L_hind TA -> InIbTA_L_hind : fbIb_TA_Ibi
+feedbackIb R_hind TA -> InIbTA_R_hind : fbIb_TA_Ibi
+feedbackIb L_hind GM -> InIbGM_L_hind : fbIb_GM_Ibi
+feedbackIb R_hind GM -> InIbGM_R_hind : fbIb_GM_Ibi
+feedbackIb L_hind VL -> InIbVL_L_hind : fbIb_VL_Ibi
+feedbackIb R_hind VL -> InIbVL_R_hind : fbIb_VL_Ibi
+feedbackIb L_hind SO -> InIbSO_L_hind : fbIb_SO_Ibi
+feedbackIb R_hind SO -> InIbSO_R_hind : fbIb_SO_Ibi
+feedbackIb L_hind BF -> InIbBF_L_hind : fbIb_BF_Ibi
+feedbackIb R_hind BF -> InIbBF_R_hind : fbIb_BF_Ibi
+feedbackIb L_hind GA -> InIbGA_L_hind : fbIb_GA_Ibi
+feedbackIb R_hind GA -> InIbGA_R_hind : fbIb_GA_Ibi
+
+feedbackIa L_hind IP -> InIaIP_L_hind : fbIa_IP_ant
+feedbackIa R_hind IP -> InIaIP_R_hind : fbIa_IP_ant
+feedbackIa L_hind TA -> InIaTA_L_hind : fbIa_TA_ant
+feedbackIa R_hind TA -> InIaTA_R_hind : fbIa_TA_ant
+feedbackIa L_hind GM -> InIaGM_L_hind : fbIa_GM_ant
+feedbackIa R_hind GM -> InIaGM_R_hind : fbIa_GM_ant
+feedbackIa L_hind VL -> InIaVL_L_hind : fbIa_VL_ant
+feedbackIa R_hind VL -> InIaVL_R_hind : fbIa_VL_ant
+feedbackIa L_hind SO -> InIaSO_L_hind : fbIa_SO_ant
+feedbackIa R_hind SO -> InIaSO_R_hind : fbIa_SO_ant
+feedbackIa L_hind GA -> InIaGA_L_hind : fbIa_GA_ant
+feedbackIa R_hind GA -> InIaGA_R_hind : fbIa_GA_ant
+feedbackIa L_hind GA -> InIaBF_L_hind : fbIa_BF_ant
+feedbackIa R_hind GA -> InIaBF_R_hind : fbIa_BF_ant
+
+feedbackIb L_hind GM -> PFSt_NaP_L_hind : fbIb_GM_PFSt
+feedbackIb R_hind GM -> PFSt_NaP_R_hind : fbIb_GM_PFSt
+feedbackIb L_hind VL -> PFSt_NaP_L_hind : fbIb_VL_PFSt
+feedbackIb R_hind VL -> PFSt_NaP_R_hind : fbIb_VL_PFSt
+feedbackIb L_hind SO -> PFSt_NaP_L_hind : fbIb_SO_PFSt
+feedbackIb R_hind SO -> PFSt_NaP_R_hind : fbIb_SO_PFSt
+feedbackIb L_hind BF -> PFSt_NaP_L_hind : fbIb_BF_PFSt
+feedbackIb R_hind BF -> PFSt_NaP_R_hind : fbIb_BF_PFSt
+feedbackIb L_hind GA -> PFSt_NaP_L_hind : fbIb_GA_PFSt
+feedbackIb R_hind GA -> PFSt_NaP_R_hind : fbIb_GA_PFSt
+
+feedbackIb L_hind GM -> PFE_NaP_L_hind : fbIb_GM_PFE
+feedbackIb R_hind GM -> PFE_NaP_R_hind : fbIb_GM_PFE
+feedbackIb L_hind VL -> PFE_NaP_L_hind : fbIb_VL_PFE
+feedbackIb R_hind VL -> PFE_NaP_R_hind : fbIb_VL_PFE
+feedbackIb L_hind SO -> PFE_NaP_L_hind : fbIb_SO_PFE
+feedbackIb R_hind SO -> PFE_NaP_R_hind : fbIb_SO_PFE
+feedbackIb L_hind BF -> PFE_NaP_L_hind : fbIb_BF_PFE
+feedbackIb R_hind BF -> PFE_NaP_R_hind : fbIb_BF_PFE
+feedbackIb L_hind GA -> PFE_NaP_L_hind : fbIb_GA_PFE
+feedbackIb R_hind GA -> PFE_NaP_R_hind : fbIb_GA_PFE
+
+feedbackIa L_hind IP -> PFF_NaP_L_hind : fbIa_IP_PFF
+feedbackIa R_hind IP -> PFF_NaP_R_hind : fbIa_IP_PFF
+feedbackIa L_hind TA -> PFF_NaP_L_hind : fbIa_TA_PFF
+feedbackIa R_hind TA -> PFF_NaP_R_hind : fbIa_TA_PFF
+feedbackIa L_hind GM -> PFF_NaP_L_hind : fbIa_GM_PFF
+feedbackIa R_hind GM -> PFF_NaP_R_hind : fbIa_GM_PFF
+feedbackIa L_hind VL -> PFF_NaP_L_hind : fbIa_VL_PFF
+feedbackIa R_hind VL -> PFF_NaP_R_hind : fbIa_VL_PFF
+feedbackIa L_hind SO -> PFF_NaP_L_hind : fbIa_SO_PFF
+feedbackIa R_hind SO -> PFF_NaP_R_hind : fbIa_SO_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_GA_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_GA_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_BF_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_BF_PFF
+
+feedbackIa L_hind IP -> PFSw_NaP_L_hind : fbIa_IP_PFSw
+feedbackIa R_hind IP -> PFSw_NaP_R_hind : fbIa_IP_PFSw
+feedbackIa L_hind TA -> PFSw_NaP_L_hind : fbIa_TA_PFSw
+feedbackIa R_hind TA -> PFSw_NaP_R_hind : fbIa_TA_PFSw
+feedbackIa L_hind GM -> PFSw_NaP_L_hind : fbIa_GM_PFSw
+feedbackIa R_hind GM -> PFSw_NaP_R_hind : fbIa_GM_PFSw
+feedbackIa L_hind VL -> PFSw_NaP_L_hind : fbIa_VL_PFSw
+feedbackIa R_hind VL -> PFSw_NaP_R_hind : fbIa_VL_PFSw
+feedbackIa L_hind SO -> PFSw_NaP_L_hind : fbIa_SO_PFSw
+feedbackIa R_hind SO -> PFSw_NaP_R_hind : fbIa_SO_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_GA_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_GA_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_BF_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_BF_PFSw
+
+feedbackIa L_hind IP -> PFE_NaP_L_hind : fbIa_IP_PFE
+feedbackIa R_hind IP -> PFE_NaP_R_hind : fbIa_IP_PFE
+feedbackIa L_hind TA -> PFE_NaP_L_hind : fbIa_TA_PFE
+feedbackIa R_hind TA -> PFE_NaP_R_hind : fbIa_TA_PFE
+feedbackIa L_hind GM -> PFE_NaP_L_hind : fbIa_GM_PFE
+feedbackIa R_hind GM -> PFE_NaP_R_hind : fbIa_GM_PFE
+feedbackIa L_hind VL -> PFE_NaP_L_hind : fbIa_VL_PFE
+feedbackIa R_hind VL -> PFE_NaP_R_hind : fbIa_VL_PFE
+feedbackIa L_hind SO -> PFE_NaP_L_hind : fbIa_SO_PFE
+feedbackIa R_hind SO -> PFE_NaP_R_hind : fbIa_SO_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_GA_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_GA_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_BF_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_BF_PFE
+
+feedbackIa L_hind IP -> PFSt_NaP_L_hind : fbIa_IP_PFSt
+feedbackIa R_hind IP -> PFSt_NaP_R_hind : fbIa_IP_PFSt
+feedbackIa L_hind TA -> PFSt_NaP_L_hind : fbIa_TA_PFSt
+feedbackIa R_hind TA -> PFSt_NaP_R_hind : fbIa_TA_PFSt
+feedbackIa L_hind GM -> PFSt_NaP_L_hind : fbIa_GM_PFSt
+feedbackIa R_hind GM -> PFSt_NaP_R_hind : fbIa_GM_PFSt
+feedbackIa L_hind VL -> PFSt_NaP_L_hind : fbIa_VL_PFSt
+feedbackIa R_hind VL -> PFSt_NaP_R_hind : fbIa_VL_PFSt
+feedbackIa L_hind SO -> PFSt_NaP_L_hind : fbIa_SO_PFSt
+feedbackIa R_hind SO -> PFSt_NaP_R_hind : fbIa_SO_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_GA_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_GA_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_BF_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_BF_PFSt
+
+feedbackII L_hind IP -> PFF_NaP_L_hind : fbII_IP_PFF
+feedbackII R_hind IP -> PFF_NaP_R_hind : fbII_IP_PFF
+feedbackII L_hind TA -> PFF_NaP_L_hind : fbII_TA_PFF
+feedbackII R_hind TA -> PFF_NaP_R_hind : fbII_TA_PFF
+feedbackII L_hind GM -> PFF_NaP_L_hind : fbII_GM_PFF
+feedbackII R_hind GM -> PFF_NaP_R_hind : fbII_GM_PFF
+feedbackII L_hind VL -> PFF_NaP_L_hind : fbII_VL_PFF
+feedbackII R_hind VL -> PFF_NaP_R_hind : fbII_VL_PFF
+feedbackII L_hind SO -> PFF_NaP_L_hind : fbII_SO_PFF
+feedbackII R_hind SO -> PFF_NaP_R_hind : fbII_SO_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_GA_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_GA_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_BF_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_BF_PFF
+
+feedbackII L_hind IP -> PFSw_NaP_L_hind : fbII_IP_PFSw
+feedbackII R_hind IP -> PFSw_NaP_R_hind : fbII_IP_PFSw
+feedbackII L_hind TA -> PFSw_NaP_L_hind : fbII_TA_PFSw
+feedbackII R_hind TA -> PFSw_NaP_R_hind : fbII_TA_PFSw
+feedbackII L_hind GM -> PFSw_NaP_L_hind : fbII_GM_PFSw
+feedbackII R_hind GM -> PFSw_NaP_R_hind : fbII_GM_PFSw
+feedbackII L_hind VL -> PFSw_NaP_L_hind : fbII_VL_PFSw
+feedbackII R_hind VL -> PFSw_NaP_R_hind : fbII_VL_PFSw
+feedbackII L_hind SO -> PFSw_NaP_L_hind : fbII_SO_PFSw
+feedbackII R_hind SO -> PFSw_NaP_R_hind : fbII_SO_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_GA_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_GA_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_BF_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_BF_PFSw
+
+feedbackII L_hind IP -> PFE_NaP_L_hind : fbII_IP_PFE
+feedbackII R_hind IP -> PFE_NaP_R_hind : fbII_IP_PFE
+feedbackII L_hind TA -> PFE_NaP_L_hind : fbII_TA_PFE
+feedbackII R_hind TA -> PFE_NaP_R_hind : fbII_TA_PFE
+feedbackII L_hind GM -> PFE_NaP_L_hind : fbII_GM_PFE
+feedbackII R_hind GM -> PFE_NaP_R_hind : fbII_GM_PFE
+feedbackII L_hind VL -> PFE_NaP_L_hind : fbII_VL_PFE
+feedbackII R_hind VL -> PFE_NaP_R_hind : fbII_VL_PFE
+feedbackII L_hind SO -> PFE_NaP_L_hind : fbII_SO_PFE
+feedbackII R_hind SO -> PFE_NaP_R_hind : fbII_SO_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_GA_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_GA_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_BF_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_BF_PFE
+
+feedbackII L_hind IP -> PFSt_NaP_L_hind : fbII_IP_PFSt
+feedbackII R_hind IP -> PFSt_NaP_R_hind : fbII_IP_PFSt
+feedbackII L_hind TA -> PFSt_NaP_L_hind : fbII_TA_PFSt
+feedbackII R_hind TA -> PFSt_NaP_R_hind : fbII_TA_PFSt
+feedbackII L_hind GM -> PFSt_NaP_L_hind : fbII_GM_PFSt
+feedbackII R_hind GM -> PFSt_NaP_R_hind : fbII_GM_PFSt
+feedbackII L_hind VL -> PFSt_NaP_L_hind : fbII_VL_PFSt
+feedbackII R_hind VL -> PFSt_NaP_R_hind : fbII_VL_PFSt
+feedbackII L_hind SO -> PFSt_NaP_L_hind : fbII_SO_PFSt
+feedbackII R_hind SO -> PFSt_NaP_R_hind : fbII_SO_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_GA_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_GA_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_BF_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_BF_PFSt
+
+
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_L_front
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_R_front
+driveE 0 * t + 1 -> RGE_NaP_L_front
+driveE 0 * t + 1 -> RGE_NaP_R_front
+
+driveI 1.5e-05 * t + 0.0 -> V0V_L_front
+driveI 1.5e-05 * t + 0.0 -> V0V_R_front
+driveI 7.5e-05 * t + 0.0 -> V0D_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_R_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_R_front
+
+driveE 1.06e-05 * t + 0.0 -> RGF_NaP_L_hind
+driveE 1.06e-05 * t + 0.0 -> RGF_NaP_R_hind
+driveE 0 * t + 1 -> RGE_NaP_L_hind
+driveE 0 * t + 1 -> RGE_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_R_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_L_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_R_hind
+
+driveI 1.5e-05 * t + 0.0 -> V0V_L_hind
+driveI 1.5e-05 * t + 0.0 -> V0V_R_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_L_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_R_hind
+
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_L_hind
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_R_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_L_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_R_hind
+
+
+driveE 1.0e-05 * t + 0.0 -> V0c_E_L_hind
+driveE 1.0e-05 * t + 0.0 -> V0c_E_R_hind
+
+gLeak 2.8
+gLeak neurons RGF_NaP 4.5
+gLeak neurons RGE_NaP 4.5
+gLeak neurons PFF_NaP 4.5
+gLeak neurons PFE_NaP 4.5
+
+gLeak neurons PFSw_NaP 1
+gLeak neurons PFSt_NaP 1
+gLeak neurons V0c 1
+
+gLeak neurons Mn 1
+
+gLeak neurons InpFSw 5
+gLeak neurons InpESt 5
+
+gBarNaP 0
+gBarNaP neurons RGF_NaP 4.5
+gBarNaP neurons RGE_NaP 4.5
+gBarNaP neurons PFF_NaP 0.125
+gBarNaP neurons PFE_NaP 0.125
+gBarNaP neurons PFSw_NaP 0.125
+gBarNaP neurons PFSt_NaP 0.125
+
+Eleak -60
+Eleak neurons RGF_NaP -62.5
+Eleak neurons RGE_NaP -62.5
+Eleak neurons PFF_NaP -67.5
+Eleak neurons PFE_NaP -67.5
+Eleak neurons PFSw_NaP -67.5
+Eleak neurons PFSt_NaP -67.5
+
+Eleak neurons Mn -52.5
+Eleak neurons V0c -65
+
+
+
+ENa	 50	
+ESynE	 -10	
+ESynI	 -75	
+Cmem	 10	
+mk	 -6	
+mV12	 -40	
+hk	 4	
+hV12	 -45	
+htau	 160	
+hTauK	 15	
+hTauV12	 -35	
+hTau0	 80	 
+Vmax	 0	
+Vmin	 -50N_NaP 20
+N_Normal 148
+simDuration 92000
+scalingFactor 15
+stepwise 100 5000 0 1
+
+neuron RGF_NaP_L_hind
+neuron RGF_NaP_R_hind
+neuron RGE_NaP_L_hind
+neuron RGE_NaP_R_hind
+neuron RGF_NaP_L_front
+neuron RGF_NaP_R_front
+neuron RGE_NaP_L_front
+neuron RGE_NaP_R_front
+
+neuron PFF_NaP_L_hind
+neuron PFF_NaP_R_hind
+neuron PFE_NaP_L_hind
+neuron PFE_NaP_R_hind
+
+neuron PFSw_NaP_L_hind
+neuron PFSw_NaP_R_hind
+neuron PFSt_NaP_L_hind
+neuron PFSt_NaP_R_hind
+
+neuron InF_L_hind
+neuron InF_R_hind
+neuron InE_L_hind
+neuron InE_R_hind
+
+neuron InE2_L_hind
+neuron InE2_R_hind
+neuron InE2_L_front
+neuron InE2_R_front
+
+neuron InpF_L_hind
+neuron InpF_R_hind
+neuron InpE_L_hind
+neuron InpE_R_hind
+neuron V0D_L_hind
+neuron V0D_R_hind
+neuron V3E_L_hind
+neuron V3E_R_hind
+neuron V0V_L_hind
+neuron V0V_R_hind
+neuron InV0V_L_hind
+neuron InV0V_R_hind
+neuron InF_L_front
+neuron InF_R_front
+neuron InE_L_front
+neuron InE_R_front
+neuron InpF_L_front
+neuron InpF_R_front
+neuron InpE_L_front
+neuron InpE_R_front
+neuron V0D_L_front
+neuron V0D_R_front
+neuron V3E_L_front
+neuron V3E_R_front
+neuron V0V_L_front
+neuron V0V_R_front
+neuron InV0V_L_front
+neuron InV0V_R_front
+neuron V0D2_L_hind
+neuron V0D2_R_hind
+neuron V0D2_L_front
+neuron V0D2_R_front
+
+neuron InFront_L
+neuron InFront_R
+neuron V2aHom_L_hind
+neuron V2aHom_R_hind
+neuron V2aHom_L_front
+neuron V2aHom_R_front
+
+neuron V0V_diag_L_hind
+neuron V0V_diag_R_hind
+neuron V0V_diag_L_front
+neuron V0V_diag_R_front
+neuron V0D_diag_L_front
+neuron V0D_diag_R_front
+neuron V2aV0V_L_hind
+neuron V2aV0V_R_hind
+neuron V2aV0V_L_front
+neuron V2aV0V_R_front
+neuron V2aV0V_diag_L_hind
+neuron V2aV0V_diag_R_hind
+neuron V2aV0V_diag_L_front
+neuron V2aV0V_diag_R_front
+
+neuron V3F_L_hind
+neuron V3F_R_hind
+neuron V3F_L_front
+neuron V3F_R_front
+
+neuron InpSw_L_hind
+neuron InpSt_L_hind
+neuron InpFSw_L_hind
+neuron InpESt_L_hind
+neuron InpSw_R_hind
+neuron InpSt_R_hind
+neuron InpFSw_R_hind
+neuron InpESt_R_hind
+
+
+neuron InIaSw_L_hind
+neuron InIaSt_L_hind
+neuron InIaSw_R_hind
+neuron InIaSt_R_hind
+
+
+neuron InIaF_L_hind
+neuron InIaF_R_hind
+neuron InIaE_L_hind
+neuron InIaE_R_hind
+
+
+neuron MnIP_L_hind
+neuron MnIP_R_hind
+
+neuron MnGM_L_hind
+neuron MnGM_R_hind
+
+neuron MnVL_L_hind
+neuron MnVL_R_hind
+
+neuron MnTA_L_hind
+neuron MnTA_R_hind
+
+neuron MnSO_L_hind
+neuron MnSO_R_hind
+
+neuron MnBF_L_hind
+neuron MnBF_R_hind
+
+neuron MnGA_L_hind
+neuron MnGA_R_hind
+
+
+neuron InIbIP_L_hind
+neuron InIbIP_R_hind
+neuron InIbGM_L_hind
+neuron InIbGM_R_hind
+neuron InIbVL_L_hind
+neuron InIbVL_R_hind
+neuron InIbTA_L_hind
+neuron InIbTA_R_hind
+neuron InIbSO_L_hind
+neuron InIbSO_R_hind
+neuron InIbBF_L_hind
+neuron InIbBF_R_hind
+neuron InIbGA_L_hind
+neuron InIbGA_R_hind
+
+neuron InIaIP_L_hind
+neuron InIaIP_R_hind
+neuron InIaGM_L_hind
+neuron InIaGM_R_hind
+neuron InIaVL_L_hind
+neuron InIaVL_R_hind
+neuron InIaTA_L_hind
+neuron InIaTA_R_hind
+neuron InIaSO_L_hind
+neuron InIaSO_R_hind
+neuron InIaBF_L_hind
+neuron InIaBF_R_hind
+neuron InIaGA_L_hind
+neuron InIaGA_R_hind
+
+neuron InIIIP_L_hind
+neuron InIIIP_R_hind
+neuron IniIIIP_L_hind
+neuron IniIIIP_R_hind
+neuron InIITA_L_hind
+neuron InIITA_R_hind
+neuron IniIITA_L_hind
+neuron IniIITA_R_hind
+neuron IniIISO_L_hind
+neuron IniIISO_R_hind
+
+neuron V0c_E_L_hind
+neuron V0c_E_R_hind
+
+neuron Rn_IP_L_hind
+neuron Rn_IP_R_hind
+neuron Rn_GM_L_hind
+neuron Rn_GM_R_hind
+neuron Rn_VL_L_hind
+neuron Rn_VL_R_hind
+neuron Rn_TA_L_hind
+neuron Rn_TA_R_hind
+neuron Rn_SO_L_hind
+neuron Rn_SO_R_hind
+neuron Rn_BF_L_hind
+neuron Rn_BF_R_hind
+neuron Rn_GA_L_hind
+neuron Rn_GA_R_hind
+
+
+variable RGFtoV0D 7
+variable CINItoRGF 0.3
+
+variable inV0VtoRGF 0.7
+variable V0VtoRGFdiagfh 0.05 
+variable V0VtoRGFdiaghf 0.4 0.65 
+
+variable V0DtoRGF 0.7
+variable V0DtoRGFdiagfh .1
+
+variable V3EtoInE 0.0
+variable V3FtoRGF 0.3
+variable V3EtoRGE 0.2
+
+variable V3EtoInE2 8.0
+variable InE2toRGF .4
+
+ 
+variable V2aHomfh .1
+variable V2aHomhf 0.5 .25 1.25 
+variable inFH .1
+
+variable V0cEXT 4.0
+variable InIaFMn 6.0
+variable InIaEMn 6.0
+variable InIaStMn 6.0
+variable InIaSwMn 6.0
+variable InIbMn 3.0
+
+variable FtoIP   1.0
+variable FtoTA   1.0 
+variable FtoBF   1.0 
+variable FtoSO   1.0 
+variable SwtoIP  1.5
+variable SwtoTA  1.5
+variable SwtoBF  1.5
+variable EtoIP   0.0
+variable EtoGM   .5 
+variable EtoVL   .5 
+variable EtoSO   .5 
+variable EtoBF   .5 
+variable EtoGA   2 
+variable SttoIP   0.0
+variable SttoGM  .75
+variable SttoVL  .75
+variable SttoSO  .75
+variable SttoBF  .75
+variable SttoGA  2
+variable SwtoVL 0.0
+
+variable fbIb_SO_InRGE 0
+variable fbIb_SO_RGE 0
+variable fbIb_GA_InRGE 0
+variable fbIb_GA_RGE 0
+variable fbII_TA_InII 0
+variable fbII_IP_InII 0
+variable InII_IP_RGF 0
+variable InII_IP_InRGF 0
+variable InII_TA_RGF 0
+variable InII_TA_InRGF 0
+variable fbCutInRGE 0
+variable fbCutRGE 0 
+variable fbCutV0D 0 
+variable fbCutV0V 0 
+variable fbCutV3 0
+
+variable fbII_SO_IniII 0
+variable IniII_SO_VL 0
+
+variable fbII_IP_IniII 0
+variable IniII_IP_GM 0
+variable IniII_IP_BF 0
+variable IniII_IP_VL 0
+variable fbII_TA_IniII 0
+variable IniII_TA_VL 0
+variable IniII_TA_BF 0
+
+variable fbIb_GM 0
+variable fbIb_VL 0
+variable fbIb_SO 0
+variable fbIb_BF 0
+variable fbIb_GA 0
+variable fbIb_IP 0
+variable fbIb_TA 0
+
+variable fbIa_GM 0.0
+variable fbIa_VL 0.0
+variable fbIa_SO 0.0
+variable fbIa_BF 0.0
+variable fbIa_GA 0.0
+variable fbIa_IP 0.0
+variable fbIa_TA 0.0
+
+variable fbIa_GM_Ia 0.0
+variable fbIa_VL_Ia 0.0
+variable fbIa_SO_Ia 0.0
+variable fbIa_BF_Ia 0.0
+variable fbIa_GA_Ia 0.0
+variable fbIa_IP_Ia 0.0
+variable fbIa_TA_Ia 0.0
+
+variable fbIb_IP_Ibi 0.0
+variable fbIb_TA_Ibi 0.0
+variable fbIb_GM_Ibi 0.0
+variable fbIb_VL_Ibi 0.0
+variable fbIb_SO_Ibi 0.0
+variable fbIb_BF_Ibi 0.0
+variable fbIb_GA_Ibi 0.0
+
+variable fbIa_IP_ant 0.0
+variable fbIa_TA_ant 0.0
+variable fbIa_GM_ant 0.0
+variable fbIa_VL_ant 0.0
+variable fbIa_SO_ant 0.0
+variable fbIa_GA_ant 0.0
+variable fbIa_BF_ant 0.0
+variable InIaMn 5.0
+
+variable fbIb_GM_PFE 0.0
+variable fbIb_VL_PFE 0.0
+variable fbIb_SO_PFE 0.0
+variable fbIb_BF_PFE 0.0
+variable fbIb_GA_PFE 0.0
+
+variable fbIb_GM_PFSt 0.0
+variable fbIb_VL_PFSt 0.0
+variable fbIb_SO_PFSt 0.0
+variable fbIb_BF_PFSt 0.0
+variable fbIb_GA_PFSt 0.0
+
+variable fbIa_IP_PFSw 0.0
+variable fbIa_TA_PFSw 0.0
+variable fbIa_GM_PFSw 0.0
+variable fbIa_VL_PFSw 0.0
+variable fbIa_SO_PFSw 0.0
+variable fbIa_GA_PFSw 0.0
+variable fbIa_BF_PFSw 0.0
+variable fbIa_IP_PFF 0.0
+variable fbIa_TA_PFF 0.0
+variable fbIa_GM_PFF 0.0
+variable fbIa_VL_PFF 0.0
+variable fbIa_SO_PFF 0.0
+variable fbIa_GA_PFF 0.0
+variable fbIa_BF_PFF 0.0
+variable fbIa_IP_PFSt 0.0
+variable fbIa_TA_PFSt 0.0
+variable fbIa_GM_PFSt 0.0
+variable fbIa_VL_PFSt 0.0
+variable fbIa_SO_PFSt 0.0
+variable fbIa_GA_PFSt 0.0
+variable fbIa_BF_PFSt 0.0
+variable fbIa_IP_PFE 0.0
+variable fbIa_TA_PFE 0.0
+variable fbIa_GM_PFE 0.0
+variable fbIa_VL_PFE 0.0
+variable fbIa_SO_PFE 0.0
+variable fbIa_GA_PFE 0.0
+variable fbIa_BF_PFE 0.0
+
+variable fbII_IP_PFSw 0.0
+variable fbII_TA_PFSw 0.0
+variable fbII_GM_PFSw 0.0
+variable fbII_VL_PFSw 0.0
+variable fbII_SO_PFSw 0.0
+variable fbII_GA_PFSw 0.0
+variable fbII_BF_PFSw 0.0
+variable fbII_IP_PFF 0.0
+variable fbII_TA_PFF 0.0
+variable fbII_GM_PFF 0.0
+variable fbII_VL_PFF 0.0
+variable fbII_SO_PFF 0.0
+variable fbII_GA_PFF 0.0
+variable fbII_BF_PFF 0.0
+variable fbII_IP_PFSt 0.0
+variable fbII_TA_PFSt 0.0
+variable fbII_GM_PFSt 0.0
+variable fbII_VL_PFSt 0.0
+variable fbII_SO_PFSt 0.0
+variable fbII_GA_PFSt 0.0
+variable fbII_BF_PFSt 0.0
+variable fbII_IP_PFE 0.0
+variable fbII_TA_PFE 0.0
+variable fbII_GM_PFE 0.0
+variable fbII_VL_PFE 0.0
+variable fbII_SO_PFE 0.0
+variable fbII_GA_PFE 0.0
+variable fbII_BF_PFE 0.0
+
+variable MnToRn 2
+variable RnToMn 2
+variable RnToIa 2
+
+//hind RG level
+connectionE RGF_NaP_L_hind -> InF_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InF_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InE_L_hind : 4 + 0 * t
+connectionE RGE_NaP_R_hind -> InE_R_hind : 4 + 0 * t
+
+connectionI InF_L_hind -> RGE_NaP_L_hind : 10 + 0 * t
+connectionI InF_R_hind -> RGE_NaP_R_hind : 10 + 0 * t
+connectionI InE_L_hind -> RGF_NaP_L_hind : .8 + 0 * t
+connectionI InE_R_hind -> RGF_NaP_R_hind : .8 + 0 * t
+
+//hind PF level
+
+connectionE RGF_NaP_L_hind -> PFF_NaP_L_hind : 8 + 0 * t
+connectionE RGF_NaP_R_hind -> PFF_NaP_R_hind : 8 + 0 * t
+connectionE RGE_NaP_L_hind -> PFE_NaP_L_hind : 7 + 0 * t
+connectionE RGE_NaP_R_hind -> PFE_NaP_R_hind : 7 + 0 * t
+
+connectionE RGF_NaP_L_hind -> PFSw_NaP_L_hind : 6 + 0 * t
+connectionE RGF_NaP_R_hind -> PFSw_NaP_R_hind : 6 + 0 * t
+connectionE RGE_NaP_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionE PFF_NaP_L_hind -> InpF_L_hind : 8 + 0 * t
+connectionE PFF_NaP_R_hind -> InpF_R_hind : 8 + 0 * t
+connectionE PFE_NaP_L_hind -> InpE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InpE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InpSw_L_hind : 15 + 0 * t
+connectionE PFSw_NaP_R_hind -> InpSw_R_hind : 15 + 0 * t
+connectionE PFSt_NaP_L_hind -> InpSt_L_hind : 15 + 0 * t
+connectionE PFSt_NaP_R_hind -> InpSt_R_hind : 15 + 0 * t
+
+connectionI InpF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InpF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InpE_L_hind -> PFF_NaP_L_hind : 10 + 0 * t
+connectionI InpE_R_hind -> PFF_NaP_R_hind : 10 + 0 * t
+
+connectionI InpF_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpF_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+connectionI InpE_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpE_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpF_L_hind -> PFSw_NaP_L_hind : 1 + 0 * t
+connectionI InpF_R_hind -> PFSw_NaP_R_hind : 1 + 0 * t
+connectionI InpE_L_hind -> PFSt_NaP_L_hind : 5 + 0 * t
+connectionI InpE_R_hind -> PFSt_NaP_R_hind : 5 + 0 * t
+
+connectionI InpSw_L_hind -> PFSt_NaP_L_hind : 20 + 0 * t
+connectionI InpSw_R_hind -> PFSt_NaP_R_hind : 20 + 0 * t
+connectionI InpSt_L_hind -> PFSw_NaP_L_hind : 2.5 + 0 * t
+connectionI InpSt_R_hind -> PFSw_NaP_R_hind : 2.5 + 0 * t
+
+connectionI InpSw_L_hind -> PFF_NaP_L_hind : 7.5 + 0 * t
+connectionI InpSw_R_hind -> PFF_NaP_R_hind : 7.5 + 0 * t
+connectionI InpSt_L_hind -> PFE_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFE_NaP_R_hind : 20 + 0 * t
+
+connectionI InpSt_L_hind -> PFF_NaP_L_hind : 20 + 0 * t
+connectionI InpSt_R_hind -> PFF_NaP_R_hind : 20 + 0 * t
+connectionI InpSw_L_hind -> PFE_NaP_L_hind : 5 + 0 * t
+connectionI InpSw_R_hind -> PFE_NaP_R_hind : 5 + 0 * t
+
+connectionI InF_L_hind -> PFE_NaP_L_hind : 15 + 0 * t
+connectionI InF_R_hind -> PFE_NaP_R_hind : 15 + 0 * t
+connectionI InE_L_hind -> PFF_NaP_L_hind : 15 + 0 * t
+connectionI InE_R_hind -> PFF_NaP_R_hind : 15 + 0 * t
+
+connectionE RGF_NaP_L_hind -> InpFSw_L_hind : 4 + 0 * t
+connectionE RGF_NaP_R_hind -> InpFSw_R_hind : 4 + 0 * t
+connectionE RGE_NaP_L_hind -> InpESt_L_hind : 3.5 + 0 * t
+connectionE RGE_NaP_R_hind -> InpESt_R_hind : 3.5 + 0 * t
+
+connectionI InpFSw_L_hind -> PFSw_NaP_L_hind : 30 + 0 * t
+connectionI InpFSw_R_hind -> PFSw_NaP_R_hind : 30 + 0 * t
+connectionI InpESt_L_hind -> PFSt_NaP_L_hind : 30 + 0 * t
+connectionI InpESt_R_hind -> PFSt_NaP_R_hind : 30 + 0 * t
+
+connectionE PFSt_NaP_L_hind -> V0c_E_L_hind : 0.8 + 0 * t
+connectionE PFSt_NaP_R_hind -> V0c_E_R_hind : 0.8 + 0 * t
+connectionI InpF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InpF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+connectionI InF_L_hind -> V0c_E_L_hind : 8 + 0 * t
+connectionI InF_R_hind -> V0c_E_R_hind : 8 + 0 * t
+
+connectionC V0c_E_L_hind -> MnGM_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGM_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnVL_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnVL_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnSO_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnSO_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnBF_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnBF_R_hind : V0cEXT + 0 * t
+connectionC V0c_E_L_hind -> MnGA_L_hind : V0cEXT + 0 * t
+connectionC V0c_E_R_hind -> MnGA_R_hind : V0cEXT + 0 * t
+
+//hind Mn level
+
+connectionE PFF_NaP_L_hind  -> MnIP_L_hind : FtoIP + 0 * t
+connectionE PFF_NaP_R_hind  -> MnIP_R_hind : FtoIP + 0 * t
+connectionE PFF_NaP_L_hind  -> MnTA_L_hind : FtoTA + 0 * t
+connectionE PFF_NaP_R_hind  -> MnTA_R_hind : FtoTA + 0 * t
+connectionE PFF_NaP_L_hind  -> MnBF_L_hind : FtoBF + 0 * t
+connectionE PFF_NaP_R_hind  -> MnBF_R_hind : FtoBF + 0 * t
+connectionE PFF_NaP_L_hind  -> MnSO_L_hind : FtoSO + 0 * t
+connectionE PFF_NaP_R_hind  -> MnSO_R_hind : FtoSO + 0 * t
+
+connectionE PFSw_NaP_L_hind -> MnIP_L_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_R_hind -> MnIP_R_hind : SwtoIP + 0 * t
+connectionE PFSw_NaP_L_hind -> MnTA_L_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_R_hind -> MnTA_R_hind : SwtoTA + 0 * t
+connectionE PFSw_NaP_L_hind -> MnBF_L_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_R_hind -> MnBF_R_hind : SwtoBF + 0 * t
+connectionE PFSw_NaP_L_hind -> MnVL_L_hind : SwtoVL + 0 * t
+connectionE PFSw_NaP_R_hind -> MnVL_R_hind : SwtoVL + 0 * t
+
+connectionE PFE_NaP_L_hind  -> MnIP_L_hind : EtoIP + 0 * t
+connectionE PFE_NaP_R_hind  -> MnIP_R_hind : EtoIP + 0 * t
+connectionE PFE_NaP_L_hind  -> MnGM_L_hind : EtoGM + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGM_R_hind : EtoGM + 0 * t
+connectionE PFE_NaP_L_hind  -> MnVL_L_hind : EtoVL + 0 * t
+connectionE PFE_NaP_R_hind  -> MnVL_R_hind : EtoVL + 0 * t
+connectionE PFE_NaP_L_hind  -> MnSO_L_hind : EtoSO + 0 * t
+connectionE PFE_NaP_R_hind  -> MnSO_R_hind : EtoSO + 0 * t
+connectionE PFE_NaP_L_hind  -> MnBF_L_hind : EtoBF + 0 * t
+connectionE PFE_NaP_R_hind  -> MnBF_R_hind : EtoBF + 0 * t
+connectionE PFE_NaP_L_hind  -> MnGA_L_hind : EtoGA + 0 * t
+connectionE PFE_NaP_R_hind  -> MnGA_R_hind : EtoGA + 0 * t
+
+connectionE PFSt_NaP_L_hind -> MnIP_L_hind : SttoIP + 0 * t
+connectionE PFSt_NaP_R_hind -> MnIP_R_hind : SttoIP + 0 * t
+connectionE PFSt_NaP_L_hind -> MnGM_L_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGM_R_hind : SttoGM + 0 * t
+connectionE PFSt_NaP_L_hind -> MnVL_L_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_R_hind -> MnVL_R_hind : SttoVL + 0 * t
+connectionE PFSt_NaP_L_hind -> MnSO_L_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_R_hind -> MnSO_R_hind : SttoSO + 0 * t
+connectionE PFSt_NaP_L_hind -> MnBF_L_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_R_hind -> MnBF_R_hind : SttoBF + 0 * t
+connectionE PFSt_NaP_L_hind -> MnGA_L_hind : SttoGA + 0 * t
+connectionE PFSt_NaP_R_hind -> MnGA_R_hind : SttoGA + 0 * t
+
+connectionE PFF_NaP_L_hind -> InIaF_L_hind : 10 + 0 * t
+connectionE PFF_NaP_R_hind -> InIaF_R_hind : 10 + 0 * t
+connectionE PFE_NaP_L_hind -> InIaE_L_hind : 10 + 0 * t
+connectionE PFE_NaP_R_hind -> InIaE_R_hind : 10 + 0 * t
+
+connectionE PFSw_NaP_L_hind -> InIaSw_L_hind : 5 + 0 * t
+connectionE PFSw_NaP_R_hind -> InIaSw_R_hind : 5 + 0 * t
+connectionE PFSt_NaP_L_hind -> InIaSt_L_hind : 5 + 0 * t
+connectionE PFSt_NaP_R_hind -> InIaSt_R_hind : 5 + 0 * t
+
+connectionI InIaE_L_hind -> MnIP_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnIP_R_hind : InIaEMn + 0 * t
+connectionI InIaE_L_hind -> MnTA_L_hind : InIaEMn + 0 * t
+connectionI InIaE_R_hind -> MnTA_R_hind : InIaEMn + 0 * t
+
+connectionI InIaF_L_hind -> MnGM_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGM_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnVL_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnVL_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnSO_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnSO_R_hind : InIaFMn + 0 * t
+connectionI InIaF_L_hind -> MnGA_L_hind : InIaFMn + 0 * t
+connectionI InIaF_R_hind -> MnGA_R_hind : InIaFMn + 0 * t
+
+connectionI InIaSt_L_hind -> MnIP_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnIP_R_hind : InIaStMn + 0 * t
+connectionI InIaSt_L_hind -> MnTA_L_hind : InIaStMn + 0 * t
+connectionI InIaSt_R_hind -> MnTA_R_hind : InIaStMn + 0 * t
+
+connectionI InIaSw_L_hind -> MnGM_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGM_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnVL_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnVL_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnSO_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnSO_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnBF_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnBF_R_hind : InIaSwMn + 0 * t
+connectionI InIaSw_L_hind -> MnGA_L_hind : InIaSwMn + 0 * t
+connectionI InIaSw_R_hind -> MnGA_R_hind : InIaSwMn + 0 * t
+
+connectionI InIbIP_L_hind -> MnIP_L_hind : InIbMn + 0 * t
+connectionI InIbIP_R_hind -> MnIP_R_hind : InIbMn + 0 * t
+connectionI InIbTA_L_hind -> MnTA_L_hind : InIbMn + 0 * t
+connectionI InIbTA_R_hind -> MnTA_R_hind : InIbMn + 0 * t
+connectionI InIbGM_L_hind -> MnGM_L_hind : InIbMn + 0 * t
+connectionI InIbGM_R_hind -> MnGM_R_hind : InIbMn + 0 * t
+connectionI InIbVL_L_hind -> MnVL_L_hind : InIbMn + 0 * t
+connectionI InIbVL_R_hind -> MnVL_R_hind : InIbMn + 0 * t
+connectionI InIbSO_L_hind -> MnSO_L_hind : InIbMn + 0 * t
+connectionI InIbSO_R_hind -> MnSO_R_hind : InIbMn + 0 * t
+connectionI InIbBF_L_hind -> MnBF_L_hind : InIbMn + 0 * t
+connectionI InIbBF_R_hind -> MnBF_R_hind : InIbMn + 0 * t
+connectionI InIbGA_L_hind -> MnGA_L_hind : InIbMn + 0 * t
+connectionI InIbGA_R_hind -> MnGA_R_hind : InIbMn + 0 * t
+
+connectionI InIaIP_L_hind -> MnGM_L_hind : InIaMn + 0 * t
+connectionI InIaIP_R_hind -> MnGM_R_hind : InIaMn + 0 * t
+connectionI InIaTA_L_hind -> MnSO_L_hind : InIaMn + 0 * t
+connectionI InIaTA_R_hind -> MnSO_R_hind : InIaMn + 0 * t
+connectionI InIaGM_L_hind -> MnIP_L_hind : InIaMn + 0 * t
+connectionI InIaGM_R_hind -> MnIP_R_hind : InIaMn + 0 * t
+connectionI InIaVL_L_hind -> MnBF_L_hind : InIaMn + 0 * t
+connectionI InIaVL_R_hind -> MnBF_R_hind : InIaMn + 0 * t
+connectionI InIaBF_L_hind -> MnVL_L_hind : InIaMn + 0 * t
+connectionI InIaBF_R_hind -> MnVL_R_hind : InIaMn + 0 * t
+connectionI InIaSO_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaSO_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+connectionI InIaGA_L_hind -> MnTA_L_hind : InIaMn + 0 * t
+connectionI InIaGA_R_hind -> MnTA_R_hind : InIaMn + 0 * t
+
+connectionE MnIP_L_hind -> Rn_IP_L_hind : MnToRn + 0 * t
+connectionE MnIP_R_hind -> Rn_IP_R_hind : MnToRn + 0 * t
+connectionE MnGM_L_hind -> Rn_GM_L_hind : MnToRn + 0 * t
+connectionE MnGM_R_hind -> Rn_GM_R_hind : MnToRn + 0 * t
+connectionE MnVL_L_hind -> Rn_VL_L_hind : MnToRn + 0 * t
+connectionE MnVL_R_hind -> Rn_VL_R_hind : MnToRn + 0 * t
+connectionE MnTA_L_hind -> Rn_TA_L_hind : MnToRn + 0 * t
+connectionE MnTA_R_hind -> Rn_TA_R_hind : MnToRn + 0 * t
+connectionE MnSO_L_hind -> Rn_SO_L_hind : MnToRn + 0 * t
+connectionE MnSO_R_hind -> Rn_SO_R_hind : MnToRn + 0 * t
+connectionE MnBF_L_hind -> Rn_BF_L_hind : MnToRn + 0 * t
+connectionE MnBF_R_hind -> Rn_BF_R_hind : MnToRn + 0 * t
+connectionE MnGA_L_hind -> Rn_GA_L_hind : MnToRn + 0 * t
+connectionE MnGA_R_hind -> Rn_GA_R_hind : MnToRn + 0 * t
+
+connectionI Rn_IP_L_hind -> MnIP_L_hind : RnToMn + 0 * t
+connectionI Rn_IP_R_hind -> MnIP_R_hind : RnToMn + 0 * t
+connectionI Rn_GM_L_hind -> MnGM_L_hind : RnToMn + 0 * t
+connectionI Rn_GM_R_hind -> MnGM_R_hind : RnToMn + 0 * t
+connectionI Rn_VL_L_hind -> MnVL_L_hind : RnToMn + 0 * t
+connectionI Rn_VL_R_hind -> MnVL_R_hind : RnToMn + 0 * t
+connectionI Rn_TA_L_hind -> MnTA_L_hind : RnToMn + 0 * t
+connectionI Rn_TA_R_hind -> MnTA_R_hind : RnToMn + 0 * t
+connectionI Rn_SO_L_hind -> MnSO_L_hind : RnToMn + 0 * t
+connectionI Rn_SO_R_hind -> MnSO_R_hind : RnToMn + 0 * t
+connectionI Rn_BF_L_hind -> MnBF_L_hind : RnToMn + 0 * t
+connectionI Rn_BF_R_hind -> MnBF_R_hind : RnToMn + 0 * t
+connectionI Rn_GA_L_hind -> MnGA_L_hind : RnToMn + 0 * t
+connectionI Rn_GA_R_hind -> MnGA_R_hind : RnToMn + 0 * t
+
+connectionI Rn_IP_L_hind -> InIaF_L_hind : RnToIa + 0 * t
+connectionI Rn_IP_R_hind -> InIaF_R_hind : RnToIa + 0 * t
+connectionI Rn_TA_L_hind -> InIaF_L_hind : RnToIa + 0 * t
+connectionI Rn_TA_R_hind -> InIaF_R_hind : RnToIa + 0 * t
+connectionI Rn_GM_L_hind -> InIaE_L_hind : RnToIa + 0 * t
+connectionI Rn_GM_R_hind -> InIaE_R_hind : RnToIa + 0 * t
+connectionI Rn_VL_L_hind -> InIaE_L_hind : RnToIa + 0 * t
+connectionI Rn_VL_R_hind -> InIaE_R_hind : RnToIa + 0 * t
+connectionI Rn_SO_L_hind -> InIaE_L_hind : RnToIa + 0 * t
+connectionI Rn_SO_R_hind -> InIaE_R_hind : RnToIa + 0 * t
+connectionI Rn_BF_L_hind -> InIaE_L_hind : RnToIa + 0 * t
+connectionI Rn_BF_R_hind -> InIaE_R_hind : RnToIa + 0 * t
+connectionI Rn_GA_L_hind -> InIaE_L_hind : RnToIa + 0 * t
+connectionI Rn_GA_R_hind -> InIaE_R_hind : RnToIa + 0 * t
+
+
+//hind CINs
+
+connectionE RGF_NaP_L_hind -> V0D_L_hind : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_hind -> V0D_R_hind : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_hind -> V2aV0V_L_hind : 10 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_R_hind : 10 + 0 * t
+
+connectionE V2aV0V_L_hind -> V0V_L_hind : 10 + 0 * t
+connectionE V2aV0V_R_hind -> V0V_R_hind : 10 + 0 * t
+
+//connectionE RGE_NaP_L_hind -> V0D2_L_hind : 4. + 0 * t
+//connectionE RGE_NaP_R_hind -> V0D2_R_hind : 4. + 0 * t
+
+
+connectionE RGE_NaP_L_hind -> V3E_L_hind : 3.5 + 0 * t
+connectionE RGE_NaP_R_hind -> V3E_R_hind : 3.5 + 0 * t
+
+connectionE RGF_NaP_L_hind -> V3F_L_hind : 3.5 + 0 * t
+connectionE RGF_NaP_R_hind -> V3F_R_hind : 3.5 + 0 * t
+
+connectionI V0D_L_hind -o RGF_NaP_R_hind : V0DtoRGF + 0 * t
+connectionI V0D_R_hind -o RGF_NaP_L_hind : V0DtoRGF + 0 * t
+
+//connectionI V0D_L_hind -o PFF_NaP_R_hind : .4 + 0 * t
+//connectionI V0D_R_hind -o PFF_NaP_L_hind : .4 + 0 * t
+
+//connectionI V0D_L_hind -o MnF_NaP_R_hind : .4 + 0 * t
+//connectionI V0D_R_hind -o MnF_NaP_L_hind : .4 + 0 * t
+
+//connectionI V0D2_L_hind -o RGF_NaP_R_hind : CINItoRGF + 0 * t
+//connectionI V0D2_R_hind -o RGF_NaP_L_hind : CINItoRGF + 0 * t
+
+connectionE V0V_L_hind -> InV0V_R_hind : 6 + 0 * t
+connectionE V0V_R_hind -> InV0V_L_hind : 6 + 0 * t
+
+connectionI InV0V_L_hind -o RGF_NaP_L_hind : inV0VtoRGF + 0 * t
+connectionI InV0V_R_hind -o RGF_NaP_R_hind : inV0VtoRGF + 0 * t
+
+//connectionI InV0V_L_hind -o PFF_NaP_L_hind : 3 + 0 * t
+//connectionI InV0V_R_hind -o PFF_NaP_R_hind : 3 + 0 * t
+
+connectionE V3E_L_hind -> RGE_NaP_R_hind : V3EtoRGE + 0 * t
+connectionE V3E_R_hind -> RGE_NaP_L_hind : V3EtoRGE + 0 * t
+
+connectionE V3E_L_hind -> InE_R_hind : V3EtoInE + 0 * t
+connectionE V3E_R_hind -> InE_L_hind : V3EtoInE + 0 * t
+
+connectionE V3E_L_hind -> InE2_R_hind : V3EtoInE2 + 0 * t
+connectionE V3E_R_hind -> InE2_L_hind : V3EtoInE2 + 0 * t
+
+connectionI InE2_L_hind -> RGF_NaP_L_hind : InE2toRGF + 0 * t
+connectionI InE2_R_hind -> RGF_NaP_R_hind : InE2toRGF + 0 * t
+
+connectionE V3F_L_hind -> RGF_NaP_R_hind : V3FtoRGF + 0 * t
+connectionE V3F_R_hind -> RGF_NaP_L_hind : V3FtoRGF + 0 * t
+
+
+//forelimbs
+//fore RG level
+
+connectionE RGF_NaP_L_front -> InF_L_front : 4 + 0 * t
+connectionE RGF_NaP_R_front -> InF_R_front : 4 + 0 * t
+connectionE RGE_NaP_L_front -> InE_L_front : 4 + 0 * t
+connectionE RGE_NaP_R_front -> InE_R_front : 4 + 0 * t
+
+connectionI InF_L_front -> RGE_NaP_L_front : 10 + 0 * t
+connectionI InF_R_front -> RGE_NaP_R_front : 10 + 0 * t
+connectionI InE_L_front -> RGF_NaP_L_front : .8 + 0 * t
+connectionI InE_R_front -> RGF_NaP_R_front : .8 + 0 * t
+
+
+
+//fore CINs
+
+connectionE RGF_NaP_L_front -> V0D_L_front : RGFtoV0D + 0 * t
+connectionE RGF_NaP_R_front -> V0D_R_front : RGFtoV0D + 0 * t
+
+connectionE RGF_NaP_L_front -> V2aV0V_L_front : 10 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_R_front : 10 + 0 * t
+
+connectionE V2aV0V_L_front -> V0V_L_front : 10 + 0 * t
+connectionE V2aV0V_R_front -> V0V_R_front : 10 + 0 * t
+
+//connectionE RGE_NaP_L_front -> V0D2_L_front : 4. + 0 * t
+//connectionE RGE_NaP_R_front -> V0D2_R_front : 4. + 0 * t
+
+connectionE RGF_NaP_L_front -> V3F_L_front : 3.5 + 0 * t
+connectionE RGF_NaP_R_front -> V3F_R_front : 3.5 + 0 * t
+
+connectionE RGE_NaP_L_front -> V3E_L_front : 3.5 + 0 * t
+connectionE RGE_NaP_R_front -> V3E_R_front : 3.5 + 0 * t
+
+connectionI V0D_L_front -o RGF_NaP_R_front : V0DtoRGF + 0 * t
+connectionI V0D_R_front -o RGF_NaP_L_front : V0DtoRGF + 0 * t
+
+
+//connectionI V0D2_L_front -o RGF_NaP_R_front : CINItoRGF + 0 * t
+//connectionI V0D2_R_front -o RGF_NaP_L_front : CINItoRGF + 0 * t
+
+connectionE V0V_L_front -> InV0V_R_front : 6 + 0 * t
+connectionE V0V_R_front -> InV0V_L_front : 6 + 0 * t
+
+connectionI InV0V_L_front -o RGF_NaP_L_front : inV0VtoRGF + 0 * t
+connectionI InV0V_R_front -o RGF_NaP_R_front : inV0VtoRGF + 0 * t
+
+connectionE V3E_L_front -> RGE_NaP_R_front : V3EtoRGE + 0 * t
+connectionE V3E_R_front -> RGE_NaP_L_front : V3EtoRGE + 0 * t
+
+connectionE V3E_L_front -> InE_R_front : V3EtoInE + 0 * t
+connectionE V3E_R_front -> InE_L_front : V3EtoInE + 0 * t
+
+connectionE V3E_L_front -> InE2_R_front : V3EtoInE2 + 0 * t
+connectionE V3E_R_front -> InE2_L_front : V3EtoInE2 + 0 * t
+
+connectionI InE2_L_front -> RGF_NaP_L_front : InE2toRGF + 0 * t
+connectionI InE2_R_front -> RGF_NaP_R_front : InE2toRGF + 0 * t
+
+connectionE V3F_L_front -> RGF_NaP_R_front : V3FtoRGF + 0 * t
+connectionE V3F_R_front -> RGF_NaP_L_front : V3FtoRGF + 0 * t
+
+
+
+//homolateral interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> InFront_L : 7 + 0 * t 
+connectionE RGF_NaP_R_front -> InFront_R : 7 + 0 * t 
+
+connectionI InFront_L -> RGF_NaP_L_hind : inFH + 0 * t
+connectionI InFront_R -> RGF_NaP_R_hind : inFH + 0 * t
+
+connectionE RGE_NaP_L_hind -> V2aHom_L_hind : 5 + 0 * t
+connectionE RGE_NaP_R_hind -> V2aHom_R_hind : 5 + 0 * t
+connectionE RGE_NaP_L_front -> V2aHom_L_front : 5 + 0 * t
+connectionE RGE_NaP_R_front -> V2aHom_R_front : 5 + 0 * t
+
+connectionE V2aHom_L_hind -> RGF_NaP_L_front : V2aHomhf + 0 * t
+connectionE V2aHom_R_hind -> RGF_NaP_R_front : V2aHomhf + 0 * t
+connectionE V2aHom_L_front -> RGF_NaP_L_hind : V2aHomfh + 0 * t
+connectionE V2aHom_R_front -> RGF_NaP_R_hind : V2aHomfh + 0 * t
+
+//diagonal interactions between hind and forelimbs
+connectionE RGF_NaP_L_front -> V2aV0V_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V2aV0V_diag_R_front : 5 + 0 * t
+connectionE RGF_NaP_L_hind -> V2aV0V_diag_L_hind : 5 + 0 * t
+connectionE RGF_NaP_R_hind -> V2aV0V_diag_R_hind : 5 + 0 * t
+
+connectionE V2aV0V_diag_L_front -> V0V_diag_L_front : 9 + 0 * t
+connectionE V2aV0V_diag_R_front -> V0V_diag_R_front : 9 + 0 * t
+connectionE V2aV0V_diag_L_hind -> V0V_diag_L_hind : 9 + 0 * t
+connectionE V2aV0V_diag_R_hind -> V0V_diag_R_hind : 9 + 0 * t
+
+connectionE V0V_diag_L_front -> RGF_NaP_R_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_R_front -> RGF_NaP_L_hind : V0VtoRGFdiagfh + 0 * t
+connectionE V0V_diag_L_hind -> RGF_NaP_R_front : V0VtoRGFdiaghf + 0 * t
+connectionE V0V_diag_R_hind -> RGF_NaP_L_front : V0VtoRGFdiaghf + 0 * t
+
+connectionE RGF_NaP_L_front -> V0D_diag_L_front : 5 + 0 * t
+connectionE RGF_NaP_R_front -> V0D_diag_R_front : 5 + 0 * t
+
+connectionI V0D_diag_L_front -> RGF_NaP_R_hind : V0DtoRGFdiagfh + 0 * t
+connectionI V0D_diag_R_front -> RGF_NaP_L_hind : V0DtoRGFdiagfh + 0 * t
+
+connectionE InIIIP_L_hind -> RGF_NaP_L_hind : InII_IP_RGF 
+connectionE InIIIP_R_hind -> RGF_NaP_R_hind : InII_IP_RGF 
+connectionE InIITA_L_hind -> RGF_NaP_L_hind : InII_TA_RGF 
+connectionE InIITA_R_hind -> RGF_NaP_R_hind : InII_TA_RGF 
+
+connectionE InIIIP_L_hind -> InF_L_hind : InII_IP_InRGF 
+connectionE InIIIP_R_hind -> InF_R_hind : InII_IP_InRGF 
+connectionE InIITA_L_hind -> InF_L_hind : InII_TA_InRGF 
+connectionE InIITA_R_hind -> InF_R_hind : InII_TA_InRGF 
+
+connectionI IniIISO_L_hind -> MnVL_L_hind : IniII_SO_VL + 0 * t
+connectionI IniIISO_R_hind -> MnVL_R_hind : IniII_SO_VL + 0 * t
+
+connectionI IniIIIP_L_hind -> MnGM_L_hind : IniII_IP_GM 
+connectionI IniIIIP_R_hind -> MnGM_R_hind : IniII_IP_GM 
+connectionI IniIIIP_L_hind -> MnBF_L_hind : IniII_IP_BF 
+connectionI IniIIIP_R_hind -> MnBF_R_hind : IniII_IP_BF 
+connectionI IniIIIP_L_hind -> MnVL_L_hind : IniII_IP_VL 
+connectionI IniIIIP_R_hind -> MnVL_R_hind : IniII_IP_VL 
+
+connectionI IniIITA_L_hind -> MnVL_L_hind : IniII_TA_VL 
+connectionI IniIITA_R_hind -> MnVL_R_hind : IniII_TA_VL 
+connectionI IniIITA_L_hind -> MnBF_L_hind : IniII_TA_BF 
+connectionI IniIITA_R_hind -> MnBF_R_hind : IniII_TA_BF 
+
+//feedbacks
+
+feedbackIb L_hind SO -> InE_L_hind : fbIb_SO_InRGE
+feedbackIb R_hind SO -> InE_R_hind : fbIb_SO_InRGE
+feedbackIb L_hind SO -> RGE_NaP_L_hind : fbIb_SO_RGE
+feedbackIb R_hind SO -> RGE_NaP_R_hind : fbIb_SO_RGE
+feedbackIb L_hind GA -> InE_L_hind : fbIb_GA_InRGE
+feedbackIb R_hind GA -> InE_R_hind : fbIb_GA_InRGE
+feedbackIb L_hind GA -> RGE_NaP_L_hind : fbIb_GA_RGE
+feedbackIb R_hind GA -> RGE_NaP_R_hind : fbIb_GA_RGE
+
+feedbackCutaneous R_hind XX -> RGE_NaP_R_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> RGE_NaP_L_hind : fbCutRGE
+feedbackCutaneous L_hind XX -> InE_L_hind : fbCutInRGE
+feedbackCutaneous R_hind XX -> InE_R_hind : fbCutInRGE
+
+feedbackCutaneous R_hind XX -> V0V_R_hind : fbCutV0V
+feedbackCutaneous L_hind XX -> V0V_L_hind : fbCutV0V
+feedbackCutaneous R_hind XX -> V3E_R_hind : fbCutV3
+feedbackCutaneous L_hind XX -> V3E_L_hind : fbCutV3
+feedbackCutaneous L_hind XX -> V0D_L_hind : fbCutV0D
+feedbackCutaneous R_hind XX -> V0D_R_hind : fbCutV0D
+
+feedbackII L_hind IP -> InIIIP_L_hind : fbII_IP_InII
+feedbackII R_hind IP -> InIIIP_R_hind : fbII_IP_InII
+feedbackII L_hind TA -> InIITA_L_hind : fbII_TA_InII
+feedbackII R_hind TA -> InIITA_R_hind : fbII_TA_InII
+
+feedbackII L_hind SO -> IniIISO_L_hind : fbII_SO_IniII
+feedbackII R_hind SO -> IniIISO_R_hind : fbII_SO_IniII
+
+feedbackII L_hind IP -> IniIIIP_L_hind : fbII_IP_IniII
+feedbackII R_hind IP -> IniIIIP_R_hind : fbII_IP_IniII
+
+feedbackII L_hind TA -> IniIITA_L_hind : fbII_TA_IniII
+feedbackII R_hind TA -> IniIITA_R_hind : fbII_TA_IniII
+
+feedbackIb L_hind GM -> MnGM_L_hind : fbIb_GM
+feedbackIb R_hind GM -> MnGM_R_hind : fbIb_GM
+feedbackIb L_hind VL -> MnVL_L_hind : fbIb_VL
+feedbackIb R_hind VL -> MnVL_R_hind : fbIb_VL
+feedbackIb L_hind SO -> MnSO_L_hind : fbIb_SO
+feedbackIb R_hind SO -> MnSO_R_hind : fbIb_SO
+feedbackIb L_hind BF -> MnBF_L_hind : fbIb_BF
+feedbackIb R_hind BF -> MnBF_R_hind : fbIb_BF
+feedbackIb L_hind GA -> MnGA_L_hind : fbIb_GA
+feedbackIb R_hind GA -> MnGA_R_hind : fbIb_GA
+feedbackIb L_hind IP -> MnIP_L_hind : fbIb_IP
+feedbackIb R_hind IP -> MnIP_R_hind : fbIb_IP
+feedbackIb L_hind TA -> MnTA_L_hind : fbIb_TA
+feedbackIb R_hind TA -> MnTA_R_hind : fbIb_TA
+
+feedbackIa L_hind GM -> MnGM_L_hind : fbIa_GM
+feedbackIa R_hind GM -> MnGM_R_hind : fbIa_GM
+feedbackIa L_hind VL -> MnVL_L_hind : fbIa_VL
+feedbackIa R_hind VL -> MnVL_R_hind : fbIa_VL
+feedbackIa L_hind SO -> MnSO_L_hind : fbIa_SO
+feedbackIa R_hind SO -> MnSO_R_hind : fbIa_SO
+feedbackIa L_hind BF -> MnBF_L_hind : fbIa_BF
+feedbackIa R_hind BF -> MnBF_R_hind : fbIa_BF
+feedbackIa L_hind GA -> MnGA_L_hind : fbIa_GA
+feedbackIa R_hind GA -> MnGA_R_hind : fbIa_GA
+feedbackIa L_hind IP -> MnIP_L_hind : fbIa_IP
+feedbackIa R_hind IP -> MnIP_R_hind : fbIa_IP
+feedbackIa L_hind TA -> MnTA_L_hind : fbIa_TA
+feedbackIa R_hind TA -> MnTA_R_hind : fbIa_TA
+
+feedbackIa L_hind GM -> InIaE_L_hind : fbIa_GM_Ia
+feedbackIa R_hind GM -> InIaE_R_hind : fbIa_GM_Ia
+feedbackIa L_hind VL -> InIaE_L_hind : fbIa_VL_Ia
+feedbackIa R_hind VL -> InIaE_R_hind : fbIa_VL_Ia
+feedbackIa L_hind SO -> InIaE_L_hind : fbIa_SO_Ia
+feedbackIa R_hind SO -> InIaE_R_hind : fbIa_SO_Ia
+feedbackIa L_hind BF -> InIaE_L_hind : fbIa_BF_Ia
+feedbackIa R_hind BF -> InIaE_R_hind : fbIa_BF_Ia
+feedbackIa L_hind GA -> InIaE_L_hind : fbIa_GA_Ia
+feedbackIa R_hind GA -> InIaE_R_hind : fbIa_GA_Ia
+feedbackIa L_hind IP -> InIaF_L_hind : fbIa_IP_Ia
+feedbackIa R_hind IP -> InIaF_R_hind : fbIa_IP_Ia
+feedbackIa L_hind TA -> InIaF_L_hind : fbIa_TA_Ia
+feedbackIa R_hind TA -> InIaF_R_hind : fbIa_TA_Ia
+
+
+feedbackIb L_hind IP -> InIbIP_L_hind : fbIb_IP_Ibi
+feedbackIb R_hind IP -> InIbIP_R_hind : fbIb_IP_Ibi
+feedbackIb L_hind TA -> InIbTA_L_hind : fbIb_TA_Ibi
+feedbackIb R_hind TA -> InIbTA_R_hind : fbIb_TA_Ibi
+feedbackIb L_hind GM -> InIbGM_L_hind : fbIb_GM_Ibi
+feedbackIb R_hind GM -> InIbGM_R_hind : fbIb_GM_Ibi
+feedbackIb L_hind VL -> InIbVL_L_hind : fbIb_VL_Ibi
+feedbackIb R_hind VL -> InIbVL_R_hind : fbIb_VL_Ibi
+feedbackIb L_hind SO -> InIbSO_L_hind : fbIb_SO_Ibi
+feedbackIb R_hind SO -> InIbSO_R_hind : fbIb_SO_Ibi
+feedbackIb L_hind BF -> InIbBF_L_hind : fbIb_BF_Ibi
+feedbackIb R_hind BF -> InIbBF_R_hind : fbIb_BF_Ibi
+feedbackIb L_hind GA -> InIbGA_L_hind : fbIb_GA_Ibi
+feedbackIb R_hind GA -> InIbGA_R_hind : fbIb_GA_Ibi
+
+feedbackIa L_hind IP -> InIaIP_L_hind : fbIa_IP_ant
+feedbackIa R_hind IP -> InIaIP_R_hind : fbIa_IP_ant
+feedbackIa L_hind TA -> InIaTA_L_hind : fbIa_TA_ant
+feedbackIa R_hind TA -> InIaTA_R_hind : fbIa_TA_ant
+feedbackIa L_hind GM -> InIaGM_L_hind : fbIa_GM_ant
+feedbackIa R_hind GM -> InIaGM_R_hind : fbIa_GM_ant
+feedbackIa L_hind VL -> InIaVL_L_hind : fbIa_VL_ant
+feedbackIa R_hind VL -> InIaVL_R_hind : fbIa_VL_ant
+feedbackIa L_hind SO -> InIaSO_L_hind : fbIa_SO_ant
+feedbackIa R_hind SO -> InIaSO_R_hind : fbIa_SO_ant
+feedbackIa L_hind GA -> InIaGA_L_hind : fbIa_GA_ant
+feedbackIa R_hind GA -> InIaGA_R_hind : fbIa_GA_ant
+feedbackIa L_hind GA -> InIaBF_L_hind : fbIa_BF_ant
+feedbackIa R_hind GA -> InIaBF_R_hind : fbIa_BF_ant
+
+feedbackIb L_hind GM -> PFSt_NaP_L_hind : fbIb_GM_PFSt
+feedbackIb R_hind GM -> PFSt_NaP_R_hind : fbIb_GM_PFSt
+feedbackIb L_hind VL -> PFSt_NaP_L_hind : fbIb_VL_PFSt
+feedbackIb R_hind VL -> PFSt_NaP_R_hind : fbIb_VL_PFSt
+feedbackIb L_hind SO -> PFSt_NaP_L_hind : fbIb_SO_PFSt
+feedbackIb R_hind SO -> PFSt_NaP_R_hind : fbIb_SO_PFSt
+feedbackIb L_hind BF -> PFSt_NaP_L_hind : fbIb_BF_PFSt
+feedbackIb R_hind BF -> PFSt_NaP_R_hind : fbIb_BF_PFSt
+feedbackIb L_hind GA -> PFSt_NaP_L_hind : fbIb_GA_PFSt
+feedbackIb R_hind GA -> PFSt_NaP_R_hind : fbIb_GA_PFSt
+
+feedbackIb L_hind GM -> PFE_NaP_L_hind : fbIb_GM_PFE
+feedbackIb R_hind GM -> PFE_NaP_R_hind : fbIb_GM_PFE
+feedbackIb L_hind VL -> PFE_NaP_L_hind : fbIb_VL_PFE
+feedbackIb R_hind VL -> PFE_NaP_R_hind : fbIb_VL_PFE
+feedbackIb L_hind SO -> PFE_NaP_L_hind : fbIb_SO_PFE
+feedbackIb R_hind SO -> PFE_NaP_R_hind : fbIb_SO_PFE
+feedbackIb L_hind BF -> PFE_NaP_L_hind : fbIb_BF_PFE
+feedbackIb R_hind BF -> PFE_NaP_R_hind : fbIb_BF_PFE
+feedbackIb L_hind GA -> PFE_NaP_L_hind : fbIb_GA_PFE
+feedbackIb R_hind GA -> PFE_NaP_R_hind : fbIb_GA_PFE
+
+feedbackIa L_hind IP -> PFF_NaP_L_hind : fbIa_IP_PFF
+feedbackIa R_hind IP -> PFF_NaP_R_hind : fbIa_IP_PFF
+feedbackIa L_hind TA -> PFF_NaP_L_hind : fbIa_TA_PFF
+feedbackIa R_hind TA -> PFF_NaP_R_hind : fbIa_TA_PFF
+feedbackIa L_hind GM -> PFF_NaP_L_hind : fbIa_GM_PFF
+feedbackIa R_hind GM -> PFF_NaP_R_hind : fbIa_GM_PFF
+feedbackIa L_hind VL -> PFF_NaP_L_hind : fbIa_VL_PFF
+feedbackIa R_hind VL -> PFF_NaP_R_hind : fbIa_VL_PFF
+feedbackIa L_hind SO -> PFF_NaP_L_hind : fbIa_SO_PFF
+feedbackIa R_hind SO -> PFF_NaP_R_hind : fbIa_SO_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_GA_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_GA_PFF
+feedbackIa L_hind GA -> PFF_NaP_L_hind : fbIa_BF_PFF
+feedbackIa R_hind GA -> PFF_NaP_R_hind : fbIa_BF_PFF
+
+feedbackIa L_hind IP -> PFSw_NaP_L_hind : fbIa_IP_PFSw
+feedbackIa R_hind IP -> PFSw_NaP_R_hind : fbIa_IP_PFSw
+feedbackIa L_hind TA -> PFSw_NaP_L_hind : fbIa_TA_PFSw
+feedbackIa R_hind TA -> PFSw_NaP_R_hind : fbIa_TA_PFSw
+feedbackIa L_hind GM -> PFSw_NaP_L_hind : fbIa_GM_PFSw
+feedbackIa R_hind GM -> PFSw_NaP_R_hind : fbIa_GM_PFSw
+feedbackIa L_hind VL -> PFSw_NaP_L_hind : fbIa_VL_PFSw
+feedbackIa R_hind VL -> PFSw_NaP_R_hind : fbIa_VL_PFSw
+feedbackIa L_hind SO -> PFSw_NaP_L_hind : fbIa_SO_PFSw
+feedbackIa R_hind SO -> PFSw_NaP_R_hind : fbIa_SO_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_GA_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_GA_PFSw
+feedbackIa L_hind GA -> PFSw_NaP_L_hind : fbIa_BF_PFSw
+feedbackIa R_hind GA -> PFSw_NaP_R_hind : fbIa_BF_PFSw
+
+feedbackIa L_hind IP -> PFE_NaP_L_hind : fbIa_IP_PFE
+feedbackIa R_hind IP -> PFE_NaP_R_hind : fbIa_IP_PFE
+feedbackIa L_hind TA -> PFE_NaP_L_hind : fbIa_TA_PFE
+feedbackIa R_hind TA -> PFE_NaP_R_hind : fbIa_TA_PFE
+feedbackIa L_hind GM -> PFE_NaP_L_hind : fbIa_GM_PFE
+feedbackIa R_hind GM -> PFE_NaP_R_hind : fbIa_GM_PFE
+feedbackIa L_hind VL -> PFE_NaP_L_hind : fbIa_VL_PFE
+feedbackIa R_hind VL -> PFE_NaP_R_hind : fbIa_VL_PFE
+feedbackIa L_hind SO -> PFE_NaP_L_hind : fbIa_SO_PFE
+feedbackIa R_hind SO -> PFE_NaP_R_hind : fbIa_SO_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_GA_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_GA_PFE
+feedbackIa L_hind GA -> PFE_NaP_L_hind : fbIa_BF_PFE
+feedbackIa R_hind GA -> PFE_NaP_R_hind : fbIa_BF_PFE
+
+feedbackIa L_hind IP -> PFSt_NaP_L_hind : fbIa_IP_PFSt
+feedbackIa R_hind IP -> PFSt_NaP_R_hind : fbIa_IP_PFSt
+feedbackIa L_hind TA -> PFSt_NaP_L_hind : fbIa_TA_PFSt
+feedbackIa R_hind TA -> PFSt_NaP_R_hind : fbIa_TA_PFSt
+feedbackIa L_hind GM -> PFSt_NaP_L_hind : fbIa_GM_PFSt
+feedbackIa R_hind GM -> PFSt_NaP_R_hind : fbIa_GM_PFSt
+feedbackIa L_hind VL -> PFSt_NaP_L_hind : fbIa_VL_PFSt
+feedbackIa R_hind VL -> PFSt_NaP_R_hind : fbIa_VL_PFSt
+feedbackIa L_hind SO -> PFSt_NaP_L_hind : fbIa_SO_PFSt
+feedbackIa R_hind SO -> PFSt_NaP_R_hind : fbIa_SO_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_GA_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_GA_PFSt
+feedbackIa L_hind GA -> PFSt_NaP_L_hind : fbIa_BF_PFSt
+feedbackIa R_hind GA -> PFSt_NaP_R_hind : fbIa_BF_PFSt
+
+feedbackII L_hind IP -> PFF_NaP_L_hind : fbII_IP_PFF
+feedbackII R_hind IP -> PFF_NaP_R_hind : fbII_IP_PFF
+feedbackII L_hind TA -> PFF_NaP_L_hind : fbII_TA_PFF
+feedbackII R_hind TA -> PFF_NaP_R_hind : fbII_TA_PFF
+feedbackII L_hind GM -> PFF_NaP_L_hind : fbII_GM_PFF
+feedbackII R_hind GM -> PFF_NaP_R_hind : fbII_GM_PFF
+feedbackII L_hind VL -> PFF_NaP_L_hind : fbII_VL_PFF
+feedbackII R_hind VL -> PFF_NaP_R_hind : fbII_VL_PFF
+feedbackII L_hind SO -> PFF_NaP_L_hind : fbII_SO_PFF
+feedbackII R_hind SO -> PFF_NaP_R_hind : fbII_SO_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_GA_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_GA_PFF
+feedbackII L_hind GA -> PFF_NaP_L_hind : fbII_BF_PFF
+feedbackII R_hind GA -> PFF_NaP_R_hind : fbII_BF_PFF
+
+feedbackII L_hind IP -> PFSw_NaP_L_hind : fbII_IP_PFSw
+feedbackII R_hind IP -> PFSw_NaP_R_hind : fbII_IP_PFSw
+feedbackII L_hind TA -> PFSw_NaP_L_hind : fbII_TA_PFSw
+feedbackII R_hind TA -> PFSw_NaP_R_hind : fbII_TA_PFSw
+feedbackII L_hind GM -> PFSw_NaP_L_hind : fbII_GM_PFSw
+feedbackII R_hind GM -> PFSw_NaP_R_hind : fbII_GM_PFSw
+feedbackII L_hind VL -> PFSw_NaP_L_hind : fbII_VL_PFSw
+feedbackII R_hind VL -> PFSw_NaP_R_hind : fbII_VL_PFSw
+feedbackII L_hind SO -> PFSw_NaP_L_hind : fbII_SO_PFSw
+feedbackII R_hind SO -> PFSw_NaP_R_hind : fbII_SO_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_GA_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_GA_PFSw
+feedbackII L_hind GA -> PFSw_NaP_L_hind : fbII_BF_PFSw
+feedbackII R_hind GA -> PFSw_NaP_R_hind : fbII_BF_PFSw
+
+feedbackII L_hind IP -> PFE_NaP_L_hind : fbII_IP_PFE
+feedbackII R_hind IP -> PFE_NaP_R_hind : fbII_IP_PFE
+feedbackII L_hind TA -> PFE_NaP_L_hind : fbII_TA_PFE
+feedbackII R_hind TA -> PFE_NaP_R_hind : fbII_TA_PFE
+feedbackII L_hind GM -> PFE_NaP_L_hind : fbII_GM_PFE
+feedbackII R_hind GM -> PFE_NaP_R_hind : fbII_GM_PFE
+feedbackII L_hind VL -> PFE_NaP_L_hind : fbII_VL_PFE
+feedbackII R_hind VL -> PFE_NaP_R_hind : fbII_VL_PFE
+feedbackII L_hind SO -> PFE_NaP_L_hind : fbII_SO_PFE
+feedbackII R_hind SO -> PFE_NaP_R_hind : fbII_SO_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_GA_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_GA_PFE
+feedbackII L_hind GA -> PFE_NaP_L_hind : fbII_BF_PFE
+feedbackII R_hind GA -> PFE_NaP_R_hind : fbII_BF_PFE
+
+feedbackII L_hind IP -> PFSt_NaP_L_hind : fbII_IP_PFSt
+feedbackII R_hind IP -> PFSt_NaP_R_hind : fbII_IP_PFSt
+feedbackII L_hind TA -> PFSt_NaP_L_hind : fbII_TA_PFSt
+feedbackII R_hind TA -> PFSt_NaP_R_hind : fbII_TA_PFSt
+feedbackII L_hind GM -> PFSt_NaP_L_hind : fbII_GM_PFSt
+feedbackII R_hind GM -> PFSt_NaP_R_hind : fbII_GM_PFSt
+feedbackII L_hind VL -> PFSt_NaP_L_hind : fbII_VL_PFSt
+feedbackII R_hind VL -> PFSt_NaP_R_hind : fbII_VL_PFSt
+feedbackII L_hind SO -> PFSt_NaP_L_hind : fbII_SO_PFSt
+feedbackII R_hind SO -> PFSt_NaP_R_hind : fbII_SO_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_GA_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_GA_PFSt
+feedbackII L_hind GA -> PFSt_NaP_L_hind : fbII_BF_PFSt
+feedbackII R_hind GA -> PFSt_NaP_R_hind : fbII_BF_PFSt
+
+
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_L_front
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_R_front
+driveE 0 * t + 1 -> RGE_NaP_L_front
+driveE 0 * t + 1 -> RGE_NaP_R_front
+
+driveI 1.5e-05 * t + 0.0 -> V0V_R_front
+driveI 1.5e-05 * t + 0.0 -> V0V_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_R_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_L_front
+driveI 7.5e-05 * t + 0.0 -> V0D_diag_R_front
+
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_L_hind
+driveE 1.0e-05 * t + 0.0 -> RGF_NaP_R_hind
+driveE 0 * t + 1 -> RGE_NaP_L_hind
+driveE 0 * t + 1 -> RGE_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFE_NaP_R_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_L_hind
+driveE 0.7e-05 * t + 0 -> PFSt_NaP_R_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_L_hind
+driveE 6e-05 * t + 0 -> PFF_NaP_R_hind
+
+driveI 1.5e-05 * t + 0.0 -> V0V_L_hind
+driveI 1.5e-05 * t + 0.0 -> V0V_R_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_L_hind
+driveI 7.5e-05 * t + 0.0 -> V0D_R_hind
+
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_L_hind
+//driveI 1.0e-05 * t + 0.0 -> InpFSw_R_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_L_hind
+driveI 1.0e-05 * t + 0.0 -> InpESt_R_hind
+
+
+driveE 1.0e-05 * t + 0.0 -> V0c_E_L_hind
+driveE 1.0e-05 * t + 0.0 -> V0c_E_R_hind
+
+gLeak 2.8
+gLeak neurons RGF_NaP 4.5
+gLeak neurons RGE_NaP 4.5
+gLeak neurons PFF_NaP 4.5
+gLeak neurons PFE_NaP 4.5
+
+gLeak neurons PFSw_NaP 1
+gLeak neurons PFSt_NaP 1
+gLeak neurons V0c 1
+
+gLeak neurons Mn 1
+
+gLeak neurons InpFSw 5
+gLeak neurons InpESt 5
+
+gBarNaP 0
+gBarNaP neurons RGF_NaP 4.5
+gBarNaP neurons RGE_NaP 4.5
+gBarNaP neurons PFF_NaP 0.125
+gBarNaP neurons PFE_NaP 0.125
+gBarNaP neurons PFSw_NaP 0.125
+gBarNaP neurons PFSt_NaP 0.125
+
+Eleak -60
+Eleak neurons RGF_NaP -62.5
+Eleak neurons RGE_NaP -62.5
+Eleak neurons PFF_NaP -67.5
+Eleak neurons PFE_NaP -67.5
+Eleak neurons PFSw_NaP -67.5
+Eleak neurons PFSt_NaP -67.5
+
+Eleak neurons Mn -52.5
+Eleak neurons V0c -65
+
+
+
+ENa	 50	
+ESynE	 -10	
+ESynI	 -75	
+Cmem	 10	
+mk	 -6	
+mV12	 -40	
+hk	 4	
+hV12	 -45	
+htau	 160	
+hTauK	 15	
+hTauV12	 -35	
+hTau0	 80	 
+Vmax	 0	
+Vmin	 -50
+//sigmaNoise .2AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length: [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.0025, 0.0075]
+FilterAct:
+  Tau_act: [0.001, 0.005, 0.005, 0.001, 0.005, 0.005, 0.005]
+  Tau_deact: [0.005, 0.01, 0.01, 0.005, 0.01, 0.01, 0.01]
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset: [0.0, 0.0]
+  lengths: [0.05, 0.0161, 0.0179, 0.015, 0.025]
+  masses: [0.02, 0.0044, 0.0022, 0.00063, 0.003]
+  widths: [0.02, 0.008, 0.006, 0.003, 0.008]
+GroundContact: {KDx: 1.75, KDy: 3.5, KPx: 0, KPy: 150, pmax: 0.002}
+HoldHeight: 0.04
+MnNames:
+  LeftHind: [MnIP_L_hind, MnGM_L_hind, MnVL_L_hind, MnTA_L_hind, MnSO_L_hind, MnBF_L_hind,
+    MnGA_L_hind]
+  RightHind: [MnIP_R_hind, MnGM_R_hind, MnVL_R_hind, MnTA_R_hind, MnSO_R_hind, MnBF_R_hind,
+    MnGA_R_hind]
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax: [3.0, 3.0, 8.0, 2.5, 3.0, 6.0, 5.0]
+  momentarms: [0.003, 0.004, 0.00125, 0.0008, 0.0015, 0.004, 0.002, 0.0005, 0.0015]
+NetworkFile: 4CPG9MN_20181009_FB_LPN_FB.txt
+NeutralAngles: {ankle: 65, hip: 50, knee: -60}
+ResetParameter: {forNeurons: RGF_NaP, name: ELeak, value: -67.5}
+ScaleVarsUI:
+- name: V3toRGF
+  scale: 1.0
+  vars: [V3toRGF]
+- name: inV0VtoRGF
+  scale: 1.0
+  vars: [V0VtoRGFdiagfh,V0VtoRGFdiaghf,inV0VtoRGF]
+- name: InII_TA_InRGF
+  scale: 1.0
+  vars: [InII_TA_InRGF]
+SimDur: 10.0
+Surface: {maxHeight: 0.0025, slope: 0.02, speedL: -0.1, speedR: -0.1, stepLen: 0.02,
+  type: None, x_int: 0.2, x_start: 0.5}
+UpdateVars:
+- values: [2.039505927693496, 7.659729662826018, 0.3709744860383588, 25, 0.011658132761277633,
+    0.43798375981040943, 1.9021888929690831]
+  vars: [FtoIP, FtoTA, FtoBF, SwtoIP, SwtoTA, SwtoVL, SwtoBF]
+- values: [0.0014589205802937458, 25, 0.004139165754881597, 0.18719362574495238, 0.907375474917971,
+    7.247525546034453, 18.60164604402507, 25, 0.016594618046246686, 1.9166995174758532]
+  vars: [EtoGM, EtoVL, EtoSO, EtoBF, EtoGA, SttoGM, SttoVL, SttoSO, SttoBF, SttoGA]
+- values: [0.19525498678620368, 0.0123378695636631, 0.019395648183405192, 0.7916159331575752,
+    0.8909250753391476]
+  vars: [fbIb_GM, fbIb_VL, fbIb_SO, fbIb_BF, fbIb_GA]
+- values: [0.1392608928705676, 0.18929161416995716, 5.106441070270242, 0.011933123112059378,
+    0.655091721579235, 16.315928979642543]
+  vars: [fbIb_SO_InRGE, fbIb_SO_RGE, fbIb_GA_InRGE, fbIb_GA_RGE, fbCutInRGE, fbCutRGE]
+- values: [6.304878535630657, 4.007192809413084, 4.070731643025533, 2.26879124314259,
+    0.011539106935958311, 2.251273610411414]
+  vars: [fbII_TA_InII, fbII_IP_InII, InII_IP_RGF, InII_IP_InRGF, InII_TA_RGF, InII_TA_InRGF]
+- values: [0.011955084937673659, 0.26270560897070744, 1.6849835516890955e-05, 0.009700830438530069,
+    0.00044789608321873495, 0.002399886485533478, 0.0007479254193295915]
+  vars: [fbIa_GM, fbIa_VL, fbIa_SO, fbIa_BF, fbIa_GA, fbIa_IP, fbIa_TA]
+- values: [5.785259663352066e-05, 2.0, 0.004673770990413071, 0.0265662256501497, 0.26891284671028726,
+    0.025995807417623862, 0.00041136379817764213]
+  vars: [fbIa_GM_Ia, fbIa_VL_Ia, fbIa_SO_Ia, fbIa_BF_Ia, fbIa_GA_Ia, fbIa_IP_Ia, fbIa_TA_Ia]
+- values: [5.232689717927079, 1.4420950817986815, 9.548527511498566, 3.6487217543350616,
+    6.404067034903988, 0.012176156922842957, 2.3937368585966436]
+  vars: [fbIb_IP_Ibi, fbIb_TA_Ibi, fbIb_GM_Ibi, fbIb_VL_Ibi, fbIb_SO_Ibi, fbIb_BF_Ibi,
+    fbIb_GA_Ibi]
+- values: [7.431750171760022, 0.746827697822464, 7.456085168694386, 20.299782436132755,
+    2.9446866879101995e-05, 21.32909224646086]
+  vars: [InIaFMn, InIaEMn, InIaStMn, InIaSwMn, InIbMn, V0cEXT]
+- values: [0.07107625503913517, 2.0, 0.00223483603978268, 0.001339538353881388, 0.00020736673451956657,
+    0.00010794407027386108, 0.04116926883451694]
+  vars: [fbIa_IP_ant, fbIa_TA_ant, fbIa_GM_ant, fbIa_VL_ant, fbIa_SO_ant, fbIa_GA_ant,
+    fbIa_BF_ant]
+- values: [0.7956984079397577, 1.0545168542563104, 0.004464918342734306, 0.25345855551268953]
+  vars: [fbII_TA_PFF, fbII_IP_PFF, fbII_IP_PFSt, fbII_TA_PFSt]
+- values: [19.97712998860196, 8.73059160273511, 0.013844267546330285, 0.49455922235616556,
+    4.677825850937264]
+  vars: [fbII_IP_IniII, IniII_IP_GM, IniII_IP_BF, fbII_SO_IniII, IniII_SO_VL]
+- values: [0.987523031026349, 0.4998303000440758, 0.39632906918563127, 0.422232752983432,
+    7.928761299026326, 0.7247470142874494, 8.24562472648546, 0.2787906327777418, 0.38282774807908393]
+  vars: [fbII_IP_IniII, IniII_IP_GM, IniII_IP_BF, fbII_SO_IniII, IniII_SO_VL, fbII_TA_IniII,
+    IniII_TA_VL, IniII_TA_BF, IniII_IP_VL]
+mAlpha: 0.05
+tWaitAlphaIncrease: 1.0
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 9.34978054782383
+  - 25
+  - 0.8911544275196704
+  - 4.2635249353906275
+  - 0.04341844177963657
+  - 0.00016098912047876187
+  - 0.07059826350762909
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 0.0005903171738284478
+  - 10.37778258059216
+  - 0.0016369344841673295
+  - 0.010287148014005052
+  - 0.021443378835447658
+  - 17.94960739910159
+  - 24.301962100347946
+  - 14.24786880218309
+  - 0.0035921632486900826
+  - 0.21459987744878542
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 1.8119567698869166
+  - 0.07700538833410284
+  - 0.00010571820804315923
+  - 1.5582013278905311
+  - 3.137581323248709
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 1.1021641259690251
+  - 2.473522673522426
+  - 2.2025792990126236
+  - 0.006143639338926955
+  - 14.980904437765236
+  - 1.2157465811468693
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 0.6063952481980033
+  - 4.979152834532666
+  - 1.219284713377539
+  - 0.019649967498226995
+  - 0.29849298936942814
+  - 25
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.005243493326139223
+  - 0.00837438607896638
+  - 4.890134829749313e-06
+  - 0.024045286560472095
+  - 0.005824038006232868
+  - 0.016362337780739984
+  - 2.495537987818235e-05
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.00018204820414080916
+  - 1.4317404450854514
+  - 0.0005129317012144093
+  - 0.002923902245626456
+  - 0.2892626378511746
+  - 0.0006410772989151071
+  - 0.0003807830961120517
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 2.272543909717382
+  - 21.78807728443512
+  - 4.355769801988026
+  - 0.9732250378157621
+  - 0.5303526369154273
+  - 0.4141609515031723
+  - 0.9201137685504204
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 3.4925147672499492
+  - 1.5497890761660698
+  - 0.18698384624419567
+  - 15.600352774969693
+  - 9.814844436863542e-07
+  - 16.79912460691208
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.006510854673037942
+  - 0.9390715982422396
+  - 0.00022615711684229603
+  - 0.1062893700004671
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.2627790219480364
+mAlpha: 0.08138951097401818
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 0.18660606336337343
+  - 0.9476321873809137
+  - 3.3982658020025656
+  - 1.5409284741160312
+  - 0.2894670584802275
+  - 0.5963745962159216
+  - 0.002576622688122896
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 1.0646226425440046e-05
+  - 0.0850552952143655
+  - 1.033267231729125
+  - 0.1704408180030116
+  - 0.00015867180687764268
+  - 0.33688728297417003
+  - 5.07313763273769
+  - 1.5845745961258175
+  - 0.8763196497664555
+  - 2.758166448664484
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 2.7048601454681287
+  - 0.06426423349941995
+  - 0.0007323223744710513
+  - 0.31563604874834894
+  - 0.0007106672604164163
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 0.06493911117028468
+  - 0.024827855814905073
+  - 33.979645706565634
+  - 0.01199924574987327
+  - 0.10447434903751196
+  - 23.4135374273052
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 25.70369716513411
+  - 7.8284613124883515
+  - 0.8530962518719686
+  - 0.45386197911246173
+  - 0.019116990132792284
+  - 0.07251983602836261
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.02055074056281477
+  - 0.019444118692486672
+  - 8.018503045415197e-06
+  - 0.008496947912099614
+  - 0.001050662878376614
+  - 0.008736872357824091
+  - 0.0013074926529652497
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.0005994176558219172
+  - 0.0291974933685371
+  - 0.009234514478619579
+  - 0.007618679319322718
+  - 0.1010992115193021
+  - 3.110125025701815e-05
+  - 1.1424067295370022e-05
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 71.46606019717892
+  - 0.5930761432890921
+  - 0.09075842750645237
+  - 0.027250407584928502
+  - 9.758860709221371e-05
+  - 0.00010503230494394169
+  - 36.89704546460136
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 5.898056755987939
+  - 7.155669035446687e-06
+  - 0.20259774149865353
+  - 14.263739111580724
+  - 1.2447838008708278e-08
+  - 4.960233995888344
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.6716714493003675
+  - 1.5536594277217473
+  - 0.015586084381962326
+  - 0.07094228456815445
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.20943337361173542
+mAlpha: 0.054716686805867706
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 0.018820750207096205
+  - 1.0030363311393133
+  - 0.4578189499682842
+  - 0.9735039077087482
+  - 0.5692002688108877
+  - 0.004879721552357086
+  - 0.1277786653011035
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 0.03243819486594768
+  - 1.3571042091528736
+  - 0.021683250291916017
+  - 1.1329249974158694e-06
+  - 6.850697269755771e-07
+  - 9.922311576387063e-05
+  - 3.6729139318544703
+  - 1.0859559463016795
+  - 2.912175712772239
+  - 0.40816412586965767
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 4.5880929306243825
+  - 0.987642269624184
+  - 0.01617077197625155
+  - 0.0007598202641776525
+  - 0.7187899269061558
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 4.747790348273139e-09
+  - 0.08367450826037952
+  - 22.441227419229005
+  - 0.002491406635714002
+  - 9.060136273977903
+  - 0.009273517924184438
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 0.0020217953760138926
+  - 2.3418589129258387
+  - 0.00018631605264599245
+  - 1.8678785114767625e-05
+  - 2.0488813880126666e-09
+  - 0.005034506824742488
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 5.092234127098937e-06
+  - 0.33493830573391864
+  - 0.0823621794534562
+  - 8.696192337219848e-10
+  - 1.6866634612357974e-10
+  - 0.20084983265983433
+  - 0.008718152399535618
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 9.071008819549763e-07
+  - 4.070187199587735e-05
+  - 0.00030521345613537343
+  - 0.022976423288410867
+  - 1.604684012199871
+  - 0.02570656005077803
+  - 1.4893427267899946e-07
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 23.072212851871193
+  - 3.0237996419953466
+  - 1.0029583331098262
+  - 0.13942960131817553
+  - 5.309351819572262
+  - 0.02562094970034936
+  - 23.552913333417255
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 4.780806079585575
+  - 2.2498846317499278e-08
+  - 0.002639063716808335
+  - 4.0014423827308786e-05
+  - 0.00012697519887315534
+  - 0.0254265713882612
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 4.4897088886253576
+  - 0.006463379702381255
+  - 1.0864314930181869e-05
+  - 4.4363836783391996e-05
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.14798641000865786
+mAlpha: 0.02399320500432893
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 0.03143026474928822
+  - 0.7472059381287458
+  - 0.36512208554191244
+  - 0.5347701605448573
+  - 1.2822047479444199
+  - 0.006522244521268444
+  - 0.05878055012838642
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 0.07175655521403411
+  - 3.6821468864096443
+  - 0.00404470214941634
+  - 6.357812925535024e-06
+  - 2.208312915046672e-06
+  - 0.00017909986601192325
+  - 2.34544289128292
+  - 1.6379395353968853
+  - 2.1914341274142357
+  - 0.19704228896924456
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 5.812250608685761
+  - 0.42380266101711206
+  - 0.008871084758699521
+  - 0.0011106691580600484
+  - 1.1205922179030035
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 9.795300563294531e-09
+  - 0.02896520997102306
+  - 6.475034608147341
+  - 0.0038332802039190437
+  - 11.212345519045797
+  - 0.005381173266515153
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 0.007738124667471401
+  - 1.9300503815614112
+  - 0.00024759217597107016
+  - 4.741296495974486e-05
+  - 6.538638405570045e-09
+  - 0.00349934231546814
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 5.188304708119201e-06
+  - 0.38484946057674246
+  - 0.2345992384622377
+  - 2.596875440078997e-09
+  - 3.1562021544113875e-10
+  - 0.23489794346797138
+  - 0.022315393829737892
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 4.81754937045164e-06
+  - 3.660212048628193e-05
+  - 0.0005616762997020614
+  - 0.017008293982853927
+  - 1.057313252930918
+  - 0.058779052908710494
+  - 8.794754979087054e-07
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 10.590091962371856
+  - 0.9076420896259485
+  - 0.8008864998171273
+  - 0.2721193059679798
+  - 18.72337078478099
+  - 0.02257242278405124
+  - 26.361441359636842
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 9.971224060438654
+  - 2.681779376505026e-08
+  - 0.0042473074983133815
+  - 1.1679031439570885e-05
+  - 0.00010590364137582381
+  - 0.08225172513234694
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 5.1269997074644404
+  - 0.0021849291937361933
+  - 1.3196731343060983e-05
+  - 0.0001197418276791452
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.12156894255117176
+mAlpha: 0.010784471275585877
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 7.144875131957342
+  - 0.5038076373829923
+  - 0.6360192116723501
+  - 0.01195720966719223
+  - 0.6027901984982087
+  - 15.83446021963183
+  - 0.010882894588607668
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 4.886317859769078e-10
+  - 0.15830083962410327
+  - 1.5799079628774755
+  - 0.16030921408229223
+  - 0.046626424517523364
+  - 0.1910633867729428
+  - 7.9230580460835585
+  - 4.874499977416424
+  - 0.00019446973527916854
+  - 14.965652195558283
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 5.290924032821226
+  - 9.33020170591221
+  - 0.0020108361059012177
+  - 1.0534419405964859
+  - 0.8251984279315324
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 0.2511170108828986
+  - 3.144144253608214
+  - 0.03341490037981629
+  - 0.00011977456571392953
+  - 1.1711066476373442
+  - 33.447695417500626
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 0.8823118137687875
+  - 24.861771779066835
+  - 1.398442885419122
+  - 13.10942696650169
+  - 0.050962070264967595
+  - 6.49576371724184
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.09874323308555884
+  - 0.0007177546363478756
+  - 4.064873597365443e-06
+  - 0.03836700866092255
+  - 0.07478482487000601
+  - 0.0002507843615737389
+  - 0.0003424191231821862
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.0009670983602148855
+  - 0.0023209261497229806
+  - 0.7474874262521212
+  - 0.30071027855947957
+  - 2.0
+  - 0.00048813161612837195
+  - 1.848273721353325e-05
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 12.882857525362823
+  - 15.941654315792784
+  - 0.8202725470125941
+  - 7.71602527935927
+  - 83.10000966659688
+  - 0.2509463156842088
+  - 9.977775124646916
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 22.216201654271238
+  - 0.32613782788771956
+  - 1.1698688727679467
+  - 11.903211135544009
+  - 6.53800621238686e-09
+  - 8.507326427599372
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.01965874067486852
+  - 9.070009916456508
+  - 0.0016250019915752696
+  - 0.5787827339170512
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.5343860315990914
+mAlpha: 0.2171930157995457
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 6.148979970155289
+  - 0.532135555320779
+  - 0.8510869892559438
+  - 0.023021126653673594
+  - 0.6679785361749574
+  - 10.473301837121106
+  - 0.003913662128902315
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 3.2669104065069487e-10
+  - 0.08593468268798518
+  - 1.8788673926235424
+  - 0.06913179613214754
+  - 0.05423088830743638
+  - 0.22322583578717725
+  - 5.383065841865407
+  - 5.734410790154266
+  - 0.00026886511673184253
+  - 9.030115302283752
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 5.871516589712221
+  - 7.974434047412976
+  - 0.0022513289454568243
+  - 1.1136232447603265
+  - 0.30985603177223736
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 0.22654296318463363
+  - 2.7933906001656887
+  - 0.06276569669274869
+  - 0.00030925048215397333
+  - 1.4272765021674318
+  - 26.35890012637659
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 1.2422879659672523
+  - 23.37799964952477
+  - 1.451426817698545
+  - 10.919111886493864
+  - 0.02851194052620517
+  - 5.636648852784874
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.07812956449258263
+  - 0.0004254709369862695
+  - 7.868326549085666e-06
+  - 0.032581507763882626
+  - 0.04430111421976566
+  - 0.00022650296411597294
+  - 0.0002524509928871933
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.0008946070968673596
+  - 0.0020195293510249625
+  - 0.3445651428659623
+  - 0.10833024110113312
+  - 1.0270009717891189
+  - 0.0006658663414819658
+  - 1.0656865454597e-05
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 34.43469820166064
+  - 80.04126166379494
+  - 0.443933978943207
+  - 5.583610631095919
+  - 81.88273896649466
+  - 0.17215322900256722
+  - 23.18147266566203
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 18.35935181000951
+  - 0.40334603036634814
+  - 1.5562956543419126
+  - 13.060285668620113
+  - 6.478420710532419e-09
+  - 4.996147726997404
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.007823116025498275
+  - 8.403447940804181
+  - 0.0009069865178512989
+  - 0.2692538429438208
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.4432479610694765
+mAlpha: 0.17162398053473826
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.1
+AmplitudeGain: 1
+Angle2length:
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.005
+- 0.0025
+- 0.0075
+FilterAct:
+  Tau_act:
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.001
+  - 0.005
+  - 0.005
+  - 0.005
+  Tau_deact:
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.005
+  - 0.01
+  - 0.01
+  - 0.01
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset:
+  - 0.0
+  - 0.0
+  lengths:
+  - 0.05
+  - 0.0161
+  - 0.0179
+  - 0.015
+  - 0.025
+  masses:
+  - 0.02
+  - 0.0044
+  - 0.0022
+  - 0.00063
+  - 0.003
+  widths:
+  - 0.02
+  - 0.008
+  - 0.006
+  - 0.003
+  - 0.008
+GroundContact:
+  KDx: 2.0
+  KDy: 6.0
+  KPx: 50
+  KPy: 300
+  pmax: 0.002
+HoldHeight: 0.04
+MnNames:
+  LeftHind:
+  - MnIP_L_hind
+  - MnGM_L_hind
+  - MnVL_L_hind
+  - MnTA_L_hind
+  - MnSO_L_hind
+  - MnBF_L_hind
+  - MnGA_L_hind
+  RightHind:
+  - MnIP_R_hind
+  - MnGM_R_hind
+  - MnVL_R_hind
+  - MnTA_R_hind
+  - MnSO_R_hind
+  - MnBF_R_hind
+  - MnGA_R_hind
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax:
+  - 3.0
+  - 3.0
+  - 8.0
+  - 2.5
+  - 3.0
+  - 6.0
+  - 5.0
+  momentarms:
+  - 0.003
+  - 0.004
+  - 0.00125
+  - 0.0008
+  - 0.0015
+  - 0.004
+  - 0.002
+  - 0.0005
+  - 0.0015
+NetworkFile: 4CPG9MN_2023A.txt
+NeutralAngles:
+  ankle: 65
+  hip: 50
+  knee: -60
+ResetParameter:
+- forNeurons: RGF_NaP_L_hind
+  name: ELeak
+  value: -63
+- forNeurons: RGF_NaP_R_hind
+  name: ELeak
+  value: -63
+ScaleVarsUI:
+- name: V0
+  scale: 1.0
+  vars:
+  - V0DtoRGF
+  - V0DtoRGFdiagfh
+  - V0VtoRGFdiagfh
+  - V0VtoRGFdiaghf
+  - inV0VtoRGF
+- name: RnToMn
+  scale: 1.0
+  vars:
+  - RnToMn
+- name: fbPF
+  scale: 1.0
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+SimDur: 15.0
+Surface:
+  maxHeight: 0.00125
+  slope: -0.15
+  speedL: -0.1
+  speedR: -0.1
+  stepLen: 0.02
+  type: None
+  x_int: 0.5
+  x_start: 0.5
+UpdateVars:
+- values:
+  - 16.71677313742942
+  - 0.735606717273364
+  - 0.2229707847277713
+  - 0.0036093599326483755
+  - 2.5714353088105932
+  - 17.65418048723924
+  - 0.0012294109415801175
+  vars:
+  - FtoIP
+  - FtoTA
+  - FtoBF
+  - SwtoIP
+  - SwtoTA
+  - SwtoVL
+  - SwtoBF
+- values:
+  - 9.991655347954503e-10
+  - 0.023428586162279233
+  - 0.12767575529267505
+  - 0.27442407526870116
+  - 1.8540788356622864
+  - 1.0045479035493712
+  - 2.689925716066279
+  - 21.4816808261214
+  - 0.00041699697601762576
+  - 13.415999728963993
+  vars:
+  - EtoGM
+  - EtoVL
+  - EtoSO
+  - EtoBF
+  - EtoGA
+  - SttoGM
+  - SttoVL
+  - SttoSO
+  - SttoBF
+  - SttoGA
+- values:
+  - 12.454651287567447
+  - 9.75687941136887
+  - 0.0005406041338766705
+  - 3.959045385525021
+  - 0.5623283498170308
+  vars:
+  - fbIb_GM
+  - fbIb_VL
+  - fbIb_SO
+  - fbIb_BF
+  - fbIb_GA
+- values:
+  - 0.16505974453016728
+  - 3.0759176336480514
+  - 0.050560115719032184
+  - 0.00047483398238382216
+  - 0.6479105431286718
+  - 34.013021201504245
+  vars:
+  - fbIb_SO_InRGE
+  - fbIb_SO_RGE
+  - fbIb_GA_InRGE
+  - fbIb_GA_RGE
+  - fbCutInRGE
+  - fbCutRGE
+- values:
+  - 1.1177724149556574
+  - 19.524093641745527
+  - 1.2320668352932835
+  - 3.401582083592443
+  - 0.03510250133564607
+  - 5.526332688669012
+  vars:
+  - fbII_TA_InII
+  - fbII_IP_InII
+  - InII_IP_RGF
+  - InII_IP_InRGF
+  - InII_TA_RGF
+  - InII_TA_InRGF
+- values:
+  - 0.0530139760351442
+  - 0.0005471982174393373
+  - 6.3326260240269955e-06
+  - 0.02143802704057309
+  - 0.0445826344813144
+  - 0.0012876794841278289
+  - 0.00016957322845585502
+  vars:
+  - fbIa_GM
+  - fbIa_VL
+  - fbIa_SO
+  - fbIa_BF
+  - fbIa_GA
+  - fbIa_IP
+  - fbIa_TA
+- values:
+  - 0.000669239397263942
+  - 0.002365609752137932
+  - 0.2399405287332486
+  - 1.1352296593816051
+  - 2.0
+  - 0.0007253719449715574
+  - 5.336042640984989e-06
+  vars:
+  - fbIa_GM_Ia
+  - fbIa_VL_Ia
+  - fbIa_SO_Ia
+  - fbIa_BF_Ia
+  - fbIa_GA_Ia
+  - fbIa_IP_Ia
+  - fbIa_TA_Ia
+- values:
+  - 6.692880644415149
+  - 63.67946965988368
+  - 0.6823471435364092
+  - 3.345071790353467
+  - 46.36109238606351
+  - 1.6604993778429469
+  - 11.604393839136906
+  vars:
+  - fbIb_IP_Ibi
+  - fbIb_TA_Ibi
+  - fbIb_GM_Ibi
+  - fbIb_VL_Ibi
+  - fbIb_SO_Ibi
+  - fbIb_BF_Ibi
+  - fbIb_GA_Ibi
+- values:
+  - 25
+  - 0.920728157401337
+  - 4.763901323180927
+  - 14.895837295041188
+  - 9.847103527934085e-09
+  - 22.825528977057594
+  vars:
+  - InIaFMn
+  - InIaEMn
+  - InIaStMn
+  - InIaSwMn
+  - InIbMn
+  - V0cEXT
+- values:
+  - 0.032830553237964064
+  - 6.488955760111667
+  - 0.000646122283125528
+  - 0.1454682080066492
+  vars:
+  - fbII_TA_PFF
+  - fbII_IP_PFF
+  - fbII_IP_PFSt
+  - fbII_TA_PFSt
+alphaMax: 0.5148650563682299
+mAlpha: 0.20743252818411495
+tWaitAlphaIncrease: 0.5
+AlphaStart: 0.05
+AmplitudeGain: 1
+Angle2length: [0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.0025, 0.0075]
+FilterAct:
+  Tau_act: [0.001, 0.005, 0.005, 0.001, 0.005, 0.005, 0.005]
+  Tau_deact: [0.005, 0.01, 0.01, 0.005, 0.01, 0.01, 0.01]
+  enable: true
+FixForelimbs: false
+Geometry:
+  COMoffset: [0.0, 0.0]
+  lengths: [0.05, 0.0161, 0.0179, 0.015, 0.025]
+  masses: [0.02, 0.0044, 0.0022, 0.00063, 0.003]
+  widths: [0.02, 0.008, 0.006, 0.003, 0.008]
+GroundContact: {KDx: 1.75, KDy: 3.5, KPx: 0, KPy: 150, pmax: 0.002}
+HoldHeight: 0.05
+MnNames:
+  LeftHind: [MnIP_L_hind, MnGM_L_hind, MnVL_L_hind, MnTA_L_hind, MnSO_L_hind, MnBF_L_hind,
+    MnGA_L_hind]
+  RightHind: [MnIP_R_hind, MnGM_R_hind, MnVL_R_hind, MnTA_R_hind, MnSO_R_hind, MnBF_R_hind,
+    MnGA_R_hind]
+MuscleParameters:
+  ScaleTime: 0.35
+  fmax: [3.0, 3.0, 8.0, 2.5, 3.0, 6.0, 5.0]
+  momentarms: [0.003, 0.004, 0.00125, 0.0008, 0.0015, 0.004, 0.002, 0.0005, 0.0015]
+NetworkFile: 4CPG9MN_20181015_FB_LPN_FB.txt
+NeutralAngles: {ankle: 65, hip: 50, knee: -60}
+ResetParameter: {forNeurons: RGF_NaP, name: ELeak, value: -67.5}
+ScaleVarsUI:
+- name: fbIa
+  scale: 1.0
+  vars: [fbIa_GM, fbIa_VL, fbIa_SO, fbIa_BF, fbIa_GA, fbIa_IP, fbIa_TA]
+- name: inV0VtoRGF
+  scale: 1.0
+  vars: [V0VtoRGFdiagfh,V0VtoRGFdiaghf,inV0VtoRGF]
+SimDur: 14.0
+Surface: {maxHeight: 0.005, slope: 0.02, speedL: 0., speedR: 0.2, stepLen: 0.02,
+  type: Spline, x_int: 0.2, x_start: 0.5}
+UpdateVars:
+- values: [0.18158376304683502, 0.10516122608154987, 0.03566259195749979, 0.0874544979343728,
+    1.1966587530210777, 0.5450492643435474, 0.0016740306540352033]
+  vars: [FtoIP, FtoTA, FtoBF, SwtoIP, SwtoTA, SwtoVL, SwtoBF]
+- values: [0.15288897335204266, 14.395757892631854, 0.0008101269059755688, 0.00042492928185681,
+    3.717723177994144, 6.428021270520417, 2.532074840959929, 3.3497355160961515, 0.05538802179393198,
+    2.628193599983993]
+  vars: [EtoGM, EtoVL, EtoSO, EtoBF, EtoGA, SttoGM, SttoVL, SttoSO, SttoBF, SttoGA]
+- values: [1.3794208605858398, 0.0006562551183711332, 1.3791664484043533, 4.384086747666183,
+    0.0007537091269055128]
+  vars: [fbIb_GM, fbIb_VL, fbIb_SO, fbIb_BF, fbIb_GA]
+- values: [0.006001437450352072, 0.00024201028747670877, 0.7486498885659117, 0.053253919661906894,
+    0.0013661376119348675, 4.178592893944657e-07]
+  vars: [fbIb_SO_InRGE, fbIb_SO_RGE, fbIb_GA_InRGE, fbIb_GA_RGE, fbCutInRGE, fbCutRGE]
+- values: [0.46512321615525887, 6.589041476409112, 0.9059396052624131, 0.02111367079014617,
+    1.2165542038491202e-05, 0.024684455164393444]
+  vars: [fbII_TA_InII, fbII_IP_InII, InII_IP_RGF, InII_IP_InRGF, InII_TA_RGF, InII_TA_InRGF]
+- values: [0.002543390724306155, 0.11861727266666836, 0.009145144920077255, 0.0011567750265348436,
+    0.1370036778104801, 0.09715674386549275, 0.3981662800392002]
+  vars: [fbIa_GM, fbIa_VL, fbIa_SO, fbIa_BF, fbIa_GA, fbIa_IP, fbIa_TA]
+- values: [0.10652659058939962, 0.024027365668522822, 0.021469485874650217, 1.1603650588847232,
+    0.022880180535277867, 0.006877443906450652, 0.2876596078547606]
+  vars: [fbIa_GM_Ia, fbIa_VL_Ia, fbIa_SO_Ia, fbIa_BF_Ia, fbIa_GA_Ia, fbIa_IP_Ia, fbIa_TA_Ia]
+- values: [11.819916856869202, 0.3063705575851504, 1.2540337116722977, 0.29604073610284914,
+    2.7266455656419777, 2.5643722853936117e-06, 5.221467441166236]
+  vars: [fbIb_IP_Ibi, fbIb_TA_Ibi, fbIb_GM_Ibi, fbIb_VL_Ibi, fbIb_SO_Ibi, fbIb_BF_Ibi,
+    fbIb_GA_Ibi]
+- values: [7.015528716359059, 6.765707171593041e-05, 0.025741270575266692, 8.872281330816183,
+    0.0018366705302664238, 0.1352648917055131]
+  vars: [InIaFMn, InIaEMn, InIaStMn, InIaSwMn, InIbMn, V0cEXT]
+- values: [0.010751023640525159, 0.7310375669030582, 0.04996603101729108, 0.001277655904733532,
+    5.8950392895855054e-05, 0.003431410830296854, 8.415192043526008e-06]
+  vars: [fbIa_IP_ant, fbIa_TA_ant, fbIa_GM_ant, fbIa_VL_ant, fbIa_SO_ant, fbIa_GA_ant,
+    fbIa_BF_ant]
+- values: [1.2742832209023227, 0.286128879724872, 0.012240977712506552, 0.0422542596524919]
+  vars: [fbII_TA_PFF, fbII_IP_PFF, fbII_IP_PFSt, fbII_TA_PFSt]
+- values: [4.376444458874121, 0.39639061971818645, 0.05179949340752454, 0.234955600673988,
+    1.4142953434486456]
+  vars: [fbII_IP_IniII, IniII_IP_GM, IniII_IP_BF, fbII_SO_IniII, IniII_SO_VL]
+- values: [0.0,0.0]
+  vars: [fbCutV3,fbCutV0V]
+mAlpha: 0.0
+tWaitAlphaIncrease: 1.0

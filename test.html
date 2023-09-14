@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Neuromechanical model</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Neuromechanical Model</h1>
+    <label for="filename">Choose a Filename:</label>
+    <select id="filename">
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent8.yml">p8</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent43.yml">p43 2</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent71.yml">p71</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent101.yml">p101</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent157.yml">p157</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent414.yml">p414</option>
+        <option value="opt_res_fast5_newa_grow_rc_kpx_2023A_it_17122_parent419.yml">p419</option>
+        <!-- Add more options as needed -->
+    </select>
+    <button id="initializeButton">Initialize Solver</button> <!-- Added button -->
+    
+    <script>
+        var Module = {
+            onRuntimeInitialized: function () {
+                console.log(5 + 6);
+                document.getElementById("initializeButton").addEventListener("click", function () {
+                    var filenameSelect = document.getElementById("filename");
+                    var selectedFilename = filenameSelect.options[filenameSelect.selectedIndex].value;
+                    var sol = new Module.Solver(selectedFilename);
+                    init(sol);
+                });
+            }
+        }
+    </script>
+    <script src="./no_gui.js"></script>
+    <script src="./draw_canvas.js"></script>
+</body>
+<canvas id="canvas"></canvas>
+
+</html>
