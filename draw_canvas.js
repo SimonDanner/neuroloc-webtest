@@ -91,7 +91,7 @@ class CircularBuffer {
     }
 }
 
-var cbuf = new CircularBuffer(500);
+var cbuf;;
 
 function check(e) {
     var code = e.keyCode;
@@ -217,6 +217,7 @@ function modelToLinesExt(m) {
 }
 
 function init(solver){
+    cbuf = new CircularBuffer(500);
     sol = solver;
     m = sol.get_model();
     var vv = new Module.StringVector();
@@ -233,7 +234,7 @@ function init(solver){
     //canvas.style.width = rect.width.toString()+'px';
     //canvas.style.height = rect.height.toString()+'px'; 
     ctx = canvas.getContext('2d');
-    ctx.scale(dpr, dpr);
+    //ctx.scale(dpr, dpr);
     //surfaceline_x = new Array(WIDTH);
     //surfaceline_y = new Array(WIDTH);
     then = Date.now();
