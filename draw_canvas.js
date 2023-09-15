@@ -8,9 +8,11 @@ var surfaceline_x
 var surfaceline_y
 var color_surface = 'rgb(204, 121, 167)';
 var color_leg0 = 'rgb(138, 95, 0)'
+var color_leg1_shade = 'rgb(115, 79, 0)'
 var color_leg1 = 'rgb(230, 159, 0)'
 var color_leg1_off = 'rgb(86, 180, 233)'
 var color_leg0_off = 'rgb(51, 108, 139)'
+var color_white = 'rgb(255, 255, 255)'
 var pb_speed = 0.2
 var canvas, dpr;
 var ctx
@@ -18,27 +20,78 @@ var then
 var now
 var reset_vec
 var var_off = false;
-
+var t_ = 0.0;
+var t_last_hist = 0.0;
+var dt_hist = 0.005;
 var variable_vector = ['fbIa_GM', 'fbIa_VL', 'fbIa_SO','fbIa_BF', 'fbIa_GA', 'fbIa_IP', 'fbIa_TA']
+class CircularBuffer {
+    constructor(capacity) {
+      this.capacity = capacity;
+      this.buffer = new Array(capacity);
+      this.size = 0;
+      this.head = 0;
+      this.tail = 0;
+    }
+  
+    isFull() {
+      return this.size === this.capacity;
+    }
+  
+    isEmpty() {
+      return this.size === 0;
+    }
+  
+    enqueue(item) {
+      if (this.isFull()) {
+        // If the buffer is full, overwrite the oldest item
+        this.head = (this.head + 1) % this.capacity;
+      }
+      this.buffer[this.tail] = item;
+      this.tail = (this.tail + 1) % this.capacity;
+      this.size = Math.min(this.size + 1, this.capacity);
+    }
+  
+    dequeue() {
+      if (this.isEmpty()) {
+        return undefined; // Buffer is empty
+      }
+      const item = this.buffer[this.head];
+      this.head = (this.head + 1) % this.capacity;
+      this.size--;
+      return item;
+    }
+  
+    peek() {
+      if (this.isEmpty()) {
+        return undefined; // Buffer is empty
+      }
+      return this.buffer[this.head];
+    }
+    
+    get(i){
+        if (this.isEmpty()) {
+            return undefined; // Buffer is empty
+        }
+        return this.buffer[(this.head+i)%this.capacity];
+    }
 
-//class cbuf{
-//    constructor(n){
-//        this.ar = new Array(n);
-//        this.n = n;
-//        this.len = 0;
-//        this.i = -1;
-//    }
-//    function push(x){
-//        this.i=(this.i+1)%n;
-//        if(this.len<n){
-//            this.len+=1;
-//        }
-//        this.ar[this.i] = x;
-//    }
-//    function get(j){
-//        return this.ar[(this.i+j)%n];
-//    }
-//};
+    toArray() {
+      const result = [];
+      for (let i = 0; i < this.size; i++) {
+        result.push(this.buffer[(this.head + i) % this.capacity]);
+      }
+      return result;
+    }
+  
+    clear() {
+      this.size = 0;
+      this.head = 0;
+      this.tail = 0;
+      this.buffer = new Array(this.capacity);
+    }
+}
+
+var cbuf = new CircularBuffer(500);
 
 function check(e) {
     var code = e.keyCode;
@@ -83,14 +136,84 @@ function drawline_v(ctx, points, color, linewidth){
     ctx.strokeStyle = color;
     ctx.lineWidth = linewidth;
     ctx.stroke();
+}
+
+function drawJoint(ctx, position, linecolor, linewidth, fillcolor) {
+    ctx.lineWidth = linewidth;
+    ctx.strokeStyle = linecolor;
+    ctx.beginPath();
+    ctx.arc(position.x, position.y, 0.0015, 0, 2 * Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = fillcolor;
+    ctx.fill();
+}
+
+function drawline_v2(ctx, points, color, linewidth){
+    ctx.beginPath();
+    ctx.moveTo(points[0][0],points[0][1])
+    var len = points.length;
+    for(var i = 0; i < len; i++){
+        ctx.lineTo(points[i][0], points[i][1]);
+    }
+    ctx.strokeStyle = color;
+    ctx.lineWidth = linewidth;
+    ctx.stroke();
     
 }
 
-function model_to_lines(m){
-    lx = [[m.flend.x, m.shoulder.x, m.hip.x],
-          [m.hip.x, m.knee[0].x, m.ankle[0].x, m.foot[0].x],
-          [m.hip.x, m.knee[1].x, m.ankle[1].x, m.foot[1].x]];
-    return lx;
+function legsToLineSimple(m){
+    return [
+        [
+            [m.hip.x, m.hip.y],
+            [m.getKnees().get(0).x, m.getKnees().get(0).y],
+            [m.getAnkles().get(0).x, m.getAnkles().get(0).y],
+            [m.getFeet().get(0).x, m.getFeet().get(0).y]
+        ],
+        [
+            [m.hip.x, m.hip.y],
+            [m.getKnees().get(1).x, m.getKnees().get(1).y],
+            [m.getAnkles().get(1).x, m.getAnkles().get(1).y],
+            [m.getFeet().get(1).x, m.getFeet().get(1).y]
+        ]
+    ];
+}
+
+function modelToLinesExt(m) {
+    return [
+        [
+            [m.flend.x, m.flend.y], [m.shoulder2.x, m.shoulder2.y], 
+            [m.getPelvis().get(0).x, m.getPelvis().get(0).y], 
+            [m.getPelvis().get(1).x, m.getPelvis().get(1).y]
+        ],
+        [
+            [m.hip.x, m.hip.y],
+            [m.getKnees().get(0).x, m.getKnees().get(0).y],
+            [
+                m.getKnees().get(0).x + 0.2 * (m.getKnees().get(0).x - m.getAnkles().get(0).x),
+                m.getKnees().get(0).y + 0.2 * (m.getKnees().get(0).y - m.getAnkles().get(0).y)
+            ],
+            [m.getAnkles().get(0).x, m.getAnkles().get(0).y],
+            [
+                m.getAnkles().get(0).x + 0.2 * (m.getAnkles().get(0).x - m.getFeet().get(0).x),
+                m.getAnkles().get(0).y + 0.2 * (m.getAnkles().get(0).y - m.getFeet().get(0).y)
+            ],
+            [m.getFeet().get(0).x, m.getFeet().get(0).y]
+        ],
+        [
+            [m.hip.x, m.hip.y],
+            [m.getKnees().get(1).x, m.getKnees().get(1).y],
+            [
+                m.getKnees().get(1).x + 0.2 * (m.getKnees().get(1).x - m.getAnkles().get(1).x),
+                m.getKnees().get(1).y + 0.2 * (m.getKnees().get(1).y - m.getAnkles().get(1).y)
+            ],
+            [m.getAnkles().get(1).x, m.getAnkles().get(1).y],
+            [
+                m.getAnkles().get(1).x + 0.2 * (m.getAnkles().get(1).x - m.getFeet().get(1).x),
+                m.getAnkles().get(1).y + 0.2 * (m.getAnkles().get(1).y - m.getFeet().get(1).y)
+            ],
+            [m.getFeet().get(1).x, m.getFeet().get(1).y]
+        ]
+    ];
 }
 
 function init(solver){
@@ -143,6 +266,7 @@ function draw(){
     if (elapsed > 1./60.0) { elapsed = 1.0/60.0;}
     for (var i = 0; i < Math.floor((elapsed*pb_speed) / dt); i++) { 
         sol.step(dt,false);
+        t_+=dt;
     }
     m = sol.get_model();
     
@@ -189,16 +313,41 @@ function draw(){
     
     ctx.stroke();
 
-    ml = new Module.model_lines(m);
-    if (!var_off){
-        drawline_v(ctx, ml.torso, color_leg0, 0.00075);
-        drawline_v(ctx, ml.leg0, color_leg0, 0.00075);
-        drawline_v(ctx, ml.leg1, color_leg1, 0.00075);
-    }else{
-        drawline_v(ctx, ml.torso, color_leg0_off, 0.00075);
-        drawline_v(ctx, ml.leg0, color_leg0_off, 0.00075);
-        drawline_v(ctx, ml.leg1, color_leg1_off, 0.00075);
+    ex_lines = modelToLinesExt(m);
+    
+    model_line_colors = [color_leg0, color_leg0, color_leg1];
+    for(var i = 0; i < ex_lines.length; i++){
+        drawline_v2(ctx, ex_lines[i], model_line_colors[i], 0.00075);
     }
+    drawJoint(ctx, m.getKnees().get(0), color_leg0, 0.00075, color_white);
+    drawJoint(ctx, m.getKnees().get(1), color_leg1, 0.00075, color_white);
+    drawJoint(ctx, m.getAnkles().get(0), color_leg0, 0.00075, color_white);
+    drawJoint(ctx, m.getAnkles().get(1), color_leg1, 0.00075, color_white);
+    drawJoint(ctx, m.hip, color_leg0, 0.00075, color_white);
+
+    if (t_last_hist < t_ - dt_hist){
+        t_last_hist = t_;
+        cbuf.enqueue([legsToLineSimple(m),[sol.get_foot_contact(0),sol.get_foot_contact(1)]]);
+    }
+    for(var j = 0; j < cbuf.size; j++){
+        for(var i = 0; i < ex_lines.length; i++){
+            lines = cbuf.get(j)[0]
+            fc = cbuf.get(j)[1]
+            col_ = fc[0] ? color_leg1_shade : color_leg1
+            drawline_v2(ctx, lines[0], col_, 0.0005);
+        }
+    }
+
+    //ml = new Module.model_lines(m);
+    //if (!var_off){
+    //    drawline_v(ctx, ml.torso, color_leg0, 0.00075);
+    //    drawline_v(ctx, ml.leg0, color_leg0, 0.00075);
+    //    drawline_v(ctx, ml.leg1, color_leg1, 0.00075);
+    //}else{
+    //    drawline_v(ctx, ml.torso, color_leg0_off, 0.00075);
+    //    drawline_v(ctx, ml.leg0, color_leg0_off, 0.00075);
+    //    drawline_v(ctx, ml.leg1, color_leg1_off, 0.00075);
+    //}
     t=ctx.getTransform()
     x=x_disp[1]
     y=sol.get_surface_height(x_disp[1])
@@ -206,7 +355,7 @@ function draw(){
     ctx.restore();
     ctx.restore();
     ctx.restore();
-    console.log(x,y,t.a*x+t.c*y+t.e,t.b*x+t.d*y+t.f);
+    //console.log(x,y,t.a*x+t.c*y+t.e,t.b*x+t.d*y+t.f);
     then  = now;
     window.requestAnimationFrame(draw);
 }
